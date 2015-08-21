@@ -1,0 +1,1349 @@
+﻿[2015.08.20-20.41.49:013][  0]Log file open, 08/20/15 13:41:49
+[2015.08.20-20.41.49:013][  0]LogInit:Display: Running engine for game: RunnerTest
+[2015.08.20-20.41.49:013][  0]LogInit:Display: RandInit(-2099599252) SRandInit(-2099599252).
+[2015.08.20-20.41.49:013][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.08.20-20.41.49:013][  0]LogStats: Stats thread started
+[2015.08.20-20.41.49:013][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.08.20-20.41.49:013][  0]LogInit: API Version: 2579680
+[2015.08.20-20.41.49:013][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2015.08.20-20.41.49:013][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.08.20-20.41.49:013][  0]LogInit: Build Configuration: Development
+[2015.08.20-20.41.49:013][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.08.20-20.41.49:013][  0]LogInit: Command line: 
+[2015.08.20-20.41.49:013][  0]LogInit: Base directory: C:/Program Files/Unreal Engine/4.8/Engine/Binaries/Win64/
+[2015.08.20-20.41.49:013][  0]LogInit: Rocket: 1
+[2015.08.20-20.41.49:027][  0]LogInit: Using libcurl 7.41.0
+[2015.08.20-20.41.49:027][  0]LogInit:  - built for x86_64-pc-win32
+[2015.08.20-20.41.49:027][  0]LogInit:  - supports SSL with WinSSL
+[2015.08.20-20.41.49:027][  0]LogInit:  - other features:
+[2015.08.20-20.41.49:027][  0]LogInit:      CURL_VERSION_SSL
+[2015.08.20-20.41.49:027][  0]LogInit:      CURL_VERSION_IPV6
+[2015.08.20-20.41.49:027][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.08.20-20.41.49:027][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.08.20-20.41.49:027][  0]LogInit:      CURL_VERSION_IDN
+[2015.08.20-20.41.49:027][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.08.20-20.41.49:027][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.08.20-20.41.49:027][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.08.20-20.41.49:027][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.08.20-20.41.49:027][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.08.20-20.41.49:038][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.08.20-20.41.49:052][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.08.20-20.41.49:060][  0]LogInit: Object subsystem initialized
+[2015.08.20-20.41.49:061][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.08.20-20.41.49:061][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Skillinazn/Documents/Unreal Projects/RunnerTest/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.20-20.41.49:061][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.08.20-20.41.49:061][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Skillinazn/Documents/Unreal Projects/RunnerTest/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.20-20.41.49:061][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.08.20-20.41.49:061][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Skillinazn/Documents/Unreal Projects/RunnerTest/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.20-20.41.49:061][  0]LogInit: Selected Device Profile: [Windows]
+[2015.08.20-20.41.49:061][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.08.20-20.41.49:068][  0]LogInit: Computer: -XOL
+[2015.08.20-20.41.49:068][  0]LogInit: User: Skillinazn
+[2015.08.20-20.41.49:068][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.08.20-20.41.49:068][  0]LogInit: High frequency timer resolution =3.020527 MHz
+[2015.08.20-20.41.49:069][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2015.08.20-20.41.49:069][  0]LogMemory: Platform Memory Stats for Windows
+[2015.08.20-20.41.49:069][  0]LogMemory: Process Physical Memory: 49.59 MB used, 49.59 MB peak
+[2015.08.20-20.41.49:069][  0]LogMemory: Process Virtual Memory: 23.47 MB used, 23.47 MB peak
+[2015.08.20-20.41.49:069][  0]LogMemory: Physical Memory: 4622.46 MB used, 8139.28 MB total
+[2015.08.20-20.41.49:069][  0]LogMemory: Virtual Memory: 279.71 MB used, 8388608.00 MB total
+[2015.08.20-20.41.49:106][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.08.20-20.41.49:318][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files/Unreal Engine/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files/Unreal Engine/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.08.20-20.41.49:770][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 550 Ti (Feature Level 11_0)
+[2015.08.20-20.41.49:770][  0]LogD3D11RHI: Adapter has 978MB of dedicated video memory, 0MB of dedicated system memory, and 3071MB of shared system memory, 1 output[s]
+[2015.08.20-20.41.49:770][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.08.20-20.41.49:774][  0]LogD3D11RHI: InitD3DDevice
+[2015.08.20-20.41.49:774][  0]LogD3D11RHI: !Direct3DDevice
+[2015.08.20-20.41.49:774][  0]LogRHI: Texture pool is 684 MB (70% of 978 MB)
+[2015.08.20-20.41.49:785][  0]LogD3D11RHI: Async texture creation enabled
+[2015.08.20-20.41.49:798][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.08.20-20.41.50:712][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.08.20-20.41.50:727][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.08.20-20.41.50:741][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.08.20-20.41.50:755][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.08.20-20.41.50:770][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.08.20-20.41.50:782][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.08.20-20.41.50:794][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.08.20-20.41.50:807][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.08.20-20.41.50:819][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.08.20-20.41.50:831][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.08.20-20.41.50:843][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.08.20-20.41.50:855][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.08.20-20.41.50:900][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.08.20-20.41.50:911][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.08.20-20.41.50:924][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.08.20-20.41.50:938][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.08.20-20.41.50:938][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.08.20-20.41.51:133][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.08.20-20.41.51:182][  0]LogDerivedDataCache: Loaded boot cache 0.05s 53MB C:/Users/Skillinazn/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.08.20-20.41.51:182][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Skillinazn/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.08.20-20.41.51:182][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Skillinazn/Documents/Unreal Projects/RunnerTest/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.08.20-20.41.51:182][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.08.20-20.41.51:182][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Skillinazn/Documents/Unreal Projects/RunnerTest/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.08.20-20.41.51:182][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.08.20-20.41.51:352][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.08.20-20.41.51:364][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Skillinazn/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.08.20-20.41.51:626][  0]LogInit: Selected Device Profile: [Windows]
+[2015.08.20-20.41.51:634][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.08.20-20.41.51:634][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.08.20-20.41.51:660][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.08.20-20.41.51:660][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.08.20-20.41.52:041][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.08.20-20.41.52:968][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.08.20-20.41.53:304][  0]SourceControl: Info Source control is disabled
+[2015.08.20-20.41.53:311][  0]SourceControl: Info Source control is disabled
+[2015.08.20-20.41.53:321][  0]SourceControl: Info Source control is disabled
+[2015.08.20-20.41.53:331][  0]SourceControl: Info Source control is disabled
+[2015.08.20-20.41.53:553][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2015.08.20-20.41.53:553][  0]LogUObjectAllocator: 5409248 out of 0 bytes used by permanent object pool.
+[2015.08.20-20.41.53:620][  0]LogEngine: Initializing Engine...
+[2015.08.20-20.41.53:622][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.08.20-20.41.53:630][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 108
+[2015.08.20-20.41.53:780][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.08.20-20.41.53:786][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.08.20-20.41.53:820][  0]LogInit: FAudioDevice initialized.
+[2015.08.20-20.41.53:846][  0]LogDerivedDataCache: Saved boot cache 0.03s 53MB C:/Users/Skillinazn/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.08.20-20.41.53:849][  0]LogInit: Texture streaming: Disabled
+[2015.08.20-20.41.53:871][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.08.20-20.41.53:871][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.08.20-20.41.53:871][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId ffda9cca4b3d555453184ba3c94d63df|1c31964261ec47a0a452111148e9934d|03a96158-8593-4d52-b740-8fc03ec93f27
+[2015.08.20-20.41.53:871][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.08.20-20.41.53:934][  0]LogInit: Transaction tracking system initialized
+[2015.08.20-20.41.54:050][  0]BlueprintLog: New page: Editor Load
+[2015.08.20-20.41.54:082][  0]LogAssetRegistry: FAssetRegistry took 0.0102 seconds to start up
+[2015.08.20-20.41.54:082][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.08.20-20.41.54:677][  0]LogLinker:Warning: Asset '../../../Engine/Content/Tutorial/Basics/FeaturePacks.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.08.20-20.41.54:688][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2015.08.20-20.41.54:689][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2015.08.20-20.41.54:689][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2015.08.20-20.41.54:689][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
+[2015.08.20-20.41.54:898][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.08.20-20.41.54:898][  0]LogConsoleResponse:Display: 
+[2015.08.20-20.41.55:029][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.08.20-20.41.55:205][  0]SourceControl: Info Source control is disabled
+[2015.08.20-20.41.55:205][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Skillinazn/Documents/Unreal Projects/RunnerTest/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.08.20-20.41.55:205][  0]LightingResults: New page: Lighting Build
+[2015.08.20-20.41.55:217][  0]MapCheck: New page: Map Check
+[2015.08.20-20.41.55:217][  0]LightingResults: New page: Lighting Build
+[2015.08.20-20.41.55:226][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000018E55120
+[2015.08.20-20.42.09:236][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.08.20-20.42.09:377][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.08.20-20.42.10:109][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.08.20-20.42.10:156][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 47.234ms to complete.
+[2015.08.20-20.42.10:156][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 14.951
+[2015.08.20-20.42.10:840][  0]LogCollectionManager: Loaded 0 collections in 0.001962 seconds
+[2015.08.20-20.42.10:848][  0]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 1792 classes and 301 folders.
+[2015.08.20-20.42.11:110][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.08.20-20.42.11:521][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.08.20-20.42.11:583][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2015.08.20-20.42.12:117][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.08.20-20.42.12:162][  0]LogD3D11RHI: InitD3DDevice
+[2015.08.20-20.42.12:166][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.08.20-20.42.12:205][  0]LogLoad: Full Startup: 24.89 seconds (BP compile: 1.30 seconds)
+[2015.08.20-20.42.12:595][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.08.20-20.42.12:649][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.08.20-20.42.13:089][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2015.08.20-20.42.14:164][ 10]LogAssetRegistry: Asset discovery search completed in 20.0927 seconds
+[2015.08.20-20.42.29:971][901]LogD3D11RHI: InitD3DDevice
+[2015.08.20-20.42.39:258][358]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.20-20.42.39:258][358]LogPlayLevel: [PIE] Compiling ThirdPersonExampleMap before PIE...
+[2015.08.20-20.42.39:364][358]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.20-20.42.39:364][358]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement0C812BA34D0DD21FB12D1D9A948423D7) Not registered. Aborting.
+[2015.08.20-20.42.39:567][358]LogPlayLevel: PIE:  Blueprint regeneration took 317 ms (1 blueprints)
+[2015.08.20-20.42.39:784][358]PIE: New page: PIE session: ThirdPersonExampleMap (Aug 20, 2015, 6:42:39 AM)
+[2015.08.20-20.42.39:785][358]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2015.08.20-20.42.39:877][358]LogPlayLevel: PIE: StaticDuplicateObject took: (0.092259s)
+[2015.08.20-20.42.39:894][358]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.08.20-20.42.39:895][358]LogPlayLevel: PIE: World Init took: (0.001080s)
+[2015.08.20-20.42.39:895][358]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.110050s)
+[2015.08.20-20.42.39:914][358]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.08.20-20.42.39:921][358]LogInit: FAudioDevice initialized.
+[2015.08.20-20.42.40:101][358]LogWorld: Game class is 'RunGameMode_C'
+[2015.08.20-20.42.40:272][358]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2015.08.20-13.42.40
+[2015.08.20-20.42.40:272][358]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.20-20.42.40:289][358]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.20-20.42.40:331][358]LogWorld: Bringing up level for play took: 0.064067
+[2015.08.20-20.42.40:659][358]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.746
+[2015.08.20-20.42.45:450][522]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000020330220
+[2015.08.20-20.42.47:135][621]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.20-20.42.47:135][621]LogPlayLevel: [PIE] Compiling ThirdPersonExampleMap before PIE...
+[2015.08.20-20.42.47:204][621]LogPlayLevel: PIE:  Blueprint regeneration took 69 ms (1 blueprints)
+[2015.08.20-20.42.47:205][621]PIE: New page: PIE session: ThirdPersonExampleMap (Aug 20, 2015, 6:42:47 AM)
+[2015.08.20-20.42.47:205][621]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2015.08.20-20.42.47:226][621]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020990s)
+[2015.08.20-20.42.47:227][621]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.08.20-20.42.47:227][621]LogPlayLevel: PIE: World Init took: (0.001216s)
+[2015.08.20-20.42.47:227][621]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.022411s)
+[2015.08.20-20.42.47:247][621]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.08.20-20.42.47:253][621]LogInit: FAudioDevice initialized.
+[2015.08.20-20.42.47:282][621]LogWorld: Game class is 'RunGameMode_C'
+[2015.08.20-20.42.47:289][621]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2015.08.20-13.42.47
+[2015.08.20-20.42.47:289][621]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.20-20.42.47:290][621]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.20-20.42.47:290][621]LogWorld: Bringing up level for play took: 0.006081
+[2015.08.20-20.42.47:308][621]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.395
+[2015.08.20-20.42.52:148][877]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001B3B6020
+[2015.08.20-20.42.52:963][925]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.20-20.42.52:963][925]LogPlayLevel: [PIE] Compiling ThirdPersonExampleMap before PIE...
+[2015.08.20-20.42.53:032][925]LogPlayLevel: PIE:  Blueprint regeneration took 68 ms (1 blueprints)
+[2015.08.20-20.42.53:032][925]PIE: New page: PIE session: ThirdPersonExampleMap (Aug 20, 2015, 6:42:53 AM)
+[2015.08.20-20.42.53:032][925]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2015.08.20-20.42.53:055][925]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023062s)
+[2015.08.20-20.42.53:056][925]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.08.20-20.42.53:057][925]LogPlayLevel: PIE: World Init took: (0.001219s)
+[2015.08.20-20.42.53:057][925]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.024484s)
+[2015.08.20-20.42.53:076][925]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.08.20-20.42.53:083][925]LogInit: FAudioDevice initialized.
+[2015.08.20-20.42.53:113][925]LogWorld: Game class is 'RunGameMode_C'
+[2015.08.20-20.42.53:121][925]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2015.08.20-13.42.53
+[2015.08.20-20.42.53:121][925]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.20-20.42.53:121][925]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.20-20.42.53:122][925]LogWorld: Bringing up level for play took: 0.006056
+[2015.08.20-20.42.53:139][925]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.225
+[2015.08.20-20.42.58:338][158]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001D878360
+[2015.08.20-20.43.00:556][282]LogD3D11RHI: InitD3DDevice
+[2015.08.20-20.43.02:183][472]LogD3D11RHI: InitD3DDevice
+[2015.08.20-20.43.03:894][578]Cmd: MAP LOAD FILE="../../../../../../Users/Skillinazn/Documents/Unreal Projects/RunnerTest/Content/ThirdPersonBP/Maps/RunnerMapTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.08.20-20.43.03:896][578]LogD3D11RHI: InitD3DDevice
+[2015.08.20-20.43.03:918][578]LightingResults: New page: Lighting Build
+[2015.08.20-20.43.03:944][578]LoadErrors: New page: Loading map: RunnerMapTest.umap
+[2015.08.20-20.43.03:944][578]MapCheck: New page: Map Check
+[2015.08.20-20.43.03:944][578]LightingResults: New page: Lighting Build
+[2015.08.20-20.43.03:954][578]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000025E3A8E0
+[2015.08.20-20.43.04:010][578]LogAIModule: Creating AISystem for world RunnerMapTest
+[2015.08.20-20.43.04:074][578]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.08.20-20.43.04:107][578]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.08.20-20.43.04:156][578]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 47.944ms to complete.
+[2015.08.20-20.43.04:156][578]LogFileHelpers: Loading map 'RunnerMapTest' took 0.263
+[2015.08.20-20.43.06:354][704]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.08.20-20.43.06:354][704]PIE: New page: PIE session: RunnerMapTest (Aug 20, 2015, 6:43:06 AM)
+[2015.08.20-20.43.06:355][704]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest
+[2015.08.20-20.43.06:357][704]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002356s)
+[2015.08.20-20.43.06:357][704]LogAIModule: Creating AISystem for world RunnerMapTest
+[2015.08.20-20.43.06:358][704]LogPlayLevel: PIE: World Init took: (0.001004s)
+[2015.08.20-20.43.06:358][704]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/RunnerMapTest.RunnerMapTest to /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest (0.003543s)
+[2015.08.20-20.43.06:358][704]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.20-20.43.06:379][704]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.08.20-20.43.06:385][704]LogInit: FAudioDevice initialized.
+[2015.08.20-20.43.06:419][704]LogWorld: Game class is 'RunGameMode_C'
+[2015.08.20-20.43.06:422][704]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest up for play (max tick rate 0) at 2015.08.20-13.43.06
+[2015.08.20-20.43.06:422][704]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.20-20.43.06:422][704]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.20-20.43.06:423][704]LogWorld: Bringing up level for play took: 0.001920
+[2015.08.20-20.43.06:488][704]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest -0.425
+[2015.08.20-20.43.13:124][948]Cmd: RestartLevel
+[2015.08.20-20.43.13:302][949]LogNet: Browse: /Game/ThirdPersonBP/Maps/RunnerMapTest?restart
+[2015.08.20-20.43.13:333][949]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/RunnerMapTest
+[2015.08.20-20.43.13:379][949]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001B3B7380
+[2015.08.20-20.43.13:386][949]Cmd: MEM
+[2015.08.20-20.43.13:402][949]LogMemory: Platform Memory Stats for Windows
+[2015.08.20-20.43.13:402][949]LogMemory: Process Physical Memory: 1043.33 MB used, 1167.55 MB peak
+[2015.08.20-20.43.13:402][949]LogMemory: Process Virtual Memory: 1376.93 MB used, 1606.04 MB peak
+[2015.08.20-20.43.13:402][949]LogMemory: Physical Memory: 5232.23 MB used, 8139.28 MB total
+[2015.08.20-20.43.13:402][949]LogMemory: Virtual Memory: 1984.95 MB used, 8388608.00 MB total
+[2015.08.20-20.43.13:402][949]LogMemory: 
+[2015.08.20-20.43.13:402][949]Allocator Stats for TBB: (not implemented)
+[2015.08.20-20.43.13:414][949]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest
+[2015.08.20-20.43.13:416][949]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002324s)
+[2015.08.20-20.43.13:416][949]LogAIModule: Creating AISystem for world RunnerMapTest
+[2015.08.20-20.43.13:418][949]LogPlayLevel: PIE: World Init took: (0.002219s)
+[2015.08.20-20.43.13:418][949]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/RunnerMapTest.RunnerMapTest to /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest (0.004739s)
+[2015.08.20-20.43.13:418][949]LogWorld: Game class is 'RunGameMode_C'
+[2015.08.20-20.43.13:422][949]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest up for play (max tick rate 0) at 2015.08.20-13.43.13
+[2015.08.20-20.43.13:422][949]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.20-20.43.13:422][949]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.20-20.43.13:422][949]LogWorld: Bringing up level for play took: 0.001907
+[2015.08.20-20.43.16:506][ 91]Cmd: RestartLevel
+[2015.08.20-20.43.16:525][ 92]LogNet: Browse: /Game/ThirdPersonBP/Maps/RunnerMapTest?restart
+[2015.08.20-20.43.16:547][ 92]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/RunnerMapTest
+[2015.08.20-20.43.16:561][ 92]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000FDBCCC0
+[2015.08.20-20.43.16:568][ 92]Cmd: MEM
+[2015.08.20-20.43.16:584][ 92]LogMemory: Platform Memory Stats for Windows
+[2015.08.20-20.43.16:584][ 92]LogMemory: Process Physical Memory: 1087.03 MB used, 1167.55 MB peak
+[2015.08.20-20.43.16:584][ 92]LogMemory: Process Virtual Memory: 1335.94 MB used, 1606.04 MB peak
+[2015.08.20-20.43.16:584][ 92]LogMemory: Physical Memory: 5271.05 MB used, 8139.28 MB total
+[2015.08.20-20.43.16:584][ 92]LogMemory: Virtual Memory: 1942.33 MB used, 8388608.00 MB total
+[2015.08.20-20.43.16:584][ 92]LogMemory: 
+[2015.08.20-20.43.16:584][ 92]Allocator Stats for TBB: (not implemented)
+[2015.08.20-20.43.16:584][ 92]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest
+[2015.08.20-20.43.16:586][ 92]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002337s)
+[2015.08.20-20.43.16:587][ 92]LogAIModule: Creating AISystem for world RunnerMapTest
+[2015.08.20-20.43.16:588][ 92]LogPlayLevel: PIE: World Init took: (0.001759s)
+[2015.08.20-20.43.16:588][ 92]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/RunnerMapTest.RunnerMapTest to /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest (0.004259s)
+[2015.08.20-20.43.16:588][ 92]LogWorld: Game class is 'RunGameMode_C'
+[2015.08.20-20.43.16:591][ 92]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest up for play (max tick rate 0) at 2015.08.20-13.43.16
+[2015.08.20-20.43.16:591][ 92]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.20-20.43.16:592][ 92]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.20-20.43.16:592][ 92]LogWorld: Bringing up level for play took: 0.001931
+[2015.08.20-20.44.57:309][239]Cmd: RestartLevel
+[2015.08.20-20.44.57:326][240]LogNet: Browse: /Game/ThirdPersonBP/Maps/RunnerMapTest?restart
+[2015.08.20-20.44.57:344][240]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/RunnerMapTest
+[2015.08.20-20.44.57:362][240]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000FDF5BC0
+[2015.08.20-20.44.57:371][240]Cmd: MEM
+[2015.08.20-20.44.57:387][240]LogMemory: Platform Memory Stats for Windows
+[2015.08.20-20.44.57:387][240]LogMemory: Process Physical Memory: 1091.70 MB used, 1167.55 MB peak
+[2015.08.20-20.44.57:387][240]LogMemory: Process Virtual Memory: 1340.28 MB used, 1606.04 MB peak
+[2015.08.20-20.44.57:387][240]LogMemory: Physical Memory: 5231.75 MB used, 8139.28 MB total
+[2015.08.20-20.44.57:387][240]LogMemory: Virtual Memory: 1928.14 MB used, 8388608.00 MB total
+[2015.08.20-20.44.57:387][240]LogMemory: 
+[2015.08.20-20.44.57:387][240]Allocator Stats for TBB: (not implemented)
+[2015.08.20-20.44.57:387][240]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest
+[2015.08.20-20.44.57:389][240]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002522s)
+[2015.08.20-20.44.57:390][240]LogAIModule: Creating AISystem for world RunnerMapTest
+[2015.08.20-20.44.57:391][240]LogPlayLevel: PIE: World Init took: (0.001828s)
+[2015.08.20-20.44.57:391][240]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/RunnerMapTest.RunnerMapTest to /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest (0.004524s)
+[2015.08.20-20.44.57:391][240]LogWorld: Game class is 'RunGameMode_C'
+[2015.08.20-20.44.57:395][240]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest up for play (max tick rate 0) at 2015.08.20-13.44.57
+[2015.08.20-20.44.57:395][240]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.20-20.44.57:395][240]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.20-20.44.57:395][240]LogWorld: Bringing up level for play took: 0.001867
+[2015.08.20-20.45.00:794][334]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000FCF8400
+[2015.08.20-20.45.06:957][624]LogD3D11RHI: InitD3DDevice
+[2015.08.20-20.45.07:204][624]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.08.20-20.45.07:307][624]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.08.20-20.45.23:764][293]LogRenderer: Reallocating scene render targets to support 1208x712 (Frame:7672).
+[2015.08.20-20.46.15:874][769]LogD3D11RHI: InitD3DDevice
+[2015.08.20-20.46.59:472][531]LogD3D11RHI: InitD3DDevice
+[2015.08.20-20.47.38:783][ 41]LogD3D11RHI: InitD3DDevice
+[2015.08.20-20.47.55:067][344]LogD3D11RHI: InitD3DDevice
+[2015.08.20-20.47.55:095][344]LogD3D11RHI: InitD3DDevice
+[2015.08.20-20.48.11:670][112]LogD3D11RHI: InitD3DDevice
+[2015.08.20-20.48.13:815][302]LogD3D11RHI: InitD3DDevice
+[2015.08.20-20.48.13:827][302]LogD3D11RHI: InitD3DDevice
+[2015.08.20-20.48.16:691][432]LogD3D11RHI: InitD3DDevice
+[2015.08.20-20.48.43:713][478]LogD3D11RHI: InitD3DDevice
+[2015.08.20-20.48.52:814][407]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.20-20.48.52:814][407]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement0C812BA34D0DD21FB12D1D9A948423D7) Not registered. Aborting.
+[2015.08.20-20.48.55:068][655]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.08.20-20.49.01:112][368]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.08.20-20.50.48:348][ 87]LogD3D11RHI: InitD3DDevice
+[2015.08.20-20.51.22:999][179]LogD3D11RHI: InitD3DDevice
+[2015.08.20-20.52.59:863][253]LogD3D11RHI: InitD3DDevice
+[2015.08.20-20.53.03:295][614]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.08.20-20.53.07:178][ 67]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.08.20-20.53.13:190][757]LogD3D11RHI: InitD3DDevice
+[2015.08.20-20.53.17:746][285]LogD3D11RHI: InitD3DDevice
+[2015.08.20-20.53.35:257][352]LogD3D11RHI: InitD3DDevice
+[2015.08.20-20.53.43:525][322]LogD3D11RHI: InitD3DDevice
+[2015.08.20-20.53.51:265][172]LogD3D11RHI: InitD3DDevice
+[2015.08.20-20.53.54:928][606]LogD3D11RHI: InitD3DDevice
+[2015.08.20-20.53.56:513][781]LogD3D11RHI: InitD3DDevice
+[2015.08.20-20.53.57:646][897]LogD3D11RHI: InitD3DDevice
+[2015.08.20-20.54.18:108][232]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.08.20-20.54.35:281][229]LogD3D11RHI: InitD3DDevice
+[2015.08.20-20.54.35:925][297]LogD3D11RHI: InitD3DDevice
+[2015.08.20-20.54.46:908][549]LogD3D11RHI: InitD3DDevice
+[2015.08.20-20.54.56:799][712]LogEditorTransaction: Undo Add Node
+[2015.08.20-20.54.56:829][712]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2015.08.20-20.54.56:850][712]LogD3D11RHI: InitD3DDevice
+[2015.08.20-20.54.57:473][748]LogD3D11RHI: InitD3DDevice
+[2015.08.20-20.55.04:907][622]LogD3D11RHI: InitD3DDevice
+[2015.08.20-20.55.12:862][573]LogD3D11RHI: InitD3DDevice
+[2015.08.20-20.55.17:754][144]LogD3D11RHI: InitD3DDevice
+[2015.08.20-20.55.27:239][227]LogD3D11RHI: InitD3DDevice
+[2015.08.20-20.55.39:150][595]LogD3D11RHI: InitD3DDevice
+[2015.08.20-20.55.40:990][785]LogD3D11RHI: InitD3DDevice
+[2015.08.20-20.55.50:731][762]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2015.08.20-20.55.50:755][762]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000060B33D80
+[2015.08.20-20.55.50:820][762]LogD3D11RHI: InitD3DDevice
+[2015.08.20-20.55.51:068][762]LogSavePackage: Save=90.534866ms
+[2015.08.20-20.55.51:068][762]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/RunnerTest/Saved/RunnerMapTestB8C69B834ECED6BBB717768635AA2D3C.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/RunnerTest/Content/ThirdPersonBP/Maps/RunnerMapTest.umap'
+[2015.08.20-20.55.51:097][762]LogFileHelpers: Saving map 'RunnerMapTest' took 0.266
+[2015.08.20-20.55.51:324][762]LogSavePackage: Save=113.881783ms
+[2015.08.20-20.55.51:324][762]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/RunnerTest/Saved/RunCharacterD1E8DE2C45BB74DFCAB55287F79940D9.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/RunnerTest/Content/ThirdPersonBP/Blueprints/RunCharacter.uasset'
+[2015.08.20-20.55.53:521][ 25]BlueprintLog: New page: Compile RunCharacter
+[2015.08.20-20.55.53:744][ 25]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.20-20.55.54:100][ 25]BlueprintEditorCompileResults: Info [0846.77] Compile of RunCharacter successful! [in 578 ms]
+[2015.08.20-20.55.55:406][172]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.08.20-20.55.55:407][172]PIE: New page: PIE session: RunnerMapTest (Aug 20, 2015, 6:55:55 AM)
+[2015.08.20-20.55.55:407][172]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest
+[2015.08.20-20.55.55:409][172]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002390s)
+[2015.08.20-20.55.55:410][172]LogAIModule: Creating AISystem for world RunnerMapTest
+[2015.08.20-20.55.55:411][172]LogPlayLevel: PIE: World Init took: (0.001113s)
+[2015.08.20-20.55.55:411][172]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/RunnerMapTest.RunnerMapTest to /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest (0.003686s)
+[2015.08.20-20.55.55:411][172]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.20-20.55.55:448][172]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.08.20-20.55.55:454][172]LogInit: FAudioDevice initialized.
+[2015.08.20-20.55.55:457][172]LogD3D11RHI: InitD3DDevice
+[2015.08.20-20.55.55:509][172]LogWorld: Game class is 'RunGameMode_C'
+[2015.08.20-20.55.55:512][172]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest up for play (max tick rate 0) at 2015.08.20-13.55.55
+[2015.08.20-20.55.55:512][172]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.20-20.55.55:513][172]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.20-20.55.55:513][172]LogWorld: Bringing up level for play took: 0.002032
+[2015.08.20-20.55.55:559][172]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest 0.634
+[2015.08.20-20.55.55:624][172]LogRenderer: Reallocating scene render targets to support 1296x760 (Frame:11805).
+[2015.08.20-20.56.01:780][369]Cmd: RestartLevel
+[2015.08.20-20.56.01:810][370]LogNet: Browse: /Game/ThirdPersonBP/Maps/RunnerMapTest?restart
+[2015.08.20-20.56.01:840][370]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/RunnerMapTest
+[2015.08.20-20.56.01:867][370]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000426227A0
+[2015.08.20-20.56.01:875][370]Cmd: MEM
+[2015.08.20-20.56.01:901][370]LogMemory: Platform Memory Stats for Windows
+[2015.08.20-20.56.01:901][370]LogMemory: Process Physical Memory: 1221.46 MB used, 1286.25 MB peak
+[2015.08.20-20.56.01:901][370]LogMemory: Process Virtual Memory: 1622.18 MB used, 1809.57 MB peak
+[2015.08.20-20.56.01:901][370]LogMemory: Physical Memory: 5464.80 MB used, 8139.28 MB total
+[2015.08.20-20.56.01:901][370]LogMemory: Virtual Memory: 2207.32 MB used, 8388608.00 MB total
+[2015.08.20-20.56.01:901][370]LogMemory: 
+[2015.08.20-20.56.01:901][370]Allocator Stats for TBB: (not implemented)
+[2015.08.20-20.56.01:901][370]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest
+[2015.08.20-20.56.01:903][370]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002453s)
+[2015.08.20-20.56.01:904][370]LogAIModule: Creating AISystem for world RunnerMapTest
+[2015.08.20-20.56.01:905][370]LogPlayLevel: PIE: World Init took: (0.001849s)
+[2015.08.20-20.56.01:905][370]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/RunnerMapTest.RunnerMapTest to /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest (0.004472s)
+[2015.08.20-20.56.01:905][370]LogWorld: Game class is 'RunGameMode_C'
+[2015.08.20-20.56.01:909][370]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest up for play (max tick rate 0) at 2015.08.20-13.56.01
+[2015.08.20-20.56.01:909][370]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.20-20.56.01:909][370]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.20-20.56.01:909][370]LogWorld: Bringing up level for play took: 0.001866
+[2015.08.20-20.56.02:768][390]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000045D94860
+[2015.08.20-20.57.15:752][830]BlueprintLog: New page: Compile BPFloorTile
+[2015.08.20-20.57.15:832][830]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BPFloorTile_Left_Corner_C_255' (it may have been removed)
+[2015.08.20-20.57.15:911][830]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'Ramp' in BlueprintGeneratedClass 'REINST_BPFloorTile_Ramp_Down_C_259' (it may have been removed)
+[2015.08.20-20.57.15:920][830]LogBlueprint:Warning: ValidateTemplates '/Game/ThirdPersonBP/Blueprints/BPFloorTile_Ramp_Down.BPFloorTile_Ramp_Down_C:InheritableComponentHandler': overriden template is invalid - component 'Distance Area' from '/Game/ThirdPersonBP/Blueprints/BPFloorTiLE.BPFloorTile_C'
+[2015.08.20-20.57.15:968][830]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'Ramp' in BlueprintGeneratedClass 'REINST_BPFloorTile_Ramp_Up_C_263' (it may have been removed)
+[2015.08.20-20.57.15:977][830]LogBlueprint:Warning: ValidateTemplates '/Game/ThirdPersonBP/Blueprints/BPFloorTile_Ramp_Up.BPFloorTile_Ramp_Up_C:InheritableComponentHandler': overriden template is invalid - component 'Distance Area' from '/Game/ThirdPersonBP/Blueprints/BPFloorTiLE.BPFloorTile_C'
+[2015.08.20-20.57.16:026][830]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BPFloorTile_Right_Corner_C_267' (it may have been removed)
+[2015.08.20-20.57.16:356][830]BlueprintEditorCompileResults: Info [0929.03] Compile of BPFloorTile successful! [in 604 ms]
+[2015.08.20-20.57.18:096][939]LogD3D11RHI: InitD3DDevice
+[2015.08.20-20.57.24:794][487]BlueprintLog: New page: Compile BPFloorTile
+[2015.08.20-20.57.24:880][487]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BPFloorTile_Left_Corner_C_279' (it may have been removed)
+[2015.08.20-20.57.24:898][487]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.20-20.57.24:898][487]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement0C812BA34D0DD21FB12D1D9A948423D7) Not registered. Aborting.
+[2015.08.20-20.57.24:947][487]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'Ramp' in BlueprintGeneratedClass 'REINST_BPFloorTile_Ramp_Down_C_283' (it may have been removed)
+[2015.08.20-20.57.25:068][487]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'Ramp' in BlueprintGeneratedClass 'REINST_BPFloorTile_Ramp_Up_C_287' (it may have been removed)
+[2015.08.20-20.57.25:125][487]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BPFloorTile_Right_Corner_C_291' (it may have been removed)
+[2015.08.20-20.57.25:413][487]BlueprintEditorCompileResults: Info [0938.08] Compile of BPFloorTile successful! [in 619 ms]
+[2015.08.20-20.58.16:239][ 18]LogD3D11RHI: InitD3DDevice
+[2015.08.20-20.58.43:853][ 36]LogD3D11RHI: InitD3DDevice
+[2015.08.20-20.59.14:891][629]LogD3D11RHI: InitD3DDevice
+[2015.08.20-20.59.26:534][  4]LogD3D11RHI: InitD3DDevice
+[2015.08.20-20.59.32:100][644]LogD3D11RHI: InitD3DDevice
+[2015.08.20-20.59.39:993][572]LogD3D11RHI: InitD3DDevice
+[2015.08.20-20.59.42:034][813]LogD3D11RHI: InitD3DDevice
+[2015.08.20-20.59.46:635][351]LogD3D11RHI: InitD3DDevice
+[2015.08.20-20.59.49:779][713]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.00.32:762][513]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.00.33:903][649]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.00.34:489][719]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.00.34:916][770]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.00.36:270][932]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.00.36:638][970]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.00.52:769][810]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.01.00:561][732]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.01.24:203][562]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.01.25:585][722]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.01.45:088][ 47]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.01.46:132][167]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.02.01:158][953]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.02.02:708][132]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.03.48:748][864]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.03.49:501][948]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.04.03:671][622]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.04.14:505][911]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.20-21.04.14:507][911]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.20-21.04.14:508][911]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement0C812BA34D0DD21FB12D1D9A948423D7) Not registered. Aborting.
+[2015.08.20-21.04.14:528][911]LogPlayLevel: [PIE] Compiling RunCharacter before PIE...
+[2015.08.20-21.04.14:965][911]LogPlayLevel: [PIE] Compiling BPBlocker before PIE...
+[2015.08.20-21.04.15:035][911]LogPlayLevel: [PIE] Compiling BPItem before PIE...
+[2015.08.20-21.04.15:122][911]LogPlayLevel: [PIE] Compiling BPFloorTile before PIE...
+[2015.08.20-21.04.15:205][911]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BPFloorTile_Left_Corner_C_333' (it may have been removed)
+[2015.08.20-21.04.15:247][911]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000040113740
+[2015.08.20-21.04.15:311][911]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'Ramp' in BlueprintGeneratedClass 'REINST_BPFloorTile_Ramp_Down_C_337' (it may have been removed)
+[2015.08.20-21.04.15:367][911]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'Ramp' in BlueprintGeneratedClass 'REINST_BPFloorTile_Ramp_Up_C_341' (it may have been removed)
+[2015.08.20-21.04.15:425][911]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BPFloorTile_Right_Corner_C_345' (it may have been removed)
+[2015.08.20-21.04.15:690][911]LogPlayLevel: [PIE] Compiling BPFloorTile_Left_Corner before PIE...
+[2015.08.20-21.04.15:767][911]LogPlayLevel: [PIE] Compiling BPFloorTile_Right_Corner before PIE...
+[2015.08.20-21.04.15:836][911]LogPlayLevel: [PIE] Compiling RunHUD before PIE...
+[2015.08.20-21.04.15:916][911]LogPlayLevel: [PIE] Compiling RunGameMode before PIE...
+[2015.08.20-21.04.16:021][911]LogPlayLevel: [PIE] Compiling BPFloorTile_Ramp_Down before PIE...
+[2015.08.20-21.04.16:087][911]LogPlayLevel: [PIE] Compiling BPFloorTile_Ramp_Up before PIE...
+[2015.08.20-21.04.16:200][911]LogPlayLevel: PIE:  Blueprint regeneration took 1695 ms (10 blueprints)
+[2015.08.20-21.04.16:200][911]PIE: New page: PIE session: RunnerMapTest (Aug 20, 2015, 7:04:16 AM)
+[2015.08.20-21.04.16:201][911]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest
+[2015.08.20-21.04.16:203][911]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002417s)
+[2015.08.20-21.04.16:204][911]LogAIModule: Creating AISystem for world RunnerMapTest
+[2015.08.20-21.04.16:204][911]LogPlayLevel: PIE: World Init took: (0.001075s)
+[2015.08.20-21.04.16:204][911]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/RunnerMapTest.RunnerMapTest to /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest (0.003667s)
+[2015.08.20-21.04.16:233][911]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.08.20-21.04.16:240][911]LogInit: FAudioDevice initialized.
+[2015.08.20-21.04.16:242][911]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.04.16:271][911]LogWorld: Game class is 'RunGameMode_C'
+[2015.08.20-21.04.16:275][911]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest up for play (max tick rate 0) at 2015.08.20-14.04.16
+[2015.08.20-21.04.16:275][911]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.20-21.04.16:275][911]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.20-21.04.16:275][911]LogWorld: Bringing up level for play took: 0.002026
+[2015.08.20-21.04.16:304][911]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest 1.371
+[2015.08.20-21.04.16:450][912]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.064872 > MaxSimulationTimeStep (0.050) for 'RunCharacter_C_8'
+[2015.08.20-21.04.25:165][185]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.20-21.04.25:205][186]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000066592C00
+[2015.08.20-21.04.32:306][ 36]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.04.33:478][169]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.04.35:700][432]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.04.38:039][701]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.04.41:293][ 86]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.20-21.04.41:295][ 86]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.20-21.04.41:315][ 86]LogPlayLevel: [PIE] Compiling RunCharacter before PIE...
+[2015.08.20-21.04.41:758][ 86]LogPlayLevel: [PIE] Compiling BPBlocker before PIE...
+[2015.08.20-21.04.41:830][ 86]LogPlayLevel: [PIE] Compiling BPItem before PIE...
+[2015.08.20-21.04.41:917][ 86]LogPlayLevel: [PIE] Compiling BPFloorTile before PIE...
+[2015.08.20-21.04.42:000][ 86]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BPFloorTile_Left_Corner_C_409' (it may have been removed)
+[2015.08.20-21.04.42:104][ 86]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'Ramp' in BlueprintGeneratedClass 'REINST_BPFloorTile_Ramp_Down_C_413' (it may have been removed)
+[2015.08.20-21.04.42:162][ 86]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'Ramp' in BlueprintGeneratedClass 'REINST_BPFloorTile_Ramp_Up_C_417' (it may have been removed)
+[2015.08.20-21.04.42:219][ 86]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BPFloorTile_Right_Corner_C_421' (it may have been removed)
+[2015.08.20-21.04.42:486][ 86]LogPlayLevel: [PIE] Compiling BPFloorTile_Left_Corner before PIE...
+[2015.08.20-21.04.42:564][ 86]LogPlayLevel: [PIE] Compiling BPFloorTile_Right_Corner before PIE...
+[2015.08.20-21.04.42:633][ 86]LogPlayLevel: [PIE] Compiling RunHUD before PIE...
+[2015.08.20-21.04.42:713][ 86]LogPlayLevel: [PIE] Compiling RunGameMode before PIE...
+[2015.08.20-21.04.42:814][ 86]LogPlayLevel: [PIE] Compiling BPFloorTile_Ramp_Down before PIE...
+[2015.08.20-21.04.42:881][ 86]LogPlayLevel: [PIE] Compiling BPFloorTile_Ramp_Up before PIE...
+[2015.08.20-21.04.42:996][ 86]LogPlayLevel: PIE:  Blueprint regeneration took 1703 ms (10 blueprints)
+[2015.08.20-21.04.42:996][ 86]PIE: New page: PIE session: RunnerMapTest (Aug 20, 2015, 7:04:42 AM)
+[2015.08.20-21.04.42:996][ 86]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest
+[2015.08.20-21.04.42:999][ 86]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002416s)
+[2015.08.20-21.04.42:999][ 86]LogAIModule: Creating AISystem for world RunnerMapTest
+[2015.08.20-21.04.43:000][ 86]LogPlayLevel: PIE: World Init took: (0.000999s)
+[2015.08.20-21.04.43:000][ 86]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/RunnerMapTest.RunnerMapTest to /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest (0.003604s)
+[2015.08.20-21.04.43:029][ 86]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.08.20-21.04.43:035][ 86]LogInit: FAudioDevice initialized.
+[2015.08.20-21.04.43:038][ 86]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.04.43:066][ 86]LogWorld: Game class is 'RunGameMode_C'
+[2015.08.20-21.04.43:069][ 86]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest up for play (max tick rate 0) at 2015.08.20-14.04.43
+[2015.08.20-21.04.43:069][ 86]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.20-21.04.43:070][ 86]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.20-21.04.43:070][ 86]LogWorld: Bringing up level for play took: 0.001977
+[2015.08.20-21.04.43:097][ 86]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest 2.165
+[2015.08.20-21.04.43:226][ 87]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.064872 > MaxSimulationTimeStep (0.050) for 'RunCharacter_C_8'
+[2015.08.20-21.04.46:310][197]Cmd: RestartLevel
+[2015.08.20-21.04.46:336][198]LogNet: Browse: /Game/ThirdPersonBP/Maps/RunnerMapTest?restart
+[2015.08.20-21.04.46:362][198]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/RunnerMapTest
+[2015.08.20-21.04.46:369][198]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.20-21.04.46:400][198]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000040346200
+[2015.08.20-21.04.46:400][198]Cmd: MEM
+[2015.08.20-21.04.46:425][198]LogMemory: Platform Memory Stats for Windows
+[2015.08.20-21.04.46:425][198]LogMemory: Process Physical Memory: 1281.58 MB used, 1327.96 MB peak
+[2015.08.20-21.04.46:425][198]LogMemory: Process Virtual Memory: 1679.64 MB used, 1809.57 MB peak
+[2015.08.20-21.04.46:425][198]LogMemory: Physical Memory: 5225.15 MB used, 8139.28 MB total
+[2015.08.20-21.04.46:425][198]LogMemory: Virtual Memory: 2258.16 MB used, 8388608.00 MB total
+[2015.08.20-21.04.46:425][198]LogMemory: 
+[2015.08.20-21.04.46:425][198]Allocator Stats for TBB: (not implemented)
+[2015.08.20-21.04.46:425][198]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest
+[2015.08.20-21.04.46:428][198]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002617s)
+[2015.08.20-21.04.46:429][198]LogAIModule: Creating AISystem for world RunnerMapTest
+[2015.08.20-21.04.46:430][198]LogPlayLevel: PIE: World Init took: (0.001976s)
+[2015.08.20-21.04.46:430][198]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/RunnerMapTest.RunnerMapTest to /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest (0.004770s)
+[2015.08.20-21.04.46:430][198]LogWorld: Game class is 'RunGameMode_C'
+[2015.08.20-21.04.46:434][198]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest up for play (max tick rate 0) at 2015.08.20-14.04.46
+[2015.08.20-21.04.46:434][198]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.20-21.04.46:434][198]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.20-21.04.46:434][198]LogWorld: Bringing up level for play took: 0.001869
+[2015.08.20-21.04.51:309][340]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004157DDA0
+[2015.08.20-21.04.53:679][589]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.05.27:407][416]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.05.34:265][236]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.05.37:701][640]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.06.09:458][448]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.06.18:434][467]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.06.18:555][467]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.20-21.06.18:584][467]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/RunnerMapTest' took 0.030
+[2015.08.20-21.06.18:589][467]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/RunCharacter] ([1] browsable assets)...
+[2015.08.20-21.06.18:608][467]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/RunCharacter.RunCharacter]
+[2015.08.20-21.06.18:608][467]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/RunCharacter]
+[2015.08.20-21.06.18:756][467]LogSavePackage: Save=122.363747ms
+[2015.08.20-21.06.18:756][467]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/RunnerTest/Saved/RunCharacter_Auto1A4A3B72A4E0327612206FCB7A838D128.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/RunnerTest/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/RunCharacter_Auto1.uasset'
+[2015.08.20-21.06.18:764][467]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/BPFloorTiLE] ([1] browsable assets)...
+[2015.08.20-21.06.18:783][467]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/BPFloorTiLE.BPFloorTile]
+[2015.08.20-21.06.18:783][467]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/BPFloorTiLE]
+[2015.08.20-21.06.18:930][467]LogSavePackage: Save=109.215714ms
+[2015.08.20-21.06.18:930][467]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/RunnerTest/Saved/BPFloorTiLE_Auto1B819C20844E5C7F4B79C2C8D32D72C7A.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/RunnerTest/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/BPFloorTiLE_Auto1.uasset'
+[2015.08.20-21.06.18:932][467]LogFileHelpers: Auto-saving content packages took 0.347
+[2015.08.20-21.07.39:367][622]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.07.44:382][211]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.07.48:056][646]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.20-21.07.48:058][646]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.20-21.07.48:079][646]LogPlayLevel: [PIE] Compiling RunCharacter before PIE...
+[2015.08.20-21.07.48:516][646]LogPlayLevel: [PIE] Compiling BPBlocker before PIE...
+[2015.08.20-21.07.48:587][646]LogPlayLevel: [PIE] Compiling BPItem before PIE...
+[2015.08.20-21.07.48:668][646]LogPlayLevel: [PIE] Compiling BPFloorTile before PIE...
+[2015.08.20-21.07.48:749][646]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BPFloorTile_Left_Corner_C_485' (it may have been removed)
+[2015.08.20-21.07.48:854][646]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'Ramp' in BlueprintGeneratedClass 'REINST_BPFloorTile_Ramp_Down_C_489' (it may have been removed)
+[2015.08.20-21.07.48:909][646]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'Ramp' in BlueprintGeneratedClass 'REINST_BPFloorTile_Ramp_Up_C_493' (it may have been removed)
+[2015.08.20-21.07.48:965][646]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BPFloorTile_Right_Corner_C_497' (it may have been removed)
+[2015.08.20-21.07.49:226][646]LogPlayLevel: [PIE] Compiling BPFloorTile_Left_Corner before PIE...
+[2015.08.20-21.07.49:304][646]LogPlayLevel: [PIE] Compiling BPFloorTile_Right_Corner before PIE...
+[2015.08.20-21.07.49:372][646]LogPlayLevel: [PIE] Compiling RunHUD before PIE...
+[2015.08.20-21.07.49:451][646]LogPlayLevel: [PIE] Compiling RunGameMode before PIE...
+[2015.08.20-21.07.49:552][646]LogPlayLevel: [PIE] Compiling BPFloorTile_Ramp_Down before PIE...
+[2015.08.20-21.07.49:617][646]LogPlayLevel: [PIE] Compiling BPFloorTile_Ramp_Up before PIE...
+[2015.08.20-21.07.49:730][646]LogPlayLevel: PIE:  Blueprint regeneration took 1673 ms (10 blueprints)
+[2015.08.20-21.07.49:730][646]PIE: New page: PIE session: RunnerMapTest (Aug 20, 2015, 7:07:49 AM)
+[2015.08.20-21.07.49:730][646]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest
+[2015.08.20-21.07.49:733][646]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002417s)
+[2015.08.20-21.07.49:733][646]LogAIModule: Creating AISystem for world RunnerMapTest
+[2015.08.20-21.07.49:734][646]LogPlayLevel: PIE: World Init took: (0.001076s)
+[2015.08.20-21.07.49:734][646]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/RunnerMapTest.RunnerMapTest to /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest (0.003672s)
+[2015.08.20-21.07.49:763][646]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.08.20-21.07.49:770][646]LogInit: FAudioDevice initialized.
+[2015.08.20-21.07.49:772][646]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.07.49:802][646]LogWorld: Game class is 'RunGameMode_C'
+[2015.08.20-21.07.49:806][646]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest up for play (max tick rate 0) at 2015.08.20-14.07.49
+[2015.08.20-21.07.49:806][646]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameSession_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.20-21.07.49:806][646]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameNetworkManager_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.20-21.07.49:806][646]LogWorld: Bringing up level for play took: 0.002123
+[2015.08.20-21.07.49:833][646]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest 0.898
+[2015.08.20-21.07.50:019][647]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.064872 > MaxSimulationTimeStep (0.050) for 'RunCharacter_C_8'
+[2015.08.20-21.07.52:809][734]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.20-21.07.52:848][735]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000042BD2160
+[2015.08.20-21.07.55:198][ 15]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.07.57:606][296]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.07.58:936][448]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.08.00:401][621]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.08.02:291][845]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.08.09:307][674]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.20-21.08.09:309][674]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.20-21.08.09:328][674]LogPlayLevel: [PIE] Compiling RunCharacter before PIE...
+[2015.08.20-21.08.09:772][674]LogPlayLevel: [PIE] Compiling BPBlocker before PIE...
+[2015.08.20-21.08.09:842][674]LogPlayLevel: [PIE] Compiling BPItem before PIE...
+[2015.08.20-21.08.09:931][674]LogPlayLevel: [PIE] Compiling BPFloorTile before PIE...
+[2015.08.20-21.08.10:013][674]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BPFloorTile_Left_Corner_C_561' (it may have been removed)
+[2015.08.20-21.08.10:117][674]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'Ramp' in BlueprintGeneratedClass 'REINST_BPFloorTile_Ramp_Down_C_565' (it may have been removed)
+[2015.08.20-21.08.10:173][674]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'Ramp' in BlueprintGeneratedClass 'REINST_BPFloorTile_Ramp_Up_C_569' (it may have been removed)
+[2015.08.20-21.08.10:228][674]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BPFloorTile_Right_Corner_C_573' (it may have been removed)
+[2015.08.20-21.08.10:489][674]LogPlayLevel: [PIE] Compiling BPFloorTile_Left_Corner before PIE...
+[2015.08.20-21.08.10:566][674]LogPlayLevel: [PIE] Compiling BPFloorTile_Right_Corner before PIE...
+[2015.08.20-21.08.10:635][674]LogPlayLevel: [PIE] Compiling RunHUD before PIE...
+[2015.08.20-21.08.10:714][674]LogPlayLevel: [PIE] Compiling RunGameMode before PIE...
+[2015.08.20-21.08.10:814][674]LogPlayLevel: [PIE] Compiling BPFloorTile_Ramp_Down before PIE...
+[2015.08.20-21.08.10:880][674]LogPlayLevel: [PIE] Compiling BPFloorTile_Ramp_Up before PIE...
+[2015.08.20-21.08.10:994][674]LogPlayLevel: PIE:  Blueprint regeneration took 1687 ms (10 blueprints)
+[2015.08.20-21.08.10:994][674]PIE: New page: PIE session: RunnerMapTest (Aug 20, 2015, 7:08:10 AM)
+[2015.08.20-21.08.10:994][674]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest
+[2015.08.20-21.08.10:997][674]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002474s)
+[2015.08.20-21.08.10:997][674]LogAIModule: Creating AISystem for world RunnerMapTest
+[2015.08.20-21.08.10:998][674]LogPlayLevel: PIE: World Init took: (0.001009s)
+[2015.08.20-21.08.10:998][674]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/RunnerMapTest.RunnerMapTest to /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest (0.003662s)
+[2015.08.20-21.08.11:026][674]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.08.20-21.08.11:032][674]LogInit: FAudioDevice initialized.
+[2015.08.20-21.08.11:035][674]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.08.11:065][674]LogWorld: Game class is 'RunGameMode_C'
+[2015.08.20-21.08.11:068][674]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest up for play (max tick rate 0) at 2015.08.20-14.08.11
+[2015.08.20-21.08.11:068][674]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameSession_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.20-21.08.11:069][674]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameNetworkManager_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.20-21.08.11:069][674]LogWorld: Bringing up level for play took: 0.001976
+[2015.08.20-21.08.11:099][674]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest 2.163
+[2015.08.20-21.08.11:243][675]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.064872 > MaxSimulationTimeStep (0.050) for 'RunCharacter_C_8'
+[2015.08.20-21.08.14:787][791]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.20-21.08.14:828][792]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000040172A20
+[2015.08.20-21.08.16:609][992]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.08.19:234][306]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.08.30:211][597]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.08.39:917][690]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.08.48:865][750]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.20-21.08.48:867][750]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.20-21.08.48:887][750]LogPlayLevel: [PIE] Compiling RunCharacter before PIE...
+[2015.08.20-21.08.49:332][750]LogPlayLevel: [PIE] Compiling BPBlocker before PIE...
+[2015.08.20-21.08.49:402][750]LogPlayLevel: [PIE] Compiling BPItem before PIE...
+[2015.08.20-21.08.49:491][750]LogPlayLevel: [PIE] Compiling BPFloorTile before PIE...
+[2015.08.20-21.08.49:573][750]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BPFloorTile_Left_Corner_C_637' (it may have been removed)
+[2015.08.20-21.08.49:677][750]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'Ramp' in BlueprintGeneratedClass 'REINST_BPFloorTile_Ramp_Down_C_641' (it may have been removed)
+[2015.08.20-21.08.49:733][750]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'Ramp' in BlueprintGeneratedClass 'REINST_BPFloorTile_Ramp_Up_C_645' (it may have been removed)
+[2015.08.20-21.08.49:789][750]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BPFloorTile_Right_Corner_C_649' (it may have been removed)
+[2015.08.20-21.08.50:050][750]LogPlayLevel: [PIE] Compiling BPFloorTile_Left_Corner before PIE...
+[2015.08.20-21.08.50:127][750]LogPlayLevel: [PIE] Compiling BPFloorTile_Right_Corner before PIE...
+[2015.08.20-21.08.50:197][750]LogPlayLevel: [PIE] Compiling RunHUD before PIE...
+[2015.08.20-21.08.50:278][750]LogPlayLevel: [PIE] Compiling RunGameMode before PIE...
+[2015.08.20-21.08.50:383][750]LogPlayLevel: [PIE] Compiling BPFloorTile_Ramp_Down before PIE...
+[2015.08.20-21.08.50:448][750]LogPlayLevel: [PIE] Compiling BPFloorTile_Ramp_Up before PIE...
+[2015.08.20-21.08.50:562][750]LogPlayLevel: PIE:  Blueprint regeneration took 1697 ms (10 blueprints)
+[2015.08.20-21.08.50:562][750]PIE: New page: PIE session: RunnerMapTest (Aug 20, 2015, 7:08:50 AM)
+[2015.08.20-21.08.50:562][750]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest
+[2015.08.20-21.08.50:565][750]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002605s)
+[2015.08.20-21.08.50:566][750]LogAIModule: Creating AISystem for world RunnerMapTest
+[2015.08.20-21.08.50:566][750]LogPlayLevel: PIE: World Init took: (0.001017s)
+[2015.08.20-21.08.50:566][750]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/RunnerMapTest.RunnerMapTest to /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest (0.003804s)
+[2015.08.20-21.08.50:595][750]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.08.20-21.08.50:602][750]LogInit: FAudioDevice initialized.
+[2015.08.20-21.08.50:605][750]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.08.50:630][750]LogWorld: Game class is 'RunGameMode_C'
+[2015.08.20-21.08.50:633][750]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest up for play (max tick rate 0) at 2015.08.20-14.08.50
+[2015.08.20-21.08.50:633][750]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameSession_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.20-21.08.50:634][750]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameNetworkManager_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.20-21.08.50:634][750]LogWorld: Bringing up level for play took: 0.002055
+[2015.08.20-21.08.50:661][750]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest 1.725
+[2015.08.20-21.08.50:790][751]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.064872 > MaxSimulationTimeStep (0.050) for 'RunCharacter_C_8'
+[2015.08.20-21.08.52:671][801]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.20-21.08.52:711][802]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000231FF240
+[2015.08.20-21.08.54:034][959]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.08.58:352][471]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.09.00:589][734]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.20-21.09.00:592][734]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.20-21.09.00:611][734]LogPlayLevel: [PIE] Compiling RunCharacter before PIE...
+[2015.08.20-21.09.01:049][734]LogPlayLevel: [PIE] Compiling BPBlocker before PIE...
+[2015.08.20-21.09.01:119][734]LogPlayLevel: [PIE] Compiling BPItem before PIE...
+[2015.08.20-21.09.01:201][734]LogPlayLevel: [PIE] Compiling BPFloorTile before PIE...
+[2015.08.20-21.09.01:282][734]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BPFloorTile_Left_Corner_C_713' (it may have been removed)
+[2015.08.20-21.09.01:386][734]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'Ramp' in BlueprintGeneratedClass 'REINST_BPFloorTile_Ramp_Down_C_717' (it may have been removed)
+[2015.08.20-21.09.01:442][734]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'Ramp' in BlueprintGeneratedClass 'REINST_BPFloorTile_Ramp_Up_C_721' (it may have been removed)
+[2015.08.20-21.09.01:499][734]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BPFloorTile_Right_Corner_C_725' (it may have been removed)
+[2015.08.20-21.09.01:761][734]LogPlayLevel: [PIE] Compiling BPFloorTile_Left_Corner before PIE...
+[2015.08.20-21.09.01:839][734]LogPlayLevel: [PIE] Compiling BPFloorTile_Right_Corner before PIE...
+[2015.08.20-21.09.01:908][734]LogPlayLevel: [PIE] Compiling RunHUD before PIE...
+[2015.08.20-21.09.01:988][734]LogPlayLevel: [PIE] Compiling RunGameMode before PIE...
+[2015.08.20-21.09.02:089][734]LogPlayLevel: [PIE] Compiling BPFloorTile_Ramp_Down before PIE...
+[2015.08.20-21.09.02:155][734]LogPlayLevel: [PIE] Compiling BPFloorTile_Ramp_Up before PIE...
+[2015.08.20-21.09.02:269][734]LogPlayLevel: PIE:  Blueprint regeneration took 1679 ms (10 blueprints)
+[2015.08.20-21.09.02:269][734]PIE: New page: PIE session: RunnerMapTest (Aug 20, 2015, 7:09:02 AM)
+[2015.08.20-21.09.02:269][734]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest
+[2015.08.20-21.09.02:271][734]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002201s)
+[2015.08.20-21.09.02:272][734]LogAIModule: Creating AISystem for world RunnerMapTest
+[2015.08.20-21.09.02:273][734]LogPlayLevel: PIE: World Init took: (0.001098s)
+[2015.08.20-21.09.02:273][734]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/RunnerMapTest.RunnerMapTest to /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest (0.003532s)
+[2015.08.20-21.09.02:301][734]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.08.20-21.09.02:307][734]LogInit: FAudioDevice initialized.
+[2015.08.20-21.09.02:310][734]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.09.02:340][734]LogWorld: Game class is 'RunGameMode_C'
+[2015.08.20-21.09.02:343][734]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest up for play (max tick rate 0) at 2015.08.20-14.09.02
+[2015.08.20-21.09.02:344][734]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameSession_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.20-21.09.02:344][734]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameNetworkManager_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.20-21.09.02:344][734]LogWorld: Bringing up level for play took: 0.002015
+[2015.08.20-21.09.02:371][734]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest 1.435
+[2015.08.20-21.09.02:500][735]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.064872 > MaxSimulationTimeStep (0.050) for 'RunCharacter_C_8'
+[2015.08.20-21.09.05:575][842]Cmd: RestartLevel
+[2015.08.20-21.09.05:601][843]LogNet: Browse: /Game/ThirdPersonBP/Maps/RunnerMapTest?restart
+[2015.08.20-21.09.05:627][843]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/RunnerMapTest
+[2015.08.20-21.09.05:634][843]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.20-21.09.05:662][843]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003AB63920
+[2015.08.20-21.09.05:662][843]Cmd: MEM
+[2015.08.20-21.09.05:688][843]LogMemory: Platform Memory Stats for Windows
+[2015.08.20-21.09.05:688][843]LogMemory: Process Physical Memory: 1324.46 MB used, 1327.96 MB peak
+[2015.08.20-21.09.05:688][843]LogMemory: Process Virtual Memory: 1710.50 MB used, 1809.57 MB peak
+[2015.08.20-21.09.05:688][843]LogMemory: Physical Memory: 5333.18 MB used, 8139.28 MB total
+[2015.08.20-21.09.05:688][843]LogMemory: Virtual Memory: 2297.24 MB used, 8388608.00 MB total
+[2015.08.20-21.09.05:688][843]LogMemory: 
+[2015.08.20-21.09.05:688][843]Allocator Stats for TBB: (not implemented)
+[2015.08.20-21.09.05:688][843]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest
+[2015.08.20-21.09.05:690][843]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002411s)
+[2015.08.20-21.09.05:691][843]LogAIModule: Creating AISystem for world RunnerMapTest
+[2015.08.20-21.09.05:692][843]LogPlayLevel: PIE: World Init took: (0.001859s)
+[2015.08.20-21.09.05:692][843]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/RunnerMapTest.RunnerMapTest to /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest (0.004439s)
+[2015.08.20-21.09.05:692][843]LogWorld: Game class is 'RunGameMode_C'
+[2015.08.20-21.09.05:696][843]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest up for play (max tick rate 0) at 2015.08.20-14.09.05
+[2015.08.20-21.09.05:696][843]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameSession_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.20-21.09.05:696][843]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameNetworkManager_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.20-21.09.05:696][843]LogWorld: Bringing up level for play took: 0.001980
+[2015.08.20-21.09.09:930][977]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003BD40C20
+[2015.08.20-21.09.12:072][231]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.09.15:253][608]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.09.17:231][839]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.20-21.09.17:233][839]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.20-21.09.17:253][839]LogPlayLevel: [PIE] Compiling RunCharacter before PIE...
+[2015.08.20-21.09.17:696][839]LogPlayLevel: [PIE] Compiling BPBlocker before PIE...
+[2015.08.20-21.09.17:767][839]LogPlayLevel: [PIE] Compiling BPItem before PIE...
+[2015.08.20-21.09.17:858][839]LogPlayLevel: [PIE] Compiling BPFloorTile before PIE...
+[2015.08.20-21.09.17:940][839]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BPFloorTile_Left_Corner_C_789' (it may have been removed)
+[2015.08.20-21.09.18:044][839]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'Ramp' in BlueprintGeneratedClass 'REINST_BPFloorTile_Ramp_Down_C_793' (it may have been removed)
+[2015.08.20-21.09.18:101][839]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'Ramp' in BlueprintGeneratedClass 'REINST_BPFloorTile_Ramp_Up_C_797' (it may have been removed)
+[2015.08.20-21.09.18:157][839]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BPFloorTile_Right_Corner_C_801' (it may have been removed)
+[2015.08.20-21.09.18:418][839]LogPlayLevel: [PIE] Compiling BPFloorTile_Left_Corner before PIE...
+[2015.08.20-21.09.18:495][839]LogPlayLevel: [PIE] Compiling BPFloorTile_Right_Corner before PIE...
+[2015.08.20-21.09.18:564][839]LogPlayLevel: [PIE] Compiling RunHUD before PIE...
+[2015.08.20-21.09.18:643][839]LogPlayLevel: [PIE] Compiling RunGameMode before PIE...
+[2015.08.20-21.09.18:747][839]LogPlayLevel: [PIE] Compiling BPFloorTile_Ramp_Down before PIE...
+[2015.08.20-21.09.18:814][839]LogPlayLevel: [PIE] Compiling BPFloorTile_Ramp_Up before PIE...
+[2015.08.20-21.09.18:927][839]LogPlayLevel: PIE:  Blueprint regeneration took 1696 ms (10 blueprints)
+[2015.08.20-21.09.18:927][839]PIE: New page: PIE session: RunnerMapTest (Aug 20, 2015, 7:09:18 AM)
+[2015.08.20-21.09.18:927][839]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest
+[2015.08.20-21.09.18:930][839]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002346s)
+[2015.08.20-21.09.18:930][839]LogAIModule: Creating AISystem for world RunnerMapTest
+[2015.08.20-21.09.18:931][839]LogPlayLevel: PIE: World Init took: (0.000990s)
+[2015.08.20-21.09.18:931][839]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/RunnerMapTest.RunnerMapTest to /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest (0.003518s)
+[2015.08.20-21.09.18:960][839]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.08.20-21.09.18:966][839]LogInit: FAudioDevice initialized.
+[2015.08.20-21.09.18:968][839]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.09.18:996][839]LogWorld: Game class is 'RunGameMode_C'
+[2015.08.20-21.09.18:999][839]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest up for play (max tick rate 0) at 2015.08.20-14.09.18
+[2015.08.20-21.09.18:999][839]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameSession_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.20-21.09.19:000][839]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameNetworkManager_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.20-21.09.19:000][839]LogWorld: Bringing up level for play took: 0.002009
+[2015.08.20-21.09.19:027][839]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest 2.091
+[2015.08.20-21.09.19:151][840]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.064872 > MaxSimulationTimeStep (0.050) for 'RunCharacter_C_8'
+[2015.08.20-21.09.23:468][975]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.20-21.09.23:508][976]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005EC3D6C0
+[2015.08.20-21.09.27:631][421]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.09.33:994][131]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.09.37:194][511]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.09.39:817][816]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.09.41:657][ 29]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.20-21.09.41:659][ 29]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.20-21.09.41:679][ 29]LogPlayLevel: [PIE] Compiling RunCharacter before PIE...
+[2015.08.20-21.09.42:118][ 29]LogPlayLevel: [PIE] Compiling BPBlocker before PIE...
+[2015.08.20-21.09.42:189][ 29]LogPlayLevel: [PIE] Compiling BPItem before PIE...
+[2015.08.20-21.09.42:278][ 29]LogPlayLevel: [PIE] Compiling BPFloorTile before PIE...
+[2015.08.20-21.09.42:360][ 29]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BPFloorTile_Left_Corner_C_865' (it may have been removed)
+[2015.08.20-21.09.42:464][ 29]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'Ramp' in BlueprintGeneratedClass 'REINST_BPFloorTile_Ramp_Down_C_869' (it may have been removed)
+[2015.08.20-21.09.42:519][ 29]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'Ramp' in BlueprintGeneratedClass 'REINST_BPFloorTile_Ramp_Up_C_873' (it may have been removed)
+[2015.08.20-21.09.42:575][ 29]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BPFloorTile_Right_Corner_C_877' (it may have been removed)
+[2015.08.20-21.09.42:838][ 29]LogPlayLevel: [PIE] Compiling BPFloorTile_Left_Corner before PIE...
+[2015.08.20-21.09.42:916][ 29]LogPlayLevel: [PIE] Compiling BPFloorTile_Right_Corner before PIE...
+[2015.08.20-21.09.42:985][ 29]LogPlayLevel: [PIE] Compiling RunHUD before PIE...
+[2015.08.20-21.09.43:064][ 29]LogPlayLevel: [PIE] Compiling RunGameMode before PIE...
+[2015.08.20-21.09.43:171][ 29]LogPlayLevel: [PIE] Compiling BPFloorTile_Ramp_Down before PIE...
+[2015.08.20-21.09.43:236][ 29]LogPlayLevel: [PIE] Compiling BPFloorTile_Ramp_Up before PIE...
+[2015.08.20-21.09.43:349][ 29]LogPlayLevel: PIE:  Blueprint regeneration took 1692 ms (10 blueprints)
+[2015.08.20-21.09.43:349][ 29]PIE: New page: PIE session: RunnerMapTest (Aug 20, 2015, 7:09:43 AM)
+[2015.08.20-21.09.43:350][ 29]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest
+[2015.08.20-21.09.43:352][ 29]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002337s)
+[2015.08.20-21.09.43:352][ 29]LogAIModule: Creating AISystem for world RunnerMapTest
+[2015.08.20-21.09.43:353][ 29]LogPlayLevel: PIE: World Init took: (0.000965s)
+[2015.08.20-21.09.43:353][ 29]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/RunnerMapTest.RunnerMapTest to /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest (0.003519s)
+[2015.08.20-21.09.43:382][ 29]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.08.20-21.09.43:389][ 29]LogInit: FAudioDevice initialized.
+[2015.08.20-21.09.43:391][ 29]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.09.43:422][ 29]LogWorld: Game class is 'RunGameMode_C'
+[2015.08.20-21.09.43:425][ 29]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest up for play (max tick rate 0) at 2015.08.20-14.09.43
+[2015.08.20-21.09.43:426][ 29]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameSession_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.20-21.09.43:426][ 29]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameNetworkManager_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.20-21.09.43:426][ 29]LogWorld: Bringing up level for play took: 0.002020
+[2015.08.20-21.09.43:457][ 29]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest 2.519
+[2015.08.20-21.09.43:582][ 30]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.064879 > MaxSimulationTimeStep (0.050) for 'RunCharacter_C_8'
+[2015.08.20-21.09.50:065][215]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.20-21.09.50:105][216]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003B5B6520
+[2015.08.20-21.09.52:156][456]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.09.54:135][689]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.09.55:950][901]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.20-21.09.55:952][901]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.20-21.09.55:972][901]LogPlayLevel: [PIE] Compiling RunCharacter before PIE...
+[2015.08.20-21.09.56:412][901]LogPlayLevel: [PIE] Compiling BPBlocker before PIE...
+[2015.08.20-21.09.56:482][901]LogPlayLevel: [PIE] Compiling BPItem before PIE...
+[2015.08.20-21.09.56:570][901]LogPlayLevel: [PIE] Compiling BPFloorTile before PIE...
+[2015.08.20-21.09.56:649][901]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BPFloorTile_Left_Corner_C_941' (it may have been removed)
+[2015.08.20-21.09.56:754][901]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'Ramp' in BlueprintGeneratedClass 'REINST_BPFloorTile_Ramp_Down_C_945' (it may have been removed)
+[2015.08.20-21.09.56:809][901]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'Ramp' in BlueprintGeneratedClass 'REINST_BPFloorTile_Ramp_Up_C_949' (it may have been removed)
+[2015.08.20-21.09.56:864][901]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BPFloorTile_Right_Corner_C_953' (it may have been removed)
+[2015.08.20-21.09.57:125][901]LogPlayLevel: [PIE] Compiling BPFloorTile_Left_Corner before PIE...
+[2015.08.20-21.09.57:203][901]LogPlayLevel: [PIE] Compiling BPFloorTile_Right_Corner before PIE...
+[2015.08.20-21.09.57:272][901]LogPlayLevel: [PIE] Compiling RunHUD before PIE...
+[2015.08.20-21.09.57:352][901]LogPlayLevel: [PIE] Compiling RunGameMode before PIE...
+[2015.08.20-21.09.57:453][901]LogPlayLevel: [PIE] Compiling BPFloorTile_Ramp_Down before PIE...
+[2015.08.20-21.09.57:520][901]LogPlayLevel: [PIE] Compiling BPFloorTile_Ramp_Up before PIE...
+[2015.08.20-21.09.57:634][901]LogPlayLevel: PIE:  Blueprint regeneration took 1684 ms (10 blueprints)
+[2015.08.20-21.09.57:634][901]PIE: New page: PIE session: RunnerMapTest (Aug 20, 2015, 7:09:57 AM)
+[2015.08.20-21.09.57:635][901]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest
+[2015.08.20-21.09.57:637][901]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002364s)
+[2015.08.20-21.09.57:638][901]LogAIModule: Creating AISystem for world RunnerMapTest
+[2015.08.20-21.09.57:638][901]LogPlayLevel: PIE: World Init took: (0.001061s)
+[2015.08.20-21.09.57:638][901]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/RunnerMapTest.RunnerMapTest to /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest (0.003601s)
+[2015.08.20-21.09.57:668][901]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.08.20-21.09.57:674][901]LogInit: FAudioDevice initialized.
+[2015.08.20-21.09.57:676][901]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.09.57:706][901]LogWorld: Game class is 'RunGameMode_C'
+[2015.08.20-21.09.57:710][901]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest up for play (max tick rate 0) at 2015.08.20-14.09.57
+[2015.08.20-21.09.57:710][901]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameSession_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.20-21.09.57:710][901]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameNetworkManager_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.20-21.09.57:710][901]LogWorld: Bringing up level for play took: 0.001911
+[2015.08.20-21.09.57:739][901]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest 0.802
+[2015.08.20-21.09.57:866][902]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.064872 > MaxSimulationTimeStep (0.050) for 'RunCharacter_C_8'
+[2015.08.20-21.10.02:898][ 57]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.20-21.10.02:938][ 58]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003B816FC0
+[2015.08.20-21.10.04:031][187]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.10.06:129][432]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.10.07:410][582]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.10.09:375][813]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.20-21.10.09:378][813]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.20-21.10.09:397][813]LogPlayLevel: [PIE] Compiling RunCharacter before PIE...
+[2015.08.20-21.10.09:840][813]LogPlayLevel: [PIE] Compiling BPBlocker before PIE...
+[2015.08.20-21.10.09:911][813]LogPlayLevel: [PIE] Compiling BPItem before PIE...
+[2015.08.20-21.10.10:001][813]LogPlayLevel: [PIE] Compiling BPFloorTile before PIE...
+[2015.08.20-21.10.10:080][813]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BPFloorTile_Left_Corner_C_1017' (it may have been removed)
+[2015.08.20-21.10.10:185][813]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'Ramp' in BlueprintGeneratedClass 'REINST_BPFloorTile_Ramp_Down_C_1021' (it may have been removed)
+[2015.08.20-21.10.10:240][813]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'Ramp' in BlueprintGeneratedClass 'REINST_BPFloorTile_Ramp_Up_C_1025' (it may have been removed)
+[2015.08.20-21.10.10:296][813]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BPFloorTile_Right_Corner_C_1029' (it may have been removed)
+[2015.08.20-21.10.10:557][813]LogPlayLevel: [PIE] Compiling BPFloorTile_Left_Corner before PIE...
+[2015.08.20-21.10.10:636][813]LogPlayLevel: [PIE] Compiling BPFloorTile_Right_Corner before PIE...
+[2015.08.20-21.10.10:705][813]LogPlayLevel: [PIE] Compiling RunHUD before PIE...
+[2015.08.20-21.10.10:785][813]LogPlayLevel: [PIE] Compiling RunGameMode before PIE...
+[2015.08.20-21.10.10:889][813]LogPlayLevel: [PIE] Compiling BPFloorTile_Ramp_Down before PIE...
+[2015.08.20-21.10.10:956][813]LogPlayLevel: [PIE] Compiling BPFloorTile_Ramp_Up before PIE...
+[2015.08.20-21.10.11:070][813]LogPlayLevel: PIE:  Blueprint regeneration took 1694 ms (10 blueprints)
+[2015.08.20-21.10.11:070][813]PIE: New page: PIE session: RunnerMapTest (Aug 20, 2015, 7:10:11 AM)
+[2015.08.20-21.10.11:070][813]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest
+[2015.08.20-21.10.11:073][813]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002646s)
+[2015.08.20-21.10.11:073][813]LogAIModule: Creating AISystem for world RunnerMapTest
+[2015.08.20-21.10.11:074][813]LogPlayLevel: PIE: World Init took: (0.000993s)
+[2015.08.20-21.10.11:074][813]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/RunnerMapTest.RunnerMapTest to /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest (0.003819s)
+[2015.08.20-21.10.11:103][813]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.08.20-21.10.11:110][813]LogInit: FAudioDevice initialized.
+[2015.08.20-21.10.11:112][813]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.10.11:139][813]LogWorld: Game class is 'RunGameMode_C'
+[2015.08.20-21.10.11:142][813]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest up for play (max tick rate 0) at 2015.08.20-14.10.11
+[2015.08.20-21.10.11:143][813]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameSession_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.20-21.10.11:143][813]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameNetworkManager_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.20-21.10.11:143][813]LogWorld: Bringing up level for play took: 0.002028
+[2015.08.20-21.10.11:171][813]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest 2.234
+[2015.08.20-21.10.11:299][814]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.064872 > MaxSimulationTimeStep (0.050) for 'RunCharacter_C_8'
+[2015.08.20-21.10.20:375][104]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.20-21.10.20:416][105]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003260CAE0
+[2015.08.20-21.10.23:786][507]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.10.27:782][973]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.20-21.10.27:784][973]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.20-21.10.27:803][973]LogPlayLevel: [PIE] Compiling RunCharacter before PIE...
+[2015.08.20-21.10.28:251][973]LogPlayLevel: [PIE] Compiling BPBlocker before PIE...
+[2015.08.20-21.10.28:322][973]LogPlayLevel: [PIE] Compiling BPItem before PIE...
+[2015.08.20-21.10.28:405][973]LogPlayLevel: [PIE] Compiling BPFloorTile before PIE...
+[2015.08.20-21.10.28:488][973]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BPFloorTile_Left_Corner_C_1093' (it may have been removed)
+[2015.08.20-21.10.28:593][973]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'Ramp' in BlueprintGeneratedClass 'REINST_BPFloorTile_Ramp_Down_C_1097' (it may have been removed)
+[2015.08.20-21.10.28:648][973]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'Ramp' in BlueprintGeneratedClass 'REINST_BPFloorTile_Ramp_Up_C_1101' (it may have been removed)
+[2015.08.20-21.10.28:703][973]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BPFloorTile_Right_Corner_C_1105' (it may have been removed)
+[2015.08.20-21.10.28:966][973]LogPlayLevel: [PIE] Compiling BPFloorTile_Left_Corner before PIE...
+[2015.08.20-21.10.29:044][973]LogPlayLevel: [PIE] Compiling BPFloorTile_Right_Corner before PIE...
+[2015.08.20-21.10.29:114][973]LogPlayLevel: [PIE] Compiling RunHUD before PIE...
+[2015.08.20-21.10.29:193][973]LogPlayLevel: [PIE] Compiling RunGameMode before PIE...
+[2015.08.20-21.10.29:297][973]LogPlayLevel: [PIE] Compiling BPFloorTile_Ramp_Down before PIE...
+[2015.08.20-21.10.29:364][973]LogPlayLevel: [PIE] Compiling BPFloorTile_Ramp_Up before PIE...
+[2015.08.20-21.10.29:477][973]LogPlayLevel: PIE:  Blueprint regeneration took 1695 ms (10 blueprints)
+[2015.08.20-21.10.29:477][973]PIE: New page: PIE session: RunnerMapTest (Aug 20, 2015, 7:10:29 AM)
+[2015.08.20-21.10.29:478][973]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest
+[2015.08.20-21.10.29:480][973]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002325s)
+[2015.08.20-21.10.29:481][973]LogAIModule: Creating AISystem for world RunnerMapTest
+[2015.08.20-21.10.29:481][973]LogPlayLevel: PIE: World Init took: (0.001032s)
+[2015.08.20-21.10.29:481][973]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/RunnerMapTest.RunnerMapTest to /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest (0.003545s)
+[2015.08.20-21.10.29:510][973]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.08.20-21.10.29:515][973]LogInit: FAudioDevice initialized.
+[2015.08.20-21.10.29:518][973]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.10.29:546][973]LogWorld: Game class is 'RunGameMode_C'
+[2015.08.20-21.10.29:549][973]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest up for play (max tick rate 0) at 2015.08.20-14.10.29
+[2015.08.20-21.10.29:549][973]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameSession_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.20-21.10.29:550][973]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameNetworkManager_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.20-21.10.29:550][973]LogWorld: Bringing up level for play took: 0.001915
+[2015.08.20-21.10.29:573][973]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest 2.636
+[2015.08.20-21.10.29:701][974]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.064872 > MaxSimulationTimeStep (0.050) for 'RunCharacter_C_8'
+[2015.08.20-21.10.36:238][225]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.20-21.10.36:278][226]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003F655080
+[2015.08.20-21.10.38:065][431]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.10.40:302][694]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.10.42:497][951]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.20-21.10.42:499][951]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.20-21.10.42:519][951]LogPlayLevel: [PIE] Compiling RunCharacter before PIE...
+[2015.08.20-21.10.42:962][951]LogPlayLevel: [PIE] Compiling BPBlocker before PIE...
+[2015.08.20-21.10.43:033][951]LogPlayLevel: [PIE] Compiling BPItem before PIE...
+[2015.08.20-21.10.43:123][951]LogPlayLevel: [PIE] Compiling BPFloorTile before PIE...
+[2015.08.20-21.10.43:204][951]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BPFloorTile_Left_Corner_C_1169' (it may have been removed)
+[2015.08.20-21.10.43:309][951]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'Ramp' in BlueprintGeneratedClass 'REINST_BPFloorTile_Ramp_Down_C_1173' (it may have been removed)
+[2015.08.20-21.10.43:364][951]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'Ramp' in BlueprintGeneratedClass 'REINST_BPFloorTile_Ramp_Up_C_1177' (it may have been removed)
+[2015.08.20-21.10.43:419][951]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BPFloorTile_Right_Corner_C_1181' (it may have been removed)
+[2015.08.20-21.10.43:690][951]LogPlayLevel: [PIE] Compiling BPFloorTile_Left_Corner before PIE...
+[2015.08.20-21.10.43:768][951]LogPlayLevel: [PIE] Compiling BPFloorTile_Right_Corner before PIE...
+[2015.08.20-21.10.43:838][951]LogPlayLevel: [PIE] Compiling RunHUD before PIE...
+[2015.08.20-21.10.43:916][951]LogPlayLevel: [PIE] Compiling RunGameMode before PIE...
+[2015.08.20-21.10.44:020][951]LogPlayLevel: [PIE] Compiling BPFloorTile_Ramp_Down before PIE...
+[2015.08.20-21.10.44:086][951]LogPlayLevel: [PIE] Compiling BPFloorTile_Ramp_Up before PIE...
+[2015.08.20-21.10.44:202][951]LogPlayLevel: PIE:  Blueprint regeneration took 1705 ms (10 blueprints)
+[2015.08.20-21.10.44:202][951]PIE: New page: PIE session: RunnerMapTest (Aug 20, 2015, 7:10:44 AM)
+[2015.08.20-21.10.44:203][951]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest
+[2015.08.20-21.10.44:205][951]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002412s)
+[2015.08.20-21.10.44:206][951]LogAIModule: Creating AISystem for world RunnerMapTest
+[2015.08.20-21.10.44:206][951]LogPlayLevel: PIE: World Init took: (0.000993s)
+[2015.08.20-21.10.44:206][951]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/RunnerMapTest.RunnerMapTest to /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest (0.003622s)
+[2015.08.20-21.10.44:235][951]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.08.20-21.10.44:241][951]LogInit: FAudioDevice initialized.
+[2015.08.20-21.10.44:243][951]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.10.44:271][951]LogWorld: Game class is 'RunGameMode_C'
+[2015.08.20-21.10.44:274][951]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest up for play (max tick rate 0) at 2015.08.20-14.10.44
+[2015.08.20-21.10.44:274][951]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameSession_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.20-21.10.44:275][951]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameNetworkManager_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.20-21.10.44:275][951]LogWorld: Bringing up level for play took: 0.001869
+[2015.08.20-21.10.44:305][951]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest 1.367
+[2015.08.20-21.10.44:437][952]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.064872 > MaxSimulationTimeStep (0.050) for 'RunCharacter_C_8'
+[2015.08.20-21.11.02:753][549]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.20-21.11.02:795][550]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000040346520
+[2015.08.20-21.11.13:548][822]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.11.23:394][950]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.11.25:413][177]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.11.30:880][768]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.11.33:484][ 78]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.11.38:560][680]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.20-21.11.38:562][680]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.20-21.11.38:582][680]LogPlayLevel: [PIE] Compiling RunCharacter before PIE...
+[2015.08.20-21.11.39:033][680]LogPlayLevel: [PIE] Compiling BPBlocker before PIE...
+[2015.08.20-21.11.39:104][680]LogPlayLevel: [PIE] Compiling BPItem before PIE...
+[2015.08.20-21.11.39:196][680]LogPlayLevel: [PIE] Compiling BPFloorTile before PIE...
+[2015.08.20-21.11.39:276][680]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BPFloorTile_Left_Corner_C_1245' (it may have been removed)
+[2015.08.20-21.11.39:382][680]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'Ramp' in BlueprintGeneratedClass 'REINST_BPFloorTile_Ramp_Down_C_1249' (it may have been removed)
+[2015.08.20-21.11.39:437][680]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'Ramp' in BlueprintGeneratedClass 'REINST_BPFloorTile_Ramp_Up_C_1253' (it may have been removed)
+[2015.08.20-21.11.39:493][680]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BPFloorTile_Right_Corner_C_1257' (it may have been removed)
+[2015.08.20-21.11.39:758][680]LogPlayLevel: [PIE] Compiling BPFloorTile_Left_Corner before PIE...
+[2015.08.20-21.11.39:837][680]LogPlayLevel: [PIE] Compiling BPFloorTile_Right_Corner before PIE...
+[2015.08.20-21.11.39:907][680]LogPlayLevel: [PIE] Compiling RunHUD before PIE...
+[2015.08.20-21.11.39:988][680]LogPlayLevel: [PIE] Compiling RunGameMode before PIE...
+[2015.08.20-21.11.40:093][680]LogPlayLevel: [PIE] Compiling BPFloorTile_Ramp_Down before PIE...
+[2015.08.20-21.11.40:159][680]LogPlayLevel: [PIE] Compiling BPFloorTile_Ramp_Up before PIE...
+[2015.08.20-21.11.40:274][680]LogPlayLevel: PIE:  Blueprint regeneration took 1714 ms (10 blueprints)
+[2015.08.20-21.11.40:275][680]PIE: New page: PIE session: RunnerMapTest (Aug 20, 2015, 7:11:40 AM)
+[2015.08.20-21.11.40:275][680]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest
+[2015.08.20-21.11.40:277][680]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002318s)
+[2015.08.20-21.11.40:278][680]LogAIModule: Creating AISystem for world RunnerMapTest
+[2015.08.20-21.11.40:278][680]LogPlayLevel: PIE: World Init took: (0.001034s)
+[2015.08.20-21.11.40:278][680]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/RunnerMapTest.RunnerMapTest to /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest (0.003544s)
+[2015.08.20-21.11.40:307][680]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.08.20-21.11.40:313][680]LogInit: FAudioDevice initialized.
+[2015.08.20-21.11.40:315][680]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.11.40:342][680]LogWorld: Game class is 'RunGameMode_C'
+[2015.08.20-21.11.40:345][680]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest up for play (max tick rate 0) at 2015.08.20-14.11.40
+[2015.08.20-21.11.40:345][680]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameSession_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.20-21.11.40:346][680]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameNetworkManager_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.20-21.11.40:346][680]LogWorld: Bringing up level for play took: 0.001975
+[2015.08.20-21.11.40:372][680]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest 1.434
+[2015.08.20-21.11.40:508][681]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.064872 > MaxSimulationTimeStep (0.050) for 'RunCharacter_C_8'
+[2015.08.20-21.11.54:920][180]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.20-21.11.54:961][181]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003ECAF240
+[2015.08.20-21.11.57:285][454]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.08.20-21.11.57:285][454]PIE: New page: PIE session: RunnerMapTest (Aug 20, 2015, 7:11:57 AM)
+[2015.08.20-21.11.57:285][454]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest
+[2015.08.20-21.11.57:288][454]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002472s)
+[2015.08.20-21.11.57:288][454]LogAIModule: Creating AISystem for world RunnerMapTest
+[2015.08.20-21.11.57:289][454]LogPlayLevel: PIE: World Init took: (0.001007s)
+[2015.08.20-21.11.57:289][454]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/RunnerMapTest.RunnerMapTest to /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest (0.003674s)
+[2015.08.20-21.11.57:319][454]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.08.20-21.11.57:324][454]LogInit: FAudioDevice initialized.
+[2015.08.20-21.11.57:326][454]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.11.57:360][454]LogWorld: Game class is 'RunGameMode_C'
+[2015.08.20-21.11.57:363][454]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest up for play (max tick rate 0) at 2015.08.20-14.11.57
+[2015.08.20-21.11.57:363][454]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameSession_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.20-21.11.57:364][454]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameNetworkManager_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.20-21.11.57:364][454]LogWorld: Bringing up level for play took: 0.001976
+[2015.08.20-21.11.57:414][454]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest 0.476
+[2015.08.20-21.12.08:947][839]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000419B6E80
+[2015.08.20-21.12.10:813][ 57]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.12.12:278][230]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.12.13:393][357]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.12.15:103][559]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.12.17:275][812]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.20-21.12.17:277][812]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.20-21.12.17:297][812]LogPlayLevel: [PIE] Compiling RunCharacter before PIE...
+[2015.08.20-21.12.17:746][812]LogPlayLevel: [PIE] Compiling BPBlocker before PIE...
+[2015.08.20-21.12.17:818][812]LogPlayLevel: [PIE] Compiling BPItem before PIE...
+[2015.08.20-21.12.17:910][812]LogPlayLevel: [PIE] Compiling BPFloorTile before PIE...
+[2015.08.20-21.12.17:992][812]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BPFloorTile_Left_Corner_C_1321' (it may have been removed)
+[2015.08.20-21.12.18:098][812]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'Ramp' in BlueprintGeneratedClass 'REINST_BPFloorTile_Ramp_Down_C_1325' (it may have been removed)
+[2015.08.20-21.12.18:153][812]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'Ramp' in BlueprintGeneratedClass 'REINST_BPFloorTile_Ramp_Up_C_1329' (it may have been removed)
+[2015.08.20-21.12.18:209][812]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BPFloorTile_Right_Corner_C_1333' (it may have been removed)
+[2015.08.20-21.12.18:478][812]LogPlayLevel: [PIE] Compiling BPFloorTile_Left_Corner before PIE...
+[2015.08.20-21.12.18:558][812]LogPlayLevel: [PIE] Compiling BPFloorTile_Right_Corner before PIE...
+[2015.08.20-21.12.18:628][812]LogPlayLevel: [PIE] Compiling RunHUD before PIE...
+[2015.08.20-21.12.18:708][812]LogPlayLevel: [PIE] Compiling RunGameMode before PIE...
+[2015.08.20-21.12.18:812][812]LogPlayLevel: [PIE] Compiling BPFloorTile_Ramp_Down before PIE...
+[2015.08.20-21.12.18:878][812]LogPlayLevel: [PIE] Compiling BPFloorTile_Ramp_Up before PIE...
+[2015.08.20-21.12.18:993][812]LogPlayLevel: PIE:  Blueprint regeneration took 1716 ms (10 blueprints)
+[2015.08.20-21.12.18:993][812]PIE: New page: PIE session: RunnerMapTest (Aug 20, 2015, 7:12:18 AM)
+[2015.08.20-21.12.18:994][812]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest
+[2015.08.20-21.12.18:996][812]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002196s)
+[2015.08.20-21.12.18:996][812]LogAIModule: Creating AISystem for world RunnerMapTest
+[2015.08.20-21.12.18:997][812]LogPlayLevel: PIE: World Init took: (0.001013s)
+[2015.08.20-21.12.18:997][812]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/RunnerMapTest.RunnerMapTest to /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest (0.003382s)
+[2015.08.20-21.12.19:026][812]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.08.20-21.12.19:033][812]LogInit: FAudioDevice initialized.
+[2015.08.20-21.12.19:035][812]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.12.19:062][812]LogWorld: Game class is 'RunGameMode_C'
+[2015.08.20-21.12.19:065][812]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest up for play (max tick rate 0) at 2015.08.20-14.12.19
+[2015.08.20-21.12.19:065][812]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameSession_25 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.20-21.12.19:066][812]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameNetworkManager_25 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.20-21.12.19:066][812]LogWorld: Bringing up level for play took: 0.001945
+[2015.08.20-21.12.19:093][812]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest 2.153
+[2015.08.20-21.12.19:222][813]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.064872 > MaxSimulationTimeStep (0.050) for 'RunCharacter_C_8'
+[2015.08.20-21.12.31:946][218]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.20-21.12.31:987][219]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000053010400
+[2015.08.20-21.12.33:727][413]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.12.54:661][590]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.13.03:025][539]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.13.05:503][832]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.13.06:895][994]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.13.08:604][197]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.13.10:600][428]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.20-21.13.10:603][428]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.20-21.13.10:623][428]LogPlayLevel: [PIE] Compiling RunCharacter before PIE...
+[2015.08.20-21.13.11:075][428]LogPlayLevel: [PIE] Compiling BPBlocker before PIE...
+[2015.08.20-21.13.11:147][428]LogPlayLevel: [PIE] Compiling BPItem before PIE...
+[2015.08.20-21.13.11:232][428]LogPlayLevel: [PIE] Compiling BPFloorTile before PIE...
+[2015.08.20-21.13.11:314][428]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BPFloorTile_Left_Corner_C_1397' (it may have been removed)
+[2015.08.20-21.13.11:420][428]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'Ramp' in BlueprintGeneratedClass 'REINST_BPFloorTile_Ramp_Down_C_1401' (it may have been removed)
+[2015.08.20-21.13.11:475][428]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'Ramp' in BlueprintGeneratedClass 'REINST_BPFloorTile_Ramp_Up_C_1405' (it may have been removed)
+[2015.08.20-21.13.11:531][428]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BPFloorTile_Right_Corner_C_1409' (it may have been removed)
+[2015.08.20-21.13.11:799][428]LogPlayLevel: [PIE] Compiling BPFloorTile_Left_Corner before PIE...
+[2015.08.20-21.13.11:878][428]LogPlayLevel: [PIE] Compiling BPFloorTile_Right_Corner before PIE...
+[2015.08.20-21.13.11:949][428]LogPlayLevel: [PIE] Compiling RunHUD before PIE...
+[2015.08.20-21.13.12:029][428]LogPlayLevel: [PIE] Compiling RunGameMode before PIE...
+[2015.08.20-21.13.12:133][428]LogPlayLevel: [PIE] Compiling BPFloorTile_Ramp_Down before PIE...
+[2015.08.20-21.13.12:199][428]LogPlayLevel: [PIE] Compiling BPFloorTile_Ramp_Up before PIE...
+[2015.08.20-21.13.12:314][428]LogPlayLevel: PIE:  Blueprint regeneration took 1712 ms (10 blueprints)
+[2015.08.20-21.13.12:314][428]PIE: New page: PIE session: RunnerMapTest (Aug 20, 2015, 7:13:12 AM)
+[2015.08.20-21.13.12:314][428]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest
+[2015.08.20-21.13.12:317][428]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002496s)
+[2015.08.20-21.13.12:317][428]LogAIModule: Creating AISystem for world RunnerMapTest
+[2015.08.20-21.13.12:318][428]LogPlayLevel: PIE: World Init took: (0.001057s)
+[2015.08.20-21.13.12:318][428]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/RunnerMapTest.RunnerMapTest to /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest (0.003728s)
+[2015.08.20-21.13.12:346][428]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.08.20-21.13.12:352][428]LogInit: FAudioDevice initialized.
+[2015.08.20-21.13.12:355][428]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.13.12:385][428]LogWorld: Game class is 'RunGameMode_C'
+[2015.08.20-21.13.12:388][428]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest up for play (max tick rate 0) at 2015.08.20-14.13.12
+[2015.08.20-21.13.12:388][428]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameSession_26 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.20-21.13.12:389][428]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameNetworkManager_26 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.20-21.13.12:389][428]LogWorld: Bringing up level for play took: 0.001982
+[2015.08.20-21.13.12:417][428]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest 1.477
+[2015.08.20-21.13.12:546][429]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.064872 > MaxSimulationTimeStep (0.050) for 'RunCharacter_C_8'
+[2015.08.20-21.13.15:560][514]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.20-21.13.15:600][515]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000040346340
+[2015.08.20-21.13.17:425][731]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.16.13:104][114]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.16.16:099][467]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.20-21.16.20:266][932]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.16.21:539][ 78]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2015.08.20-21.16.28:102][843]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2015.08.20-21.16.31:643][250]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.16.35:091][657]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.16.35:771][724]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.16.43:753][677]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.16.45:582][893]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.16.47:224][ 87]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.17.08:857][653]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.17.10:940][886]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.17.16:139][448]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.17.17:817][637]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.20-21.17.17:820][637]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2015.08.20-21.17.17:841][637]LogPlayLevel: [PIE] Compiling RunCharacter before PIE...
+[2015.08.20-21.17.18:306][637]LogPlayLevel: [PIE] Compiling BPBlocker before PIE...
+[2015.08.20-21.17.18:379][637]LogPlayLevel: [PIE] Compiling BPItem before PIE...
+[2015.08.20-21.17.18:466][637]LogPlayLevel: [PIE] Compiling BPFloorTile before PIE...
+[2015.08.20-21.17.18:547][637]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BPFloorTile_Left_Corner_C_1483' (it may have been removed)
+[2015.08.20-21.17.18:659][637]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'Ramp' in BlueprintGeneratedClass 'REINST_BPFloorTile_Ramp_Down_C_1487' (it may have been removed)
+[2015.08.20-21.17.18:716][637]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'Ramp' in BlueprintGeneratedClass 'REINST_BPFloorTile_Ramp_Up_C_1491' (it may have been removed)
+[2015.08.20-21.17.18:775][637]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BPFloorTile_Right_Corner_C_1495' (it may have been removed)
+[2015.08.20-21.17.19:055][637]LogPlayLevel: [PIE] Compiling BPFloorTile_Left_Corner before PIE...
+[2015.08.20-21.17.19:136][637]LogPlayLevel: [PIE] Compiling BPFloorTile_Right_Corner before PIE...
+[2015.08.20-21.17.19:209][637]LogPlayLevel: [PIE] Compiling RunHUD before PIE...
+[2015.08.20-21.17.19:290][637]LogPlayLevel: [PIE] Compiling RunGameMode before PIE...
+[2015.08.20-21.17.19:398][637]LogPlayLevel: [PIE] Compiling BPFloorTile_Ramp_Down before PIE...
+[2015.08.20-21.17.19:467][637]LogPlayLevel: [PIE] Compiling BPFloorTile_Ramp_Up before PIE...
+[2015.08.20-21.17.19:584][637]LogPlayLevel: PIE:  Blueprint regeneration took 1766 ms (10 blueprints)
+[2015.08.20-21.17.19:584][637]PIE: New page: PIE session: RunnerMapTest (Aug 20, 2015, 7:17:19 AM)
+[2015.08.20-21.17.19:584][637]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest
+[2015.08.20-21.17.19:587][637]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002412s)
+[2015.08.20-21.17.19:587][637]LogAIModule: Creating AISystem for world RunnerMapTest
+[2015.08.20-21.17.19:588][637]LogPlayLevel: PIE: World Init took: (0.001037s)
+[2015.08.20-21.17.19:588][637]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/RunnerMapTest.RunnerMapTest to /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest (0.003624s)
+[2015.08.20-21.17.19:617][637]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.08.20-21.17.19:624][637]LogInit: FAudioDevice initialized.
+[2015.08.20-21.17.19:626][637]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.17.19:655][637]LogWorld: Game class is 'RunGameMode_C'
+[2015.08.20-21.17.19:659][637]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest up for play (max tick rate 0) at 2015.08.20-14.17.19
+[2015.08.20-21.17.19:659][637]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameSession_27 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.20-21.17.19:659][637]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameNetworkManager_27 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.20-21.17.19:659][637]LogWorld: Bringing up level for play took: 0.001985
+[2015.08.20-21.17.19:686][637]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_RunnerMapTest 2.742
+[2015.08.20-21.17.19:733][637]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.19:827][638]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.064872 > MaxSimulationTimeStep (0.050) for 'RunCharacter_C_6'
+[2015.08.20-21.17.19:827][638]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.19:984][639]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.19:995][640]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.20:020][641]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.20:053][642]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.20:087][643]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.20:119][644]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.20:152][645]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.20:184][646]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.20:217][647]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.20:250][648]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.20:284][649]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.20:318][650]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.20:352][651]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.20:385][652]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.20:418][653]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.20:450][654]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.20:482][655]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.20:517][656]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.20:547][657]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.20:579][658]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.20:612][659]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.20:645][660]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.20:678][661]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.20:710][662]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.20:743][663]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.20:775][664]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.20:807][665]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.20:839][666]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.20:871][667]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.20:901][668]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.20:933][669]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.20:963][670]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.20:994][671]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.21:024][672]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.21:056][673]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.21:087][674]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.21:118][675]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.21:149][676]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.21:181][677]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.21:212][678]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.21:244][679]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.21:276][680]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.21:309][681]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.21:341][682]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.21:374][683]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.21:406][684]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.21:441][685]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.21:474][686]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.21:508][687]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.21:544][688]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.21:578][689]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.21:613][690]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.21:651][691]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.21:689][692]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.21:727][693]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.21:765][694]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.21:803][695]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.21:843][696]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.21:881][697]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.21:921][698]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.21:961][699]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.22:000][700]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.22:041][701]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.22:083][702]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.22:124][703]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.22:167][704]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.22:209][705]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.22:254][706]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.22:294][707]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.22:337][708]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.22:381][709]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.22:423][710]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.22:466][711]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.22:508][712]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.22:560][713]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.22:637][714]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.22:647][715]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.22:675][716]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.22:713][717]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.22:751][718]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.22:787][719]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.22:822][720]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.22:898][721]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.22:908][722]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.22:933][723]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.22:971][724]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.23:003][725]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.23:038][726]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.23:073][727]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.23:108][728]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.23:143][729]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.23:179][730]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.23:214][731]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.23:250][732]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.23:285][733]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.23:321][734]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.23:356][735]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.23:390][736]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.23:425][737]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.23:491][738]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.23:501][739]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.23:523][740]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.23:554][741]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.23:585][742]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.23:619][743]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.23:647][744]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.23:677][745]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.23:708][746]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.23:738][747]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.23:768][748]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.23:797][749]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.23:826][750]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.23:855][751]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.20-21.17.23:941][752]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.20-21.17.23:983][753]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000040345120
+[2015.08.20-21.17.49:774][815]LogEditorTransaction: Undo Delete current selection
+[2015.08.20-21.17.49:796][815]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.20-21.17.49:818][815]LogD3D11RHI: InitD3DDevice
+[2015.08.20-21.17.50:248][844]LogEditorTransaction: Undo Move Node
+[2015.08.20-21.17.50:270][844]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2015.08.20-21.17.50:570][871]LogEditorTransaction: Undo Delete current selection
+[2015.08.20-21.17.50:592][871]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2015.08.20-21.17.50:940][904]LogEditorTransaction: Undo Create Pin Link
+[2015.08.20-21.17.50:963][904]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2015.08.20-21.17.51:305][936]LogEditorTransaction: Undo Add Node
+[2015.08.20-21.17.51:328][936]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2015.08.20-21.17.51:698][972]LogEditorTransaction: Undo Create Pin Link
+[2015.08.20-21.17.51:720][972]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2015.08.20-21.17.52:125][ 12]LogEditorTransaction: Undo Delete current selection
+[2015.08.20-21.17.52:147][ 12]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2015.08.20-21.17.52:626][ 61]LogEditorTransaction: Undo Move Node
+[2015.08.20-21.17.52:648][ 61]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2015.08.20-21.17.52:895][ 82]LogEditorTransaction: Undo Move Node
+[2015.08.20-21.17.52:916][ 82]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_17) Not registered. Aborting.
+[2015.08.20-21.17.53:238][112]LogEditorTransaction: Undo Move Node
+[2015.08.20-21.17.53:260][112]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_18) Not registered. Aborting.
+[2015.08.20-21.17.53:465][128]LogEditorTransaction: Undo Create Pin Link
+[2015.08.20-21.17.53:487][128]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_19) Not registered. Aborting.
+[2015.08.20-21.17.53:718][147]LogEditorTransaction: Undo Create Pin Link
+[2015.08.20-21.17.53:740][147]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_20) Not registered. Aborting.
+[2015.08.20-21.17.54:177][191]LogEditorTransaction: Undo Create Pin Link
+[2015.08.20-21.17.54:198][191]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_21) Not registered. Aborting.
+[2015.08.20-21.17.54:518][221]LogEditorTransaction: Undo Move Node
+[2015.08.20-21.17.54:540][221]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_22) Not registered. Aborting.
+[2015.08.20-21.17.55:026][271]LogEditorTransaction: Undo Move Node
+[2015.08.20-21.17.55:047][271]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_23) Not registered. Aborting.
+[2015.08.20-21.17.55:459][312]LogEditorTransaction: Undo Add Node
+[2015.08.20-21.17.55:481][312]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_24) Not registered. Aborting.
+[2015.08.20-21.17.55:852][348]LogEditorTransaction: Undo Rename Variable
+[2015.08.20-21.17.55:863][348]LogUObjectHash:Warning: Ambiguous search, could be CapsuleComponent /Engine/Transient.TRASH_Default__SKEL_RunCharacter_C_4:CollisionCylinder or CapsuleComponent /Engine/Transient.TRASH_Default__SKEL_RunCharacter_C_4:CollisionCylinder
+[2015.08.20-21.17.55:863][348]LogUObjectHash:Warning: Ambiguous search, could be CapsuleComponent /Engine/Transient.TRASH_Default__SKEL_RunCharacter_C_4:CollisionCylinder or CapsuleComponent /Engine/Transient.TRASH_Default__SKEL_RunCharacter_C_4:CollisionCylinder
+[2015.08.20-21.17.55:863][348]LogUObjectHash:Warning: Ambiguous search, could be CapsuleComponent /Engine/Transient.TRASH_Default__SKEL_RunCharacter_C_4:CollisionCylinder or CapsuleComponent /Engine/Transient.TRASH_Default__SKEL_RunCharacter_C_4:CollisionCylinder
+[2015.08.20-21.17.55:890][348]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_25) Not registered. Aborting.
+[2015.08.20-21.17.56:369][397]LogEditorTransaction: Undo Change Paramater Type
+[2015.08.20-21.17.56:391][397]LogUObjectHash:Warning: Ambiguous search, could be CapsuleComponent /Engine/Transient.TRASH_Default__SKEL_RunCharacter_C_3:CollisionCylinder or CapsuleComponent /Engine/Transient.TRASH_Default__SKEL_RunCharacter_C_3:CollisionCylinder
+[2015.08.20-21.17.56:391][397]LogUObjectHash:Warning: Ambiguous search, could be CapsuleComponent /Engine/Transient.TRASH_Default__SKEL_RunCharacter_C_3:CollisionCylinder or CapsuleComponent /Engine/Transient.TRASH_Default__SKEL_RunCharacter_C_3:CollisionCylinder
+[2015.08.20-21.17.56:391][397]LogUObjectHash:Warning: Ambiguous search, could be CapsuleComponent /Engine/Transient.TRASH_Default__SKEL_RunCharacter_C_3:CollisionCylinder or CapsuleComponent /Engine/Transient.TRASH_Default__SKEL_RunCharacter_C_3:CollisionCylinder
+[2015.08.20-21.17.56:416][397]LogWindows:Error: Windows GetLastError: The operation completed successfully. (0)
+[2015.08.20-21.17.56:505][397]LogCrashTracker: 
+
+
+[2015.08.20-21.18.45:791][397]LogCrashTracker: 
+
+
+[2015.08.20-21.18.45:791][397]LogWindows: === Critical error: ===
+Assertion failed: Obj [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.8\Engine\Source\Editor\UnrealEd\Classes/Editor/Transactor.h] [Line: 158] 
+
+
+
+KERNELBASE.dll {0x000007fefda6b3dd} + 0 bytes
+UE4Editor-Core.dll!FOutputDeviceWindowsError::Serialize() {0x000007fee21a7c0f} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FOutputDevice::Logf__VA() {0x000007fee20610b8} + 159 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::AssertFailed() {0x000007fee2031e72} + 65 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FTransaction::FObjectRecord::FPersistentObjectRef::operator->() {0x000007fedc5a3797} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FTransaction::FObjectRecord::Restore() {0x000007fedc5ff6b6} + 9 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FTransaction::Apply() {0x000007fedc5aea61} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!UTransBuffer::Undo() {0x000007fedc60eab2} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Kismet.dll!TBaseSPMethodDelegateInstance<0,FBlueprintEditor,0,TTypeWrapper<void> __cdecl(void)>::Execute() {0x000007fed94deb11} + 32 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Kismet.dll!TBaseSPMethodDelegateInstance<0,FBlueprintEditor,0,void __cdecl(void)>::ExecuteIfSafe() {0x000007fed94e2356} + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FUICommandList::ConditionalProcessCommandBindings() {0x000007fede7e2539} + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FUICommandList::ProcessCommandBindings() {0x000007fede83659c} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FBaseToolkit::ProcessCommandBindings() {0x000007fedcf3f49e} + 10 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!SStandaloneAssetEditorToolkitHost::OnKeyDown() {0x000007fedcf37ac3} + 137 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!<lambda_4f604f87f3ce3f5c3b6a1447676ad634>::operator()() {0x000007fede7c40d2} + 38 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FEventRouter::Route<FReply,FEventRouter::FBubblePolicy,FKeyEvent,<lambda_4f604f87f3ce3f5c3b6a1447676ad634> >() {0x000007fede77bbad} + 21 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FEventRouter::RouteAlongFocusPath<FEventRouter::FBubblePolicy,<lambda_4f604f87f3ce3f5c3b6a1447676ad634>,FKeyEvent>() {0x000007fede77d76a} + 52 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FSlateApplication::ProcessKeyDownEvent() {0x000007fede83741c} + 99 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FSlateApplication::OnKeyDown() {0x000007fede8248e6} + 14 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::ProcessDeferredMessage() {0x000007fee219d483} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::DeferMessage() {0x000007fee21849d1} + 74 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::ProcessMessage() {0x000007fee219edc3} + 44 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::AppWndProc() {0x000007fee217e5ba} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+USER32.dll {0x0000000077b89bd1} + 0 bytes
+USER32.dll {0x0000000077b898da} + 0 bytes
+UE4Editor-Core.dll!FWindowsPlatformMisc::PumpMessages() {0x000007fee21a0186} + 48 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!FEngineLoop::Tick() {0x000000013f163c7a} + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMain() {0x000000013f1549cc} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMainWrapper() {0x000000013f154a4a} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!WinMain() {0x000000013f1665c9} + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!__tmainCRTStartup() {0x000000013f1675d9} + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+kernel32.dll {0x0000000077a65a4d} + 0 bytes
+ntdll.dll {0x0000000077c9b831} + 0 bytes
+ntdll.dll {0x0000000077c9b831} + 0 bytes
+
