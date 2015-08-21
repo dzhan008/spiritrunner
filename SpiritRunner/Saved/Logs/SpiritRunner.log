@@ -1,0 +1,640 @@
+﻿[2015.08.21-01.23.22:397][  0]Log file open, 08/20/15 18:23:22
+[2015.08.21-01.23.22:397][  0]LogInit:Display: Running engine for game: SpiritRunner
+[2015.08.21-01.23.22:397][  0]LogInit:Display: RandInit(1681720845) SRandInit(1681720845).
+[2015.08.21-01.23.22:397][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.08.21-01.23.22:398][  0]LogStats: Stats thread started
+[2015.08.21-01.23.22:398][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.08.21-01.23.22:398][  0]LogInit: API Version: 2579680
+[2015.08.21-01.23.22:398][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2015.08.21-01.23.22:398][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.08.21-01.23.22:398][  0]LogInit: Build Configuration: Development
+[2015.08.21-01.23.22:398][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.08.21-01.23.22:398][  0]LogInit: Command line:  
+[2015.08.21-01.23.22:398][  0]LogInit: Base directory: C:/Program Files/Unreal Engine/4.8/Engine/Binaries/Win64/
+[2015.08.21-01.23.22:398][  0]LogInit: Rocket: 1
+[2015.08.21-01.23.22:410][  0]LogInit: Using libcurl 7.41.0
+[2015.08.21-01.23.22:410][  0]LogInit:  - built for x86_64-pc-win32
+[2015.08.21-01.23.22:410][  0]LogInit:  - supports SSL with WinSSL
+[2015.08.21-01.23.22:410][  0]LogInit:  - other features:
+[2015.08.21-01.23.22:410][  0]LogInit:      CURL_VERSION_SSL
+[2015.08.21-01.23.22:410][  0]LogInit:      CURL_VERSION_IPV6
+[2015.08.21-01.23.22:410][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.08.21-01.23.22:410][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.08.21-01.23.22:410][  0]LogInit:      CURL_VERSION_IDN
+[2015.08.21-01.23.22:410][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.08.21-01.23.22:410][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.08.21-01.23.22:410][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.08.21-01.23.22:410][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.08.21-01.23.22:410][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.08.21-01.23.22:421][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.08.21-01.23.22:434][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.08.21-01.23.22:442][  0]LogInit: Object subsystem initialized
+[2015.08.21-01.23.22:443][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.08.21-01.23.22:443][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.21-01.23.22:443][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.08.21-01.23.22:443][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.21-01.23.22:443][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.08.21-01.23.22:443][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.21-01.23.22:473][  0]LogInit: Selected Device Profile: [Windows]
+[2015.08.21-01.23.22:473][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.08.21-01.23.22:481][  0]LogInit: Computer: -XOL
+[2015.08.21-01.23.22:481][  0]LogInit: User: Skillinazn
+[2015.08.21-01.23.22:481][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.08.21-01.23.22:481][  0]LogInit: High frequency timer resolution =3.020527 MHz
+[2015.08.21-01.23.22:481][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2015.08.21-01.23.22:481][  0]LogMemory: Platform Memory Stats for Windows
+[2015.08.21-01.23.22:481][  0]LogMemory: Process Physical Memory: 50.12 MB used, 50.12 MB peak
+[2015.08.21-01.23.22:481][  0]LogMemory: Process Virtual Memory: 23.38 MB used, 23.38 MB peak
+[2015.08.21-01.23.22:481][  0]LogMemory: Physical Memory: 4822.48 MB used, 8139.28 MB total
+[2015.08.21-01.23.22:481][  0]LogMemory: Virtual Memory: 279.71 MB used, 8388608.00 MB total
+[2015.08.21-01.23.22:519][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.08.21-01.23.22:736][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files/Unreal Engine/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files/Unreal Engine/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.08.21-01.23.23:224][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 550 Ti (Feature Level 11_0)
+[2015.08.21-01.23.23:224][  0]LogD3D11RHI: Adapter has 978MB of dedicated video memory, 0MB of dedicated system memory, and 3071MB of shared system memory, 1 output[s]
+[2015.08.21-01.23.23:224][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.08.21-01.23.23:228][  0]LogD3D11RHI: InitD3DDevice
+[2015.08.21-01.23.23:229][  0]LogD3D11RHI: !Direct3DDevice
+[2015.08.21-01.23.23:229][  0]LogRHI: Texture pool is 684 MB (70% of 978 MB)
+[2015.08.21-01.23.23:238][  0]LogD3D11RHI: Async texture creation enabled
+[2015.08.21-01.23.23:252][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.08.21-01.23.24:156][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.08.21-01.23.24:170][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.08.21-01.23.24:184][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.08.21-01.23.24:198][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.08.21-01.23.24:215][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.08.21-01.23.24:227][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.08.21-01.23.24:240][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.08.21-01.23.24:253][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.08.21-01.23.24:265][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.08.21-01.23.24:278][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.08.21-01.23.24:290][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.08.21-01.23.24:303][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.08.21-01.23.24:351][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.08.21-01.23.24:363][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.08.21-01.23.24:375][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.08.21-01.23.24:390][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.08.21-01.23.24:390][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.08.21-01.23.24:601][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.08.21-01.23.24:649][  0]LogDerivedDataCache: Loaded boot cache 0.05s 53MB C:/Users/Skillinazn/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.08.21-01.23.24:649][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Skillinazn/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.08.21-01.23.24:649][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.08.21-01.23.24:649][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.08.21-01.23.24:650][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.08.21-01.23.24:650][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.08.21-01.23.24:821][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.08.21-01.23.24:832][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Skillinazn/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.08.21-01.23.25:097][  0]LogInit: Selected Device Profile: [Windows]
+[2015.08.21-01.23.25:105][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.08.21-01.23.25:105][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.08.21-01.23.25:133][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.08.21-01.23.25:133][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.08.21-01.23.25:531][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.08.21-01.23.26:830][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.08.21-01.23.27:187][  0]SourceControl: Info Source control is disabled
+[2015.08.21-01.23.27:200][  0]SourceControl: Info Source control is disabled
+[2015.08.21-01.23.27:210][  0]SourceControl: Info Source control is disabled
+[2015.08.21-01.23.27:219][  0]SourceControl: Info Source control is disabled
+[2015.08.21-01.23.27:454][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2015.08.21-01.23.27:454][  0]LogUObjectAllocator: 5409248 out of 0 bytes used by permanent object pool.
+[2015.08.21-01.23.27:527][  0]LogEngine: Initializing Engine...
+[2015.08.21-01.23.27:529][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.08.21-01.23.27:538][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 108
+[2015.08.21-01.23.27:700][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.08.21-01.23.27:706][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.08.21-01.23.27:713][  0]LogInit: FAudioDevice initialized.
+[2015.08.21-01.23.27:767][  0]LogDerivedDataCache: Saved boot cache 0.05s 53MB C:/Users/Skillinazn/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.08.21-01.23.27:771][  0]LogInit: Texture streaming: Disabled
+[2015.08.21-01.23.27:794][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.08.21-01.23.27:794][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.08.21-01.23.27:794][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId ffda9cca4b3d555453184ba3c94d63df|1c31964261ec47a0a452111148e9934d|03a96158-8593-4d52-b740-8fc03ec93f27
+[2015.08.21-01.23.27:794][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.08.21-01.23.27:818][  0]LogInit: Transaction tracking system initialized
+[2015.08.21-01.23.27:947][  0]BlueprintLog: New page: Editor Load
+[2015.08.21-01.23.27:979][  0]LogAssetRegistry: FAssetRegistry took 0.0098 seconds to start up
+[2015.08.21-01.23.27:979][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.08.21-01.23.28:599][  0]LogLinker:Warning: Asset '../../../Engine/Content/Tutorial/Basics/FeaturePacks.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.08.21-01.23.28:610][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2015.08.21-01.23.28:611][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2015.08.21-01.23.28:611][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2015.08.21-01.23.28:611][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
+[2015.08.21-01.23.28:826][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.08.21-01.23.28:826][  0]LogConsoleResponse:Display: 
+[2015.08.21-01.23.28:970][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.08.21-01.23.29:152][  0]SourceControl: Info Source control is disabled
+[2015.08.21-01.23.29:152][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.08.21-01.23.29:152][  0]LightingResults: New page: Lighting Build
+[2015.08.21-01.23.29:165][  0]MapCheck: New page: Map Check
+[2015.08.21-01.23.29:165][  0]LightingResults: New page: Lighting Build
+[2015.08.21-01.23.29:174][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000017239120
+[2015.08.21-01.23.31:240][  0]LogBlueprint:Warning: ValidateTemplates '/Game/ThirdPersonBP/Blueprints/BPFloorTile_Ramp_Down.BPFloorTile_Ramp_Down_C:InheritableComponentHandler': overriden template is invalid - component 'Distance Area' from '/Game/ThirdPersonBP/Blueprints/BPFloorTiLE.BPFloorTile_C'
+[2015.08.21-01.23.31:282][  0]LogBlueprint:Warning: ValidateTemplates '/Game/ThirdPersonBP/Blueprints/BPFloorTile_Ramp_Up.BPFloorTile_Ramp_Up_C:InheritableComponentHandler': overriden template is invalid - component 'Distance Area' from '/Game/ThirdPersonBP/Blueprints/BPFloorTiLE.BPFloorTile_C'
+[2015.08.21-01.23.32:781][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.08.21-01.23.32:790][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.08.21-01.23.33:501][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.08.21-01.23.33:552][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 51.079ms to complete.
+[2015.08.21-01.23.33:552][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 4.399
+[2015.08.21-01.23.33:655][  0]LogCollectionManager: Loaded 0 collections in 0.001891 seconds
+[2015.08.21-01.23.33:662][  0]LogContentBrowser: Native class hierarchy populated in 0.0068 seconds. Added 1792 classes and 301 folders.
+[2015.08.21-01.23.33:702][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.08.21-01.23.33:730][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.08.21-01.23.33:745][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2015.08.21-01.23.33:807][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.08.21-01.23.33:808][  0]LogD3D11RHI: InitD3DDevice
+[2015.08.21-01.23.33:811][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.08.21-01.23.33:831][  0]LogLoad: Full Startup: 13.20 seconds (BP compile: 1.43 seconds)
+[2015.08.21-01.23.33:844][  0]LoadErrors:Error: Error Failed import for BoxComponent /Game/ThirdPersonBP/Blueprints/BPFloorTiLE.BPFloorTile_C:Box958880A84CE4824D131FBBBAD1266D3D
+[2015.08.21-01.23.33:890][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.08.21-01.23.33:935][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.08.21-01.23.33:938][  0]LogD3D11RHI: InitD3DDevice
+[2015.08.21-01.23.34:062][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2015.08.21-01.23.35:014][ 10]LogAssetRegistry: Asset discovery search completed in 7.0448 seconds
+[2015.08.21-01.23.39:684][253]LogD3D11RHI: InitD3DDevice
+[2015.08.21-01.24.17:390][764]LogD3D11RHI: InitD3DDevice
+[2015.08.21-01.24.18:408][882]LogD3D11RHI: InitD3DDevice
+[2015.08.21-01.24.23:780][439]LogD3D11RHI: InitD3DDevice
+[2015.08.21-01.24.30:435][972]LogAIModule: Creating AISystem for world RunnerMapTest
+[2015.08.21-01.24.30:551][972]LogD3D11RHI: InitD3DDevice
+[2015.08.21-01.24.30:583][972]LogD3D11RHI: InitD3DDevice
+[2015.08.21-01.24.30:805][972]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.21-01.24.30:805][972]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement0C812BA34D0DD21FB12D1D9A948423D7) Not registered. Aborting.
+[2015.08.21-01.24.30:805][972]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_0) Not registered. Aborting.
+[2015.08.21-01.24.31:061][972]LogMetaData: Removing '/Game/SpiritRunner/Animations/ThirdPersonAnimBlueprint.ThirdPersonAnimBlueprint_C' ref from Metadata '/Game/ThirdPersonBP/Animations/ThirdPersonAnimBlueprint.PackageMetaData'
+[2015.08.21-01.24.31:061][972]LogMetaData: Removing '/Game/SpiritRunner/Animations/ThirdPersonAnimBlueprint.SKEL_ThirdPersonAnimBlueprint_C' ref from Metadata '/Game/ThirdPersonBP/Animations/ThirdPersonAnimBlueprint.PackageMetaData'
+[2015.08.21-01.24.31:554][972]LogMetaData: Removing '/Game/SpiritRunner/UMG/GG.GG_C' ref from Metadata '/Game/ThirdPersonBP/UMG/GG.PackageMetaData'
+[2015.08.21-01.24.31:554][972]LogMetaData: Removing '/Game/SpiritRunner/UMG/GG.GG:EventGraph.K2Node_Event_347' ref from Metadata '/Game/ThirdPersonBP/UMG/GG.PackageMetaData'
+[2015.08.21-01.24.31:554][972]LogMetaData: Removing '/Game/SpiritRunner/UMG/GG.GG:EventGraph.K2Node_Event_348' ref from Metadata '/Game/ThirdPersonBP/UMG/GG.PackageMetaData'
+[2015.08.21-01.24.31:554][972]LogMetaData: Removing '/Game/SpiritRunner/UMG/GG.SKEL_GG_C' ref from Metadata '/Game/ThirdPersonBP/UMG/GG.PackageMetaData'
+[2015.08.21-01.24.31:923][972]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.RunCharacter_C_1.CollisionCylinder and CapsuleComponent /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.RunCharacter_C_0.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.08.21-01.24.31:923][972]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.RunCharacter_C_1.Arrow and ArrowComponent /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.RunCharacter_C_0.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.08.21-01.24.31:923][972]LogUObjectGlobals:Warning: Guid is in use by CharacterMovementComponent /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.RunCharacter_C_1.CharMoveComp and CharacterMovementComponent /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.RunCharacter_C_0.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.08.21-01.24.31:923][972]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.RunCharacter_C_1.CharacterMesh0 and SkeletalMeshComponent /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.RunCharacter_C_0.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.08.21-01.24.32:008][972]LogMetaData: Removing '/Game/SpiritRunner/Blueprints/RunCharacter.RunCharacter_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/RunCharacter.PackageMetaData'
+[2015.08.21-01.24.32:008][972]LogMetaData: Removing '/Game/SpiritRunner/Blueprints/RunCharacter.RunCharacter:AddCoin.K2Node_FunctionEntry_378' ref from Metadata '/Game/ThirdPersonBP/Blueprints/RunCharacter.PackageMetaData'
+[2015.08.21-01.24.32:008][972]LogMetaData: Removing '/Game/SpiritRunner/Blueprints/RunCharacter.RunCharacter:AddDistance.K2Node_FunctionEntry_634' ref from Metadata '/Game/ThirdPersonBP/Blueprints/RunCharacter.PackageMetaData'
+[2015.08.21-01.24.32:008][972]LogMetaData: Removing '/Game/SpiritRunner/Blueprints/RunCharacter.RunCharacter:SuperSpeed.K2Node_FunctionEntry_3746' ref from Metadata '/Game/ThirdPersonBP/Blueprints/RunCharacter.PackageMetaData'
+[2015.08.21-01.24.32:008][972]LogMetaData: Removing '/Game/SpiritRunner/Blueprints/RunCharacter.RunCharacter:SuperSpeedOff.K2Node_FunctionEntry_4079' ref from Metadata '/Game/ThirdPersonBP/Blueprints/RunCharacter.PackageMetaData'
+[2015.08.21-01.24.32:008][972]LogMetaData: Removing '/Game/SpiritRunner/Blueprints/RunCharacter.SKEL_RunCharacter_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/RunCharacter.PackageMetaData'
+[2015.08.21-01.24.32:084][972]LogMetaData: Removing '/Game/SpiritRunner/Blueprints/BPBlocker.BPBlocker_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPBlocker.PackageMetaData'
+[2015.08.21-01.24.32:084][972]LogMetaData: Removing '/Game/SpiritRunner/Blueprints/BPBlocker.BPBlocker:UserConstructionScript.K2Node_FunctionEntry_411' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPBlocker.PackageMetaData'
+[2015.08.21-01.24.32:084][972]LogMetaData: Removing '/Game/SpiritRunner/Blueprints/BPBlocker.BPBlocker:EventGraph.K2Node_Event_263' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPBlocker.PackageMetaData'
+[2015.08.21-01.24.32:084][972]LogMetaData: Removing '/Game/SpiritRunner/Blueprints/BPBlocker.BPBlocker:EventGraph.K2Node_Event_264' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPBlocker.PackageMetaData'
+[2015.08.21-01.24.32:084][972]LogMetaData: Removing '/Game/SpiritRunner/Blueprints/BPBlocker.BPBlocker:EventGraph.K2Node_Event_265' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPBlocker.PackageMetaData'
+[2015.08.21-01.24.32:085][972]LogMetaData: Removing '/Game/SpiritRunner/Blueprints/BPBlocker.SKEL_BPBlocker_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPBlocker.PackageMetaData'
+[2015.08.21-01.24.32:205][972]LogMetaData: Removing '/Game/SpiritRunner/Blueprints/BPItem.BPItem:UserConstructionScript.K2Node_FunctionEntry_313' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPItem.PackageMetaData'
+[2015.08.21-01.24.32:205][972]LogMetaData: Removing '/Game/SpiritRunner/Blueprints/BPItem.BPItem_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPItem.PackageMetaData'
+[2015.08.21-01.24.32:205][972]LogMetaData: Removing '/Game/SpiritRunner/Blueprints/BPItem.BPItem:EventGraph.K2Node_Event_215' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPItem.PackageMetaData'
+[2015.08.21-01.24.32:205][972]LogMetaData: Removing '/Game/SpiritRunner/Blueprints/BPItem.BPItem:EventGraph.K2Node_Event_216' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPItem.PackageMetaData'
+[2015.08.21-01.24.32:205][972]LogMetaData: Removing '/Game/SpiritRunner/Blueprints/BPItem.BPItem:EventGraph.K2Node_Event_217' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPItem.PackageMetaData'
+[2015.08.21-01.24.32:205][972]LogMetaData: Removing '/Game/SpiritRunner/Blueprints/BPItem.SKEL_BPItem_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPItem.PackageMetaData'
+[2015.08.21-01.24.32:292][972]LogMetaData: Removing '/Game/SpiritRunner/Blueprints/BPSuperSpeed.BPSuperSpeed_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPSuperSpeed.PackageMetaData'
+[2015.08.21-01.24.32:292][972]LogMetaData: Removing '/Game/SpiritRunner/Blueprints/BPSuperSpeed.SKEL_BPSuperSpeed_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPSuperSpeed.PackageMetaData'
+[2015.08.21-01.24.32:462][972]LogMetaData: Removing '/Game/SpiritRunner/Blueprints/RunGameMode.RunGameMode_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/RunGameMode.PackageMetaData'
+[2015.08.21-01.24.32:462][972]LogMetaData: Removing '/Game/SpiritRunner/Blueprints/RunGameMode.RunGameMode:AddFloorTile.K2Node_FunctionEntry_378' ref from Metadata '/Game/ThirdPersonBP/Blueprints/RunGameMode.PackageMetaData'
+[2015.08.21-01.24.32:462][972]LogMetaData: Removing '/Game/SpiritRunner/Blueprints/RunGameMode.RunGameMode:AddFirstFloorTile.K2Node_FunctionEntry_3686' ref from Metadata '/Game/ThirdPersonBP/Blueprints/RunGameMode.PackageMetaData'
+[2015.08.21-01.24.32:462][972]LogMetaData: Removing '/Game/SpiritRunner/Blueprints/RunGameMode.SKEL_RunGameMode_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/RunGameMode.PackageMetaData'
+[2015.08.21-01.24.32:600][972]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BPFloorTile_Left_Corner_C_281' (it may have been removed)
+[2015.08.21-01.24.32:643][972]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'Ramp' in BlueprintGeneratedClass 'REINST_BPFloorTile_Ramp_Down_C_285' (it may have been removed)
+[2015.08.21-01.24.32:683][972]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'Ramp' in BlueprintGeneratedClass 'REINST_BPFloorTile_Ramp_Up_C_289' (it may have been removed)
+[2015.08.21-01.24.32:726][972]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BPFloorTile_Right_Corner_C_293' (it may have been removed)
+[2015.08.21-01.24.32:964][972]LogMetaData: Removing '/Game/SpiritRunner/Blueprints/BPFloorTile.BPFloorTile_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPFloorTiLE.PackageMetaData'
+[2015.08.21-01.24.32:964][972]LogMetaData: Removing '/Game/SpiritRunner/Blueprints/BPFloorTile.BPFloorTile:UserConstructionScript.K2Node_FunctionEntry_370' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPFloorTiLE.PackageMetaData'
+[2015.08.21-01.24.32:964][972]LogMetaData: Removing '/Game/SpiritRunner/Blueprints/BPFloorTile.BPFloorTile:EventGraph.K2Node_Event_224' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPFloorTiLE.PackageMetaData'
+[2015.08.21-01.24.32:964][972]LogMetaData: Removing '/Game/SpiritRunner/Blueprints/BPFloorTile.BPFloorTile:EventGraph.K2Node_Event_225' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPFloorTiLE.PackageMetaData'
+[2015.08.21-01.24.32:964][972]LogMetaData: Removing '/Game/SpiritRunner/Blueprints/BPFloorTile.BPFloorTile:EventGraph.K2Node_Event_226' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPFloorTiLE.PackageMetaData'
+[2015.08.21-01.24.32:964][972]LogMetaData: Removing '/Game/SpiritRunner/Blueprints/BPFloorTile.BPFloorTile:GetAttachTransform.K2Node_FunctionEntry_371' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPFloorTiLE.PackageMetaData'
+[2015.08.21-01.24.32:964][972]LogMetaData: Removing '/Game/SpiritRunner/Blueprints/BPFloorTile.BPFloorTile:GetAttachTransform.K2Node_FunctionResult_0' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPFloorTiLE.PackageMetaData'
+[2015.08.21-01.24.32:964][972]LogMetaData: Removing '/Game/SpiritRunner/Blueprints/BPFloorTile.BPFloorTile:SetSpawnPoints.K2Node_FunctionEntry_443' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPFloorTiLE.PackageMetaData'
+[2015.08.21-01.24.32:964][972]LogMetaData: Removing '/Game/SpiritRunner/Blueprints/BPFloorTile.BPFloorTile:SpawnBlocker.K2Node_FunctionEntry_476' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPFloorTiLE.PackageMetaData'
+[2015.08.21-01.24.32:964][972]LogMetaData: Removing '/Game/SpiritRunner/Blueprints/BPFloorTile.BPFloorTile:SpawnCoins.K2Node_FunctionEntry_318' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPFloorTiLE.PackageMetaData'
+[2015.08.21-01.24.32:964][972]LogMetaData: Removing '/Game/SpiritRunner/Blueprints/BPFloorTile.BPFloorTile:SpawnSuperSpeed.K2Node_FunctionEntry_4222' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPFloorTiLE.PackageMetaData'
+[2015.08.21-01.24.32:964][972]LogMetaData: Removing '/Game/SpiritRunner/Blueprints/BPFloorTile.SKEL_BPFloorTile_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPFloorTiLE.PackageMetaData'
+[2015.08.21-01.24.33:076][972]LogMetaData: Removing '/Game/SpiritRunner/Blueprints/BPFloorTileFlat.BPFloorTileFlat:UserConstructionScript.K2Node_FunctionEntry_3532' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPFloorTileFlat.PackageMetaData'
+[2015.08.21-01.24.33:076][972]LogMetaData: Removing '/Game/SpiritRunner/Blueprints/BPFloorTileFlat.BPFloorTileFlat_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPFloorTileFlat.PackageMetaData'
+[2015.08.21-01.24.33:076][972]LogMetaData: Removing '/Game/SpiritRunner/Blueprints/BPFloorTileFlat.BPFloorTileFlat:EventGraph.K2Node_Event_1198' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPFloorTileFlat.PackageMetaData'
+[2015.08.21-01.24.33:076][972]LogMetaData: Removing '/Game/SpiritRunner/Blueprints/BPFloorTileFlat.BPFloorTileFlat:EventGraph.K2Node_Event_1199' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPFloorTileFlat.PackageMetaData'
+[2015.08.21-01.24.33:076][972]LogMetaData: Removing '/Game/SpiritRunner/Blueprints/BPFloorTileFlat.BPFloorTileFlat:EventGraph.K2Node_Event_1200' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPFloorTileFlat.PackageMetaData'
+[2015.08.21-01.24.33:076][972]LogMetaData: Removing '/Game/SpiritRunner/Blueprints/BPFloorTileFlat.SKEL_BPFloorTileFlat_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPFloorTileFlat.PackageMetaData'
+[2015.08.21-01.24.33:186][972]LogMetaData: Removing '/Game/SpiritRunner/UMG/RunHUD.RunHUD_C' ref from Metadata '/Game/ThirdPersonBP/UMG/RunHUD.PackageMetaData'
+[2015.08.21-01.24.33:186][972]LogMetaData: Removing '/Game/SpiritRunner/UMG/RunHUD.RunHUD:GetText_1.K2Node_FunctionEntry_759' ref from Metadata '/Game/ThirdPersonBP/UMG/RunHUD.PackageMetaData'
+[2015.08.21-01.24.33:186][972]LogMetaData: Removing '/Game/SpiritRunner/UMG/RunHUD.RunHUD:EventGraph.K2Node_Event_329' ref from Metadata '/Game/ThirdPersonBP/UMG/RunHUD.PackageMetaData'
+[2015.08.21-01.24.33:186][972]LogMetaData: Removing '/Game/SpiritRunner/UMG/RunHUD.RunHUD:EventGraph.K2Node_Event_330' ref from Metadata '/Game/ThirdPersonBP/UMG/RunHUD.PackageMetaData'
+[2015.08.21-01.24.33:186][972]LogMetaData: Removing '/Game/SpiritRunner/UMG/RunHUD.RunHUD:GetText_0.K2Node_FunctionEntry_457' ref from Metadata '/Game/ThirdPersonBP/UMG/RunHUD.PackageMetaData'
+[2015.08.21-01.24.33:186][972]LogMetaData: Removing '/Game/SpiritRunner/UMG/RunHUD.RunHUD:GetText_0.K2Node_FunctionResult_0' ref from Metadata '/Game/ThirdPersonBP/UMG/RunHUD.PackageMetaData'
+[2015.08.21-01.24.33:187][972]LogMetaData: Removing '/Game/SpiritRunner/UMG/RunHUD.RunHUD:GetText_1.K2Node_FunctionResult_0' ref from Metadata '/Game/ThirdPersonBP/UMG/RunHUD.PackageMetaData'
+[2015.08.21-01.24.33:187][972]LogMetaData: Removing '/Game/SpiritRunner/UMG/RunHUD.SKEL_RunHUD_C' ref from Metadata '/Game/ThirdPersonBP/UMG/RunHUD.PackageMetaData'
+[2015.08.21-01.24.33:262][972]LogMetaData: Removing '/Game/SpiritRunner/Blueprints/BPFloorTile_Left_Corner.BPFloorTile_Left_Corner_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPFloorTile_Left_Corner.PackageMetaData'
+[2015.08.21-01.24.33:262][972]LogMetaData: Removing '/Game/SpiritRunner/Blueprints/BPFloorTile_Left_Corner.SKEL_BPFloorTile_Left_Corner_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPFloorTile_Left_Corner.PackageMetaData'
+[2015.08.21-01.24.33:329][972]LogMetaData: Removing '/Game/SpiritRunner/Blueprints/BPFloorTile_Ramp_Down.BPFloorTile_Ramp_Down_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPFloorTile_Ramp_Down.PackageMetaData'
+[2015.08.21-01.24.33:329][972]LogMetaData: Removing '/Game/SpiritRunner/Blueprints/BPFloorTile_Ramp_Down.SKEL_BPFloorTile_Ramp_Down_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPFloorTile_Ramp_Down.PackageMetaData'
+[2015.08.21-01.24.33:395][972]LogMetaData: Removing '/Game/SpiritRunner/Blueprints/BPFloorTile_Ramp_Up.BPFloorTile_Ramp_Up_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPFloorTile_Ramp_Up.PackageMetaData'
+[2015.08.21-01.24.33:395][972]LogMetaData: Removing '/Game/SpiritRunner/Blueprints/BPFloorTile_Ramp_Up.BPFloorTile_Ramp_Up:UserConstructionScript.K2Node_FunctionEntry_173' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPFloorTile_Ramp_Up.PackageMetaData'
+[2015.08.21-01.24.33:395][972]LogMetaData: Removing '/Game/SpiritRunner/Blueprints/BPFloorTile_Ramp_Up.BPFloorTile_Ramp_Up:EventGraph.K2Node_Event_177' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPFloorTile_Ramp_Up.PackageMetaData'
+[2015.08.21-01.24.33:395][972]LogMetaData: Removing '/Game/SpiritRunner/Blueprints/BPFloorTile_Ramp_Up.BPFloorTile_Ramp_Up:EventGraph.K2Node_Event_178' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPFloorTile_Ramp_Up.PackageMetaData'
+[2015.08.21-01.24.33:395][972]LogMetaData: Removing '/Game/SpiritRunner/Blueprints/BPFloorTile_Ramp_Up.BPFloorTile_Ramp_Up:EventGraph.K2Node_Event_179' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPFloorTile_Ramp_Up.PackageMetaData'
+[2015.08.21-01.24.33:395][972]LogMetaData: Removing '/Game/SpiritRunner/Blueprints/BPFloorTile_Ramp_Up.SKEL_BPFloorTile_Ramp_Up_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPFloorTile_Ramp_Up.PackageMetaData'
+[2015.08.21-01.24.33:469][972]LogMetaData: Removing '/Game/SpiritRunner/Blueprints/BPFloorTile_Right_Corner.BPFloorTile_Right_Corner_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPFloorTile_Right_Corner.PackageMetaData'
+[2015.08.21-01.24.33:469][972]LogMetaData: Removing '/Game/SpiritRunner/Blueprints/BPFloorTile_Right_Corner.BPFloorTile_Right_Corner:UserConstructionScript.K2Node_FunctionEntry_165' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPFloorTile_Right_Corner.PackageMetaData'
+[2015.08.21-01.24.33:469][972]LogMetaData: Removing '/Game/SpiritRunner/Blueprints/BPFloorTile_Right_Corner.BPFloorTile_Right_Corner:EventGraph.K2Node_Event_167' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPFloorTile_Right_Corner.PackageMetaData'
+[2015.08.21-01.24.33:469][972]LogMetaData: Removing '/Game/SpiritRunner/Blueprints/BPFloorTile_Right_Corner.BPFloorTile_Right_Corner:EventGraph.K2Node_Event_168' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPFloorTile_Right_Corner.PackageMetaData'
+[2015.08.21-01.24.33:469][972]LogMetaData: Removing '/Game/SpiritRunner/Blueprints/BPFloorTile_Right_Corner.BPFloorTile_Right_Corner:EventGraph.K2Node_Event_169' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPFloorTile_Right_Corner.PackageMetaData'
+[2015.08.21-01.24.33:469][972]LogMetaData: Removing '/Game/SpiritRunner/Blueprints/BPFloorTile_Right_Corner.SKEL_BPFloorTile_Right_Corner_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPFloorTile_Right_Corner.PackageMetaData'
+[2015.08.21-01.24.33:676][972]LogMetaData: Removing '/Game/SpiritRunner/UMG/MainMenu.MainMenu_C' ref from Metadata '/Game/ThirdPersonBP/UMG/MainMenu.PackageMetaData'
+[2015.08.21-01.24.33:676][972]LogMetaData: Removing '/Game/SpiritRunner/UMG/MainMenu.MainMenu:EventGraph.K2Node_Event_25' ref from Metadata '/Game/ThirdPersonBP/UMG/MainMenu.PackageMetaData'
+[2015.08.21-01.24.33:676][972]LogMetaData: Removing '/Game/SpiritRunner/UMG/MainMenu.SKEL_MainMenu_C' ref from Metadata '/Game/ThirdPersonBP/UMG/MainMenu.PackageMetaData'
+[2015.08.21-01.24.33:785][972]LogMetaData: Removing '/Game/SpiritRunner/Maps/ThirdPersonExampleMap.SKEL_ThirdPersonExampleMap_C' ref from Metadata '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.PackageMetaData'
+[2015.08.21-01.24.33:785][972]LogMetaData: Removing '/Game/SpiritRunner/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' ref from Metadata '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.PackageMetaData'
+[2015.08.21-01.24.33:852][972]LogMetaData: Removing '/Game/SpiritRunner/ThirdPersonOverview.ThirdPersonOverview_C' ref from Metadata '/Game/ThirdPersonBP/ThirdPersonOverview.PackageMetaData'
+[2015.08.21-01.24.33:852][972]LogMetaData: Removing '/Game/SpiritRunner/ThirdPersonOverview.SKEL_ThirdPersonOverview_C' ref from Metadata '/Game/ThirdPersonBP/ThirdPersonOverview.PackageMetaData'
+[2015.08.21-01.24.34:028][972]LogMetaData: Removing '/Game/SpiritRunner/Maps/RunnerMapTest.SKEL_RunnerMapTest_C' ref from Metadata '/Game/ThirdPersonBP/Maps/RunnerMapTest.PackageMetaData'
+[2015.08.21-01.24.34:028][972]LogMetaData: Removing '/Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest_C' ref from Metadata '/Game/ThirdPersonBP/Maps/RunnerMapTest.PackageMetaData'
+[2015.08.21-01.24.34:102][972]LogMetaData: Removing '/Game/SpiritRunner/UMG/StartMenu.StartMenu_C' ref from Metadata '/Game/ThirdPersonBP/UMG/StartMenu.PackageMetaData'
+[2015.08.21-01.24.34:102][972]LogMetaData: Removing '/Game/SpiritRunner/UMG/StartMenu.StartMenu:EventGraph.K2Node_Event_267' ref from Metadata '/Game/ThirdPersonBP/UMG/StartMenu.PackageMetaData'
+[2015.08.21-01.24.34:102][972]LogMetaData: Removing '/Game/SpiritRunner/UMG/StartMenu.StartMenu:EventGraph.K2Node_Event_268' ref from Metadata '/Game/ThirdPersonBP/UMG/StartMenu.PackageMetaData'
+[2015.08.21-01.24.34:102][972]LogMetaData: Removing '/Game/SpiritRunner/UMG/StartMenu.SKEL_StartMenu_C' ref from Metadata '/Game/ThirdPersonBP/UMG/StartMenu.PackageMetaData'
+[2015.08.21-01.24.34:110][972]LogD3D11RHI: InitD3DDevice
+[2015.08.21-01.24.34:129][972]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.08.21-01.24.34:130][972]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.08.21-01.24.34:130][972]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.08.21-01.24.34:131][972]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/UE4_Mannequin/Mesh/UE4_Mannequin.UE4_Mannequin'
+[2015.08.21-01.24.34:143][972]LogSavePackage: Save=4.792872ms
+[2015.08.21-01.24.34:143][972]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Saved/ThirdPersonIdleRun94209CB14BF3D3F1AFEC1581E29F10E0.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/Animations/ThirdPersonIdleRun.uasset'
+[2015.08.21-01.24.34:158][972]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.08.21-01.24.34:158][972]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.08.21-01.24.34:159][972]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.08.21-01.24.34:159][972]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/UE4_Mannequin/Mesh/UE4_Mannequin.UE4_Mannequin'
+[2015.08.21-01.24.34:171][972]LogSavePackage: Save=4.958737ms
+[2015.08.21-01.24.34:171][972]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Saved/ThirdPersonWalkBB457CC54EDAA9A2C0A3F08DCB5D0670.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/Animations/ThirdPersonWalk.uasset'
+[2015.08.21-01.24.34:177][972]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.08.21-01.24.34:178][972]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.08.21-01.24.34:179][972]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.08.21-01.24.34:179][972]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/UE4_Mannequin/Mesh/UE4_Mannequin.UE4_Mannequin'
+[2015.08.21-01.24.34:191][972]LogSavePackage: Save=4.799162ms
+[2015.08.21-01.24.34:191][972]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Saved/ThirdPersonRun8E6506524DDE886B4D70A1B32212C151.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/Animations/ThirdPersonRun.uasset'
+[2015.08.21-01.24.34:198][972]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.08.21-01.24.34:198][972]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.08.21-01.24.34:199][972]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.08.21-01.24.34:199][972]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/UE4_Mannequin/Mesh/UE4_Mannequin.UE4_Mannequin'
+[2015.08.21-01.24.34:212][972]LogSavePackage: Save=5.301393ms
+[2015.08.21-01.24.34:212][972]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Saved/ThirdPersonIdle84FCF22247C1A847717A7EA1056285E8.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/Animations/ThirdPersonIdle.uasset'
+[2015.08.21-01.24.34:219][972]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.08.21-01.24.34:221][972]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.08.21-01.24.34:222][972]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.08.21-01.24.34:222][972]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/UE4_Mannequin/Mesh/UE4_Mannequin.UE4_Mannequin'
+[2015.08.21-01.24.34:259][972]LogSavePackage: Save=4.812405ms
+[2015.08.21-01.24.34:259][972]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Saved/ThirdPersonJump_Start1765D83D4688FC64C05A3FB6245A4BEF.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/Animations/ThirdPersonJump_Start.uasset'
+[2015.08.21-01.24.34:267][972]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.08.21-01.24.34:267][972]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.08.21-01.24.34:268][972]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.08.21-01.24.34:268][972]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/UE4_Mannequin/Mesh/UE4_Mannequin.UE4_Mannequin'
+[2015.08.21-01.24.34:280][972]LogSavePackage: Save=4.694876ms
+[2015.08.21-01.24.34:281][972]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Saved/ThirdPersonJump_Loop3547BA5E414D5316710698B42E9AC5E1.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/Animations/ThirdPersonJump_Loop.uasset'
+[2015.08.21-01.24.34:288][972]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.08.21-01.24.34:289][972]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.08.21-01.24.34:289][972]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.08.21-01.24.34:289][972]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/UE4_Mannequin/Mesh/UE4_Mannequin.UE4_Mannequin'
+[2015.08.21-01.24.34:301][972]LogSavePackage: Save=4.870342ms
+[2015.08.21-01.24.34:301][972]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Saved/ThirdPersonJump_End569D2E86493C49B86BEABE96A5F0261A.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/Animations/ThirdPersonJump_End.uasset'
+[2015.08.21-01.24.34:312][972]LogSavePackage: Save=1.639118ms
+[2015.08.21-01.24.34:312][972]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Saved/UE4_Mannequin_Skeleton1007EBBB4E1A74CB640859BE634BBA6D.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/Character/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2015.08.21-01.24.34:322][972]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.08.21-01.24.34:323][972]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.08.21-01.24.34:323][972]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.08.21-01.24.34:324][972]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/UE4_Mannequin/Mesh/UE4_Mannequin.UE4_Mannequin'
+[2015.08.21-01.24.34:476][972]LogSavePackage: Save=64.853584ms
+[2015.08.21-01.24.34:476][972]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Saved/ThirdPersonAnimBlueprintF7CB557F427E9833211A0C8971C51173.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/Animations/ThirdPersonAnimBlueprint.uasset'
+[2015.08.21-01.24.34:601][972]LogSavePackage: Save=57.422428ms
+[2015.08.21-01.24.34:601][972]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Saved/T_ML_Aluminum0138485D374951314133AFB18F1F651297.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/Character/Materials/MaterialLayers/T_ML_Aluminum01.uasset'
+[2015.08.21-01.24.34:689][972]LogSavePackage: Save=8.727285ms
+[2015.08.21-01.24.34:689][972]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Saved/T_ML_Aluminum01_N60FAADF3419BD2D41709878CC664E280.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset'
+[2015.08.21-01.24.34:712][972]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2015.08.21-01.24.34:994][972]LogSavePackage: Save=12.307124ms
+[2015.08.21-01.24.34:994][972]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Saved/ML_GlossyBlack_Latex_UE479D89A014DAFF82E5CE8428C87B1E429.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset'
+[2015.08.21-01.24.35:005][972]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2015.08.21-01.24.35:094][972]LogSavePackage: Save=11.265584ms
+[2015.08.21-01.24.35:094][972]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Saved/ML_Plastic_Shiny_BeigeB7F65B5D4345032A3E6329A715801F7C.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset'
+[2015.08.21-01.24.35:122][972]LogSavePackage: Save=8.095276ms
+[2015.08.21-01.24.35:122][972]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Saved/UE4_LOGO_CARDAF348C1247CB1AF521BABD89978DD92D.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/Character/Textures/UE4_LOGO_CARD.uasset'
+[2015.08.21-01.24.35:133][972]LogMaterial: Missing cached shader map for material Material_2, compiling. 
+[2015.08.21-01.24.35:184][972]LogSavePackage: Save=11.874087ms
+[2015.08.21-01.24.35:184][972]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Saved/ML_Plastic_Shiny_Beige_LOGOD5A6BA624BCD1EB92A8A3AB0488105C2.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset'
+[2015.08.21-01.24.35:243][972]LogSavePackage: Save=9.012666ms
+[2015.08.21-01.24.35:243][972]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Saved/T_ML_Rubber_Blue_01_N080B6E0044A43E665E544886995E5D5C.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset'
+[2015.08.21-01.24.35:253][972]LogMaterial: Missing cached shader map for material Material_3, compiling. 
+[2015.08.21-01.24.35:303][972]LogSavePackage: Save=12.520663ms
+[2015.08.21-01.24.35:303][972]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Saved/ML_SoftMetal_UE4E878F8574E01B599F152D2B5A6F15300.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset'
+[2015.08.21-01.24.35:408][972]LogSavePackage: Save=73.621262ms
+[2015.08.21-01.24.35:408][972]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Saved/UE4_Mannequin__normals509528B443AE010623028FA0481A93C7.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/Character/Textures/UE4_Mannequin__normals.uasset'
+[2015.08.21-01.24.35:471][972]LogSavePackage: Save=13.386075ms
+[2015.08.21-01.24.35:471][972]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Saved/UE4_Mannequin_MAT_MASKA6B8AB2BC4529391F706FAE814D3C0002.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/Character/Textures/UE4_Mannequin_MAT_MASKA.uasset'
+[2015.08.21-01.24.35:504][972]LogSavePackage: Save=15.147026ms
+[2015.08.21-01.24.35:504][972]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Saved/UE4_Mannequin_occlusion9E9B6DFD46C9E2821A4712B77A710EBE.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/Character/Textures/UE4_Mannequin_occlusion.uasset'
+[2015.08.21-01.24.35:571][972]LogSavePackage: Save=15.692295ms
+[2015.08.21-01.24.35:571][972]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Saved/M_UE4Man_Body9AFA1DD04FE62D0A7985D3B8105B38C9.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/Character/Materials/M_UE4Man_Body.uasset'
+[2015.08.21-01.24.35:600][972]LogSavePackage: Save=10.482939ms
+[2015.08.21-01.24.35:600][972]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Saved/UE4Man_Logo_NB0C695F4436DE306311B19B8C99EBA4E.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/Character/Textures/UE4Man_Logo_N.uasset'
+[2015.08.21-01.24.35:675][972]LogSavePackage: Save=10.907037ms
+[2015.08.21-01.24.35:675][972]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Saved/M_UE4Man_ChestLogoEA73BA3444A633D84DEB4E8C81C30B53.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/Character/Materials/M_UE4Man_ChestLogo.uasset'
+[2015.08.21-01.24.35:692][972]LogSavePackage: Save=8.265445ms
+[2015.08.21-01.24.35:692][972]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Saved/SK_Mannequin_PhysicsAssetB6B8D6774B779D3CBD0CF2BDBF3AF02A.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/Character/Mesh/SK_Mannequin_PhysicsAsset.uasset'
+[2015.08.21-01.24.35:832][972]LogSavePackage: Save=54.387527ms
+[2015.08.21-01.24.35:832][972]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Saved/SK_MannequinA224DA50419E5DFC353CEA9701E798C5.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/Character/Mesh/SK_Mannequin.uasset'
+[2015.08.21-01.24.35:840][972]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpiritRunner/UMG/GG" FILE="../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/UMG/GG.uasset" SILENT=true
+[2015.08.21-01.24.35:883][972]LogSavePackage: Save=42.755451ms
+[2015.08.21-01.24.35:883][972]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Saved/GG1D56D8FC491BB960C9A71D9701A6F91E.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/UMG/GG.uasset'
+[2015.08.21-01.24.36:120][972]LogSavePackage: Save=189.865540ms
+[2015.08.21-01.24.36:120][972]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Saved/RunCharacterAF4A6C9C48A150E6BC6145B338FE9A4A.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/Blueprints/RunCharacter.uasset'
+[2015.08.21-01.24.36:211][972]LogSavePackage: Save=28.472515ms
+[2015.08.21-01.24.36:211][972]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Saved/BPBlocker4791CA3240728731B59A9D916BBEBEB9.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/Blueprints/BPBlocker.uasset'
+[2015.08.21-01.24.36:706][972]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpiritRunner/Sounds/smb3_coin" FILE="../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/Sounds/smb3_coin.uasset" SILENT=true
+[2015.08.21-01.24.36:713][972]LogSavePackage: Save=3.940372ms
+[2015.08.21-01.24.36:713][972]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Saved/smb3_coinCB3925684292182999E5F6B560E3E473.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/Sounds/smb3_coin.uasset'
+[2015.08.21-01.24.36:954][972]LogSavePackage: Save=37.920204ms
+[2015.08.21-01.24.36:954][972]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Saved/BPItem68F1D59F47335DAB340117AC445A9DCC.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/Blueprints/BPItem.uasset'
+[2015.08.21-01.24.37:076][972]LogSavePackage: Save=70.441353ms
+[2015.08.21-01.24.37:076][972]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Saved/BPSuperSpeed4F6C14BD461FF04592814689C565D7F5.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/Blueprints/BPSuperSpeed.uasset'
+[2015.08.21-01.24.37:163][972]LogSavePackage: Save=78.989525ms
+[2015.08.21-01.24.37:163][972]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Saved/RunGameMode4130E6B440F3CAD9E76E2A88CF24A671.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/Blueprints/RunGameMode.uasset'
+[2015.08.21-01.24.37:358][972]LogSavePackage: Save=164.490494ms
+[2015.08.21-01.24.37:358][972]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Saved/BPFloorTile276B5C69403997E90D0FA8B2E757FDF4.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/Blueprints/BPFloorTile.uasset'
+[2015.08.21-01.24.37:523][972]LogSavePackage: Save=21.323101ms
+[2015.08.21-01.24.37:523][972]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Saved/BPFloorTileFlat64B777C1493FD52771C5929936ACB702.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/Blueprints/BPFloorTileFlat.uasset'
+[2015.08.21-01.24.37:530][972]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpiritRunner/UMG/RunHUD" FILE="../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/UMG/RunHUD.uasset" SILENT=true
+[2015.08.21-01.24.37:612][972]LogSavePackage: Save=29.154184ms
+[2015.08.21-01.24.37:612][972]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Saved/RunHUD5A0459BE46467774E6709EB7ECED1612.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/UMG/RunHUD.uasset'
+[2015.08.21-01.24.37:728][972]LogSavePackage: Save=32.372498ms
+[2015.08.21-01.24.37:728][972]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Saved/BPFloorTile_Left_Corner17225F4A432C2984B26745A75E61BF52.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/Blueprints/BPFloorTile_Left_Corner.uasset'
+[2015.08.21-01.24.37:792][972]LogSavePackage: Save=23.012209ms
+[2015.08.21-01.24.37:792][972]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Saved/BPFloorTile_Ramp_Down4BAD64B54130048BC48A298BD0369163.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/Blueprints/BPFloorTile_Ramp_Down.uasset'
+[2015.08.21-01.24.37:846][972]LogSavePackage: Save=23.622368ms
+[2015.08.21-01.24.37:846][972]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Saved/BPFloorTile_Ramp_Up984E35A043C54284E13516B675FCD2AB.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/Blueprints/BPFloorTile_Ramp_Up.uasset'
+[2015.08.21-01.24.37:951][972]LogSavePackage: Save=63.068134ms
+[2015.08.21-01.24.37:951][972]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Saved/BPFloorTile_Right_CornerC37E01C3491C9B62241DA0853638CE87.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/Blueprints/BPFloorTile_Right_Corner.uasset'
+[2015.08.21-01.24.38:066][972]LogSavePackage: Save=11.260949ms
+[2015.08.21-01.24.38:066][972]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Saved/CubeMaterial746DD9E44E81CAB761918BA54D1DB6C4.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/Meshes/CubeMaterial.uasset'
+[2015.08.21-01.24.38:147][972]LogSavePackage: Save=10.169086ms
+[2015.08.21-01.24.38:147][972]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Saved/Bump_StaticMesh6ED779064CBF4DB38F805E8BD813453C.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/Meshes/Bump_StaticMesh.uasset'
+[2015.08.21-01.24.38:198][972]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpiritRunner/Meshes/CubeMesh" FILE="../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/Meshes/CubeMesh.uasset" SILENT=true
+[2015.08.21-01.24.38:210][972]LogSavePackage: Save=10.051888ms
+[2015.08.21-01.24.38:210][972]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Saved/CubeMeshD350F74A4F5D90FC4DE24BB4CA97116B.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/Meshes/CubeMesh.uasset'
+[2015.08.21-01.24.38:262][972]LogSavePackage: Save=10.856383ms
+[2015.08.21-01.24.38:262][972]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Saved/LeftArm_StaticMesh54A4B576468395F1ED6D1D8E5DEBE237.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/Meshes/LeftArm_StaticMesh.uasset'
+[2015.08.21-01.24.38:332][972]LogSavePackage: Save=10.409442ms
+[2015.08.21-01.24.38:332][972]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Saved/Linear_Stair_StaticMeshAC32345E46854846AF1619BE4C3170E7.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/Meshes/Linear_Stair_StaticMesh.uasset'
+[2015.08.21-01.24.38:398][972]LogSavePackage: Save=10.559085ms
+[2015.08.21-01.24.38:398][972]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Saved/Ramp_StaticMesh50244CF349EBB5AF4A25E5BD45AFF428.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/Meshes/Ramp_StaticMesh.uasset'
+[2015.08.21-01.24.38:437][972]LogSavePackage: Save=10.748124ms
+[2015.08.21-01.24.38:437][972]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Saved/RightArm_StaticMeshFEFB24DD4D88F0CF5E8E3A934D266A91.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/Meshes/RightArm_StaticMesh.uasset'
+[2015.08.21-01.24.38:516][972]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpiritRunner/UMG/MainMenu" FILE="../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/UMG/MainMenu.uasset" SILENT=true
+[2015.08.21-01.24.38:601][972]LogSavePackage: Save=49.858189ms
+[2015.08.21-01.24.38:601][972]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Saved/MainMenu7AFB86734D4240AAED9D798576ECF8E6.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/UMG/MainMenu.uasset'
+[2015.08.21-01.24.38:766][972]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.21-01.24.38:767][972]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement0C812BA34D0DD21FB12D1D9A948423D7) Not registered. Aborting.
+[2015.08.21-01.24.38:767][972]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_1) Not registered. Aborting.
+[2015.08.21-01.24.39:831][972]LogSavePackage: Save=1036.326782ms
+[2015.08.21-01.24.39:831][972]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Saved/ThirdPersonExampleMap6BE3927C4E889915464A49AD44B88FEB.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/Maps/ThirdPersonExampleMap.umap'
+[2015.08.21-01.24.39:878][972]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 1.232
+[2015.08.21-01.24.39:916][972]LogSavePackage: Save=4.683620ms
+[2015.08.21-01.24.39:916][972]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Saved/ThirdPersonOverviewE3069C19476D3E0CFD3F6B833A83462D.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/ThirdPersonOverview.uasset'
+[2015.08.21-01.24.39:927][972]LogSavePackage: Save=1.389824ms
+[2015.08.21-01.24.39:927][972]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Saved/Default__ThirdPersonCharacter_C832ABE35450DCFBE6317F5AA305DFD31.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/Blueprints/Default__ThirdPersonCharacter_C.uasset'
+[2015.08.21-01.24.39:944][972]LogSavePackage: Save=1.196149ms
+[2015.08.21-01.24.39:944][972]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Saved/ThirdPersonCharacter7B06017444326E475F740D8A0F701EF0.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/Blueprints/ThirdPersonCharacter.uasset'
+[2015.08.21-01.24.39:962][972]LogSavePackage: Save=9.039151ms
+[2015.08.21-01.24.39:962][972]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Saved/ThirdPersonCharacter_C7DE068244EC416C965F2E68504C4CE55.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/Blueprints/ThirdPersonCharacter_C.uasset'
+[2015.08.21-01.24.39:974][972]LogSavePackage: Save=1.162380ms
+[2015.08.21-01.24.39:974][972]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Saved/Default__ThirdPersonGameMode_CA2F01C8440A6AF6C29119DAAB1F3085D.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/Blueprints/Default__ThirdPersonGameMode_C.uasset'
+[2015.08.21-01.24.39:991][972]LogSavePackage: Save=1.249451ms
+[2015.08.21-01.24.39:991][972]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Saved/ThirdPersonGameModeF224E3FB4E9B93C947FB4EA5EAD94EA6.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/Blueprints/ThirdPersonGameMode.uasset'
+[2015.08.21-01.24.40:005][972]LogSavePackage: Save=5.272259ms
+[2015.08.21-01.24.40:005][972]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Saved/ThirdPersonGameMode_C814FC0A04A85A9D1F38739BA48994E6E.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/Blueprints/ThirdPersonGameMode_C.uasset'
+[2015.08.21-01.24.40:199][972]LogMaterial: Missing cached shader map for material Material_4, compiling. 
+[2015.08.21-01.24.40:375][972]LogSavePackage: Save=12.042932ms
+[2015.08.21-01.24.40:375][972]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Saved/ML_BasicTestMaterialD1A2513C44E35EC06289929090EBB749.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/Character/Materials/MaterialLayers/ML_BasicTestMaterial.uasset'
+[2015.08.21-01.24.40:412][972]LogSavePackage: Save=13.405276ms
+[2015.08.21-01.24.40:412][972]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Saved/T_ML_Rubber_Blue_01_DD6C5291945A32D48D7DD9EA7340AA5A3.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset'
+[2015.08.21-01.24.40:820][972]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpiritRunner/Maps/MyFont" FILE="../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/Maps/MyFont.uasset" SILENT=true
+[2015.08.21-01.24.40:909][972]LogSavePackage: Save=4.226415ms
+[2015.08.21-01.24.40:909][972]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Saved/MyFont71B57E694483D04AD7548B8F06975845.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/Maps/MyFont.uasset'
+[2015.08.21-01.24.41:422][972]LogSavePackage: Save=83.193764ms
+[2015.08.21-01.24.41:422][972]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Saved/RunnerMapTest226F4E214730FB292E9D9EBFDACED6D0.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/Maps/RunnerMapTest.umap'
+[2015.08.21-01.24.41:425][972]LogFileHelpers: Saving map 'RunnerMapTest' took 0.510
+[2015.08.21-01.24.41:448][972]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpiritRunner/Sounds/beepXX" FILE="../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/Sounds/beepXX.uasset" SILENT=true
+[2015.08.21-01.24.41:454][972]LogSavePackage: Save=4.501863ms
+[2015.08.21-01.24.41:454][972]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Saved/beepXXD56F3D414481CC15C7F58A999DBCF134.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/Sounds/beepXX.uasset'
+[2015.08.21-01.24.41:461][972]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpiritRunner/UMG/StartMenu" FILE="../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/UMG/StartMenu.uasset" SILENT=true
+[2015.08.21-01.24.41:472][972]LogSavePackage: Save=9.662884ms
+[2015.08.21-01.24.41:472][972]LogSavePackage: Moving '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Saved/StartMenu0E0501F94974F3864E7CC2A663D96FE6.tmp' to '../../../../../../Users/Skillinazn/Documents/Unreal Projects/SpiritRunner/Content/SpiritRunner/UMG/StartMenu.uasset'
+[2015.08.21-01.24.41:492][972]LogD3D11RHI: InitD3DDevice
+[2015.08.21-01.24.43:464][972]LogD3D11RHI: InitD3DDevice
+[2015.08.21-01.24.58:598][576]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.21-01.24.58:599][576]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement0C812BA34D0DD21FB12D1D9A948423D7) Not registered. Aborting.
+[2015.08.21-01.24.58:599][576]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_2) Not registered. Aborting.
+[2015.08.21-01.24.58:940][577]Cmd: QUIT_EDITOR
+[2015.08.21-01.24.59:184][577]LogExit: Preparing to exit.
+[2015.08.21-01.24.59:981][577]LogExit: Editor shut down
+[2015.08.21-01.24.59:982][577]LogExit: Transaction tracking system shut down
+[2015.08.21-01.24.59:983][577]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000037B9FA60
+[2015.08.21-01.24.59:984][577]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000037281C60
+[2015.08.21-01.24.59:984][577]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000371237E0
+[2015.08.21-01.24.59:984][577]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000036F06520
+[2015.08.21-01.24.59:984][577]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000E8C2E80
+[2015.08.21-01.24.59:984][577]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000E8C3920
+[2015.08.21-01.24.59:984][577]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000018C504A0
+[2015.08.21-01.24.59:984][577]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001E218180
+[2015.08.21-01.24.59:984][577]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001E218900
+[2015.08.21-01.24.59:984][577]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001E218360
+[2015.08.21-01.25.00:142][577]LogExit: Object subsystem successfully closed.
+[2015.08.21-01.25.00:157][577]LogD3D11RHI: Shutdown
+[2015.08.21-01.25.00:157][577]LogD3D11RHI: CleanupD3DDevice
+[2015.08.21-01.25.00:242][577]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.08.21-01.25.00:259][577]LogModuleManager: Shutting down and abandoning module CrashTracker (188)
+[2015.08.21-01.25.00:259][577]LogModuleManager: Shutting down and abandoning module SceneOutliner (187)
+[2015.08.21-01.25.00:259][577]LogModuleManager: Shutting down and abandoning module SuperSearch (186)
+[2015.08.21-01.25.00:259][577]LogModuleManager: Shutting down and abandoning module WidgetCarousel (185)
+[2015.08.21-01.25.00:259][577]LogModuleManager: Shutting down and abandoning module AddContentDialog (184)
+[2015.08.21-01.25.00:260][577]LogModuleManager: Shutting down and abandoning module EditorWidgets (183)
+[2015.08.21-01.25.00:260][577]LogModuleManager: Shutting down and abandoning module CollectionManager (182)
+[2015.08.21-01.25.00:260][577]LogModuleManager: Shutting down and abandoning module StatsViewer (181)
+[2015.08.21-01.25.00:260][577]LogModuleManager: Shutting down and abandoning module FoliageEdit (180)
+[2015.08.21-01.25.00:260][577]LogModuleManager: Shutting down and abandoning module LandscapeEditor (179)
+[2015.08.21-01.25.00:260][577]LogModuleManager: Shutting down and abandoning module ActorPickerMode (178)
+[2015.08.21-01.25.00:260][577]LogModuleManager: Shutting down and abandoning module GeometryMode (177)
+[2015.08.21-01.25.00:260][577]LogModuleManager: Shutting down and abandoning module TextureAlignMode (176)
+[2015.08.21-01.25.00:260][577]LogModuleManager: Shutting down and abandoning module BspMode (175)
+[2015.08.21-01.25.00:260][577]LogModuleManager: Shutting down and abandoning module PlacementMode (174)
+[2015.08.21-01.25.00:260][577]LogModuleManager: Shutting down and abandoning module AutomationWorker (173)
+[2015.08.21-01.25.00:260][577]LogModuleManager: Shutting down and abandoning module CharacterAI (172)
+[2015.08.21-01.25.00:260][577]LogModuleManager: Shutting down and abandoning module SmartSnapping (171)
+[2015.08.21-01.25.00:260][577]LogModuleManager: Shutting down and abandoning module ViewportSnapping (170)
+[2015.08.21-01.25.00:260][577]LogModuleManager: Shutting down and abandoning module LogVisualizer (169)
+[2015.08.21-01.25.00:260][577]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (168)
+[2015.08.21-01.25.00:260][577]LogModuleManager: Shutting down and abandoning module IntroTutorials (167)
+[2015.08.21-01.25.00:260][577]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (166)
+[2015.08.21-01.25.00:260][577]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (165)
+[2015.08.21-01.25.00:261][577]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (164)
+[2015.08.21-01.25.00:261][577]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
+[2015.08.21-01.25.00:492][577]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (162)
+[2015.08.21-01.25.00:492][577]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (161)
+[2015.08.21-01.25.00:492][577]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (160)
+[2015.08.21-01.25.00:492][577]LogModuleManager: Shutting down and abandoning module MergeActors (159)
+[2015.08.21-01.25.00:492][577]LogModuleManager: Shutting down and abandoning module SizeMap (158)
+[2015.08.21-01.25.00:492][577]LogModuleManager: Shutting down and abandoning module TreeMap (157)
+[2015.08.21-01.25.00:492][577]LogModuleManager: Shutting down and abandoning module ReferenceViewer (156)
+[2015.08.21-01.25.00:492][577]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (155)
+[2015.08.21-01.25.00:492][577]LogModuleManager: Shutting down and abandoning module HardwareTargeting (154)
+[2015.08.21-01.25.00:492][577]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (153)
+[2015.08.21-01.25.00:492][577]LogModuleManager: Shutting down and abandoning module UndoHistory (152)
+[2015.08.21-01.25.00:492][577]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (151)
+[2015.08.21-01.25.00:492][577]LogModuleManager: Shutting down and abandoning module UserFeedback (150)
+[2015.08.21-01.25.00:492][577]LogModuleManager: Shutting down and abandoning module XmlParser (149)
+[2015.08.21-01.25.00:492][577]LogModuleManager: Shutting down and abandoning module Blutility (148)
+[2015.08.21-01.25.00:492][577]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (147)
+[2015.08.21-01.25.00:492][577]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (146)
+[2015.08.21-01.25.00:492][577]LogModuleManager: Shutting down and abandoning module InputBindingEditor (145)
+[2015.08.21-01.25.00:492][577]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (144)
+[2015.08.21-01.25.00:492][577]LogModuleManager: Shutting down and abandoning module SettingsEditor (143)
+[2015.08.21-01.25.00:492][577]LogModuleManager: Shutting down and abandoning module ProjectLauncher (142)
+[2015.08.21-01.25.00:492][577]LogModuleManager: Shutting down and abandoning module SessionFrontend (141)
+[2015.08.21-01.25.00:492][577]LogModuleManager: Shutting down and abandoning module ProfilerClient (140)
+[2015.08.21-01.25.00:492][577]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (139)
+[2015.08.21-01.25.00:492][577]LogModuleManager: Shutting down and abandoning module DeviceManager (138)
+[2015.08.21-01.25.00:492][577]LogModuleManager: Shutting down and abandoning module AutomationController (137)
+[2015.08.21-01.25.00:492][577]LogModuleManager: Shutting down and abandoning module AutomationWindow (136)
+[2015.08.21-01.25.00:492][577]LogModuleManager: Shutting down and abandoning module Layers (135)
+[2015.08.21-01.25.00:493][577]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (134)
+[2015.08.21-01.25.00:493][577]LogModuleManager: Shutting down and abandoning module DetailCustomizations (133)
+[2015.08.21-01.25.00:493][577]LogModuleManager: Shutting down and abandoning module PackagesDialog (132)
+[2015.08.21-01.25.00:493][577]LogModuleManager: Shutting down and abandoning module AssetRegistry (131)
+[2015.08.21-01.25.00:539][577]LogModuleManager: Shutting down and abandoning module Persona (130)
+[2015.08.21-01.25.00:539][577]LogModuleManager: Shutting down and abandoning module Kismet (129)
+[2015.08.21-01.25.00:539][577]LogModuleManager: Shutting down and abandoning module GraphEditor (128)
+[2015.08.21-01.25.00:539][577]LogModuleManager: Shutting down and abandoning module ClassViewer (127)
+[2015.08.21-01.25.00:539][577]LogModuleManager: Shutting down and abandoning module Toolbox (126)
+[2015.08.21-01.25.00:539][577]LogModuleManager: Shutting down and abandoning module ModuleUI (125)
+[2015.08.21-01.25.00:539][577]LogModuleManager: Shutting down and abandoning module MovieSceneTools (124)
+[2015.08.21-01.25.00:539][577]LogModuleManager: Shutting down and abandoning module OutputLog (123)
+[2015.08.21-01.25.00:539][577]LogModuleManager: Shutting down and abandoning module GammaUI (122)
+[2015.08.21-01.25.00:539][577]LogModuleManager: Shutting down and abandoning module Documentation (121)
+[2015.08.21-01.25.00:539][577]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (120)
+[2015.08.21-01.25.00:539][577]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (119)
+[2015.08.21-01.25.00:539][577]LogModuleManager: Shutting down and abandoning module AnalyticsET (118)
+[2015.08.21-01.25.00:539][577]LogModuleManager: Shutting down and abandoning module Analytics (117)
+[2015.08.21-01.25.00:539][577]LogModuleManager: Shutting down and abandoning module AITestSuite (116)
+[2015.08.21-01.25.00:539][577]LogModuleManager: Shutting down and abandoning module GameplayDebugger (115)
+[2015.08.21-01.25.00:539][577]LogModuleManager: Shutting down and abandoning module AIModule (114)
+[2015.08.21-01.25.00:539][577]LogModuleManager: Shutting down and abandoning module ProfilerService (113)
+[2015.08.21-01.25.00:561][577]LogModuleManager: Shutting down and abandoning module TaskGraph (112)
+[2015.08.21-01.25.00:561][577]LogModuleManager: Shutting down and abandoning module SlateRemote (111)
+[2015.08.21-01.25.00:561][577]LogModuleManager: Shutting down and abandoning module SteamVRController (110)
+[2015.08.21-01.25.00:561][577]LogModuleManager: Shutting down and abandoning module SteamVR (109)
+[2015.08.21-01.25.00:561][577]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (108)
+[2015.08.21-01.25.00:561][577]LogModuleManager: Shutting down and abandoning module OculusRift (107)
+[2015.08.21-01.25.00:561][577]LogModuleManager: Shutting down and abandoning module LeapMotionController (106)
+[2015.08.21-01.25.00:570][577]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (105)
+[2015.08.21-01.25.00:571][577]LogModuleManager: Shutting down and abandoning module CableComponent (104)
+[2015.08.21-01.25.00:571][577]LogModuleManager: Shutting down and abandoning module MessagingDebugger (103)
+[2015.08.21-01.25.00:571][577]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (102)
+[2015.08.21-01.25.00:571][577]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (101)
+[2015.08.21-01.25.00:571][577]LogModuleManager: Shutting down and abandoning module PluginBrowser (100)
+[2015.08.21-01.25.00:571][577]LogModuleManager: Shutting down and abandoning module EpicSurvey (99)
+[2015.08.21-01.25.00:571][577]LogModuleManager: Shutting down and abandoning module DesktopPlatform (98)
+[2015.08.21-01.25.00:571][577]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (97)
+[2015.08.21-01.25.00:571][577]LogModuleManager: Shutting down and abandoning module UObjectPlugin (96)
+[2015.08.21-01.25.00:571][577]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (95)
+[2015.08.21-01.25.00:571][577]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (94)
+[2015.08.21-01.25.00:571][577]LogModuleManager: Shutting down and abandoning module SourceControl (93)
+[2015.08.21-01.25.00:571][577]LogModuleManager: Shutting down and abandoning module GitSourceControl (92)
+[2015.08.21-01.25.00:571][577]LogModuleManager: Shutting down and abandoning module BlankPlugin (91)
+[2015.08.21-01.25.00:571][577]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (90)
+[2015.08.21-01.25.00:571][577]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (89)
+[2015.08.21-01.25.00:571][577]LogModuleManager: Shutting down and abandoning module MeshPaint (88)
+[2015.08.21-01.25.00:571][577]LogModuleManager: Shutting down and abandoning module SlateReflector (87)
+[2015.08.21-01.25.00:571][577]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2015.08.21-01.25.00:571][577]LogModuleManager: Shutting down and abandoning module HotReload (85)
+[2015.08.21-01.25.00:571][577]LogModuleManager: Shutting down and abandoning module MainFrame (84)
+[2015.08.21-01.25.00:571][577]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
+[2015.08.21-01.25.00:572][577]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.08.21-01.25.00:573][577]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.08.21-01.25.00:573][577]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
+[2015.08.21-01.25.00:673][577]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2015.08.21-01.25.00:673][577]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2015.08.21-01.25.00:676][577]LogModuleManager: Shutting down and abandoning module Media (77)
+[2015.08.21-01.25.00:676][577]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2015.08.21-01.25.00:676][577]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2015.08.21-01.25.00:676][577]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2015.08.21-01.25.00:676][577]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2015.08.21-01.25.00:676][577]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2015.08.21-01.25.00:676][577]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2015.08.21-01.25.00:676][577]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2015.08.21-01.25.00:676][577]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2015.08.21-01.25.00:676][577]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2015.08.21-01.25.00:676][577]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2015.08.21-01.25.00:676][577]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2015.08.21-01.25.00:676][577]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2015.08.21-01.25.00:676][577]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2015.08.21-01.25.00:676][577]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2015.08.21-01.25.00:679][577]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2015.08.21-01.25.00:679][577]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2015.08.21-01.25.00:679][577]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2015.08.21-01.25.00:679][577]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
+[2015.08.21-01.25.00:679][577]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2015.08.21-01.25.00:679][577]LogModuleManager: Shutting down and abandoning module Core (56)
+[2015.08.21-01.25.00:679][577]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2015.08.21-01.25.00:679][577]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2015.08.21-01.25.00:679][577]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2015.08.21-01.25.00:679][577]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2015.08.21-01.25.00:861][577]LogDerivedDataCache: Shutdown
+[2015.08.21-01.25.00:861][577]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2015.08.21-01.25.00:861][577]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2015.08.21-01.25.00:861][577]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2015.08.21-01.25.00:861][577]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2015.08.21-01.25.00:861][577]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2015.08.21-01.25.00:861][577]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2015.08.21-01.25.00:861][577]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2015.08.21-01.25.00:861][577]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2015.08.21-01.25.00:861][577]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2015.08.21-01.25.00:861][577]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2015.08.21-01.25.00:861][577]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2015.08.21-01.25.00:861][577]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2015.08.21-01.25.00:861][577]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2015.08.21-01.25.00:861][577]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2015.08.21-01.25.00:861][577]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2015.08.21-01.25.00:861][577]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2015.08.21-01.25.00:861][577]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2015.08.21-01.25.00:861][577]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2015.08.21-01.25.00:861][577]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2015.08.21-01.25.00:861][577]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2015.08.21-01.25.00:861][577]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2015.08.21-01.25.00:861][577]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2015.08.21-01.25.00:861][577]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
+[2015.08.21-01.25.00:861][577]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
+[2015.08.21-01.25.00:861][577]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
+[2015.08.21-01.25.00:861][577]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.08.21-01.25.00:861][577]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.08.21-01.25.00:861][577]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.08.21-01.25.00:861][577]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.08.21-01.25.00:861][577]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.08.21-01.25.00:861][577]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
+[2015.08.21-01.25.00:861][577]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.08.21-01.25.00:861][577]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.08.21-01.25.00:861][577]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.08.21-01.25.00:861][577]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.08.21-01.25.00:861][577]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2015.08.21-01.25.00:862][577]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.08.21-01.25.00:862][577]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.08.21-01.25.00:862][577]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.08.21-01.25.00:862][577]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.08.21-01.25.00:862][577]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.08.21-01.25.00:863][577]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.08.21-01.25.00:863][577]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.08.21-01.25.00:863][577]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.08.21-01.25.00:863][577]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.08.21-01.25.00:863][577]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.08.21-01.25.00:863][577]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.08.21-01.25.00:863][577]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.08.21-01.25.00:863][577]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.08.21-01.25.00:863][577]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.08.21-01.25.00:863][577]LogExit: Exiting.
+[2015.08.21-01.25.00:864][577]Log file closed, 08/20/15 18:25:00
