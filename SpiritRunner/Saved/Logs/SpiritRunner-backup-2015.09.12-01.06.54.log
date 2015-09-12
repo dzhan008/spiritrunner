@@ -1,0 +1,2106 @@
+﻿[2015.09.12-07.38.06:656][  0]Log file open, 09/12/15 00:38:06
+[2015.09.12-07.38.06:656][  0]LogInit:Display: Running engine for game: SpiritRunner
+[2015.09.12-07.38.06:656][  0]LogInit:Display: RandInit(-148952152) SRandInit(-148952151).
+[2015.09.12-07.38.06:656][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.09.12-07.38.06:656][  0]LogStats: Stats thread started
+[2015.09.12-07.38.06:656][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.09.12-07.38.06:656][  0]LogInit: API Version: 2579680
+[2015.09.12-07.38.06:656][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2015.09.12-07.38.06:656][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.09.12-07.38.06:656][  0]LogInit: Build Configuration: Development
+[2015.09.12-07.38.06:656][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.09.12-07.38.06:656][  0]LogInit: Command line: 
+[2015.09.12-07.38.06:656][  0]LogInit: Base directory: G:/Programs/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.09.12-07.38.06:656][  0]LogInit: Rocket: 1
+[2015.09.12-07.38.06:666][  0]LogInit: Using libcurl 7.41.0
+[2015.09.12-07.38.06:666][  0]LogInit:  - built for x86_64-pc-win32
+[2015.09.12-07.38.06:666][  0]LogInit:  - supports SSL with WinSSL
+[2015.09.12-07.38.06:666][  0]LogInit:  - other features:
+[2015.09.12-07.38.06:666][  0]LogInit:      CURL_VERSION_SSL
+[2015.09.12-07.38.06:666][  0]LogInit:      CURL_VERSION_IPV6
+[2015.09.12-07.38.06:666][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.09.12-07.38.06:666][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.09.12-07.38.06:666][  0]LogInit:      CURL_VERSION_IDN
+[2015.09.12-07.38.06:666][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.09.12-07.38.06:666][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.09.12-07.38.06:666][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.09.12-07.38.06:666][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.09.12-07.38.06:666][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.09.12-07.38.06:677][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.09.12-07.38.06:689][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.09.12-07.38.06:694][  0]LogInit: Object subsystem initialized
+[2015.09.12-07.38.06:694][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.09.12-07.38.06:694][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/John/Documents/GitHub/spiritrunner/SpiritRunner/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.09.12-07.38.06:694][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.09.12-07.38.06:694][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/John/Documents/GitHub/spiritrunner/SpiritRunner/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.09.12-07.38.06:694][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.09.12-07.38.06:694][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/John/Documents/GitHub/spiritrunner/SpiritRunner/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.09.12-07.38.06:695][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.12-07.38.06:695][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.09.12-07.38.06:699][  0]LogInit: Computer: JOHN-PC
+[2015.09.12-07.38.06:699][  0]LogInit: User: John
+[2015.09.12-07.38.06:699][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.09.12-07.38.06:699][  0]LogInit: High frequency timer resolution =3.906298 MHz
+[2015.09.12-07.38.06:699][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2015.09.12-07.38.06:699][  0]LogMemory: Platform Memory Stats for Windows
+[2015.09.12-07.38.06:699][  0]LogMemory: Process Physical Memory: 50.50 MB used, 50.50 MB peak
+[2015.09.12-07.38.06:699][  0]LogMemory: Process Virtual Memory: 23.28 MB used, 24.13 MB peak
+[2015.09.12-07.38.06:699][  0]LogMemory: Physical Memory: 6308.32 MB used, 8108.02 MB total
+[2015.09.12-07.38.06:699][  0]LogMemory: Virtual Memory: 282.25 MB used, 8388608.00 MB total
+[2015.09.12-07.38.06:728][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.09.12-07.38.06:873][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (G:/Programs/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (G:/Programs/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.09.12-07.38.07:216][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2015.09.12-07.38.07:216][  0]LogD3D11RHI: Adapter has 4008MB of dedicated video memory, 0MB of dedicated system memory, and 3798MB of shared system memory, 1 output[s]
+[2015.09.12-07.38.07:222][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.09.12-07.38.07:222][  0]LogD3D11RHI: Adapter has 64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 0 output[s]
+[2015.09.12-07.38.07:222][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.09.12-07.38.07:230][  0]LogD3D11RHI: InitD3DDevice
+[2015.09.12-07.38.07:230][  0]LogD3D11RHI: !Direct3DDevice
+[2015.09.12-07.38.07:230][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.09.12-07.38.07:238][  0]LogD3D11RHI: Async texture creation enabled
+[2015.09.12-07.38.07:250][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.09.12-07.38.07:917][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.09.12-07.38.07:929][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.09.12-07.38.07:941][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.09.12-07.38.07:952][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.09.12-07.38.07:966][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.09.12-07.38.07:979][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.09.12-07.38.07:990][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.09.12-07.38.08:003][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.09.12-07.38.08:015][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.09.12-07.38.08:025][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.09.12-07.38.08:035][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.09.12-07.38.08:046][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.09.12-07.38.08:087][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.09.12-07.38.08:105][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.09.12-07.38.08:122][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.09.12-07.38.08:136][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.09.12-07.38.08:136][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.09.12-07.38.08:309][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.09.12-07.38.08:355][  0]LogDerivedDataCache: Loaded boot cache 0.05s 53MB C:/Users/John/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.09.12-07.38.08:355][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/John/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.09.12-07.38.08:355][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/John/Documents/GitHub/spiritrunner/SpiritRunner/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.09.12-07.38.08:355][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.09.12-07.38.08:355][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/John/Documents/GitHub/spiritrunner/SpiritRunner/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.09.12-07.38.08:355][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.09.12-07.38.08:470][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.09.12-07.38.08:481][  0]LogDerivedDataCache: Using Local data cache path C:/Users/John/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.09.12-07.38.08:626][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.12-07.38.08:631][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.09.12-07.38.08:631][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.09.12-07.38.08:654][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.09.12-07.38.08:654][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.09.12-07.38.08:956][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.09.12-07.38.09:995][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.09.12-07.38.10:265][  0]SourceControl: Info Source control is disabled
+[2015.09.12-07.38.10:288][  0]SourceControl: Info Source control is disabled
+[2015.09.12-07.38.10:296][  0]SourceControl: Info Source control is disabled
+[2015.09.12-07.38.10:304][  0]SourceControl: Info Source control is disabled
+[2015.09.12-07.38.10:487][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2015.09.12-07.38.10:487][  0]LogUObjectAllocator: 5409248 out of 0 bytes used by permanent object pool.
+[2015.09.12-07.38.10:543][  0]LogEngine: Initializing Engine...
+[2015.09.12-07.38.10:544][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.09.12-07.38.10:545][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2015.09.12-07.38.10:660][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.09.12-07.38.10:667][  0]LogInit: XAudio2 using 'Speakers (Turtle Beach P11 Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.09.12-07.38.10:673][  0]LogInit: FAudioDevice initialized.
+[2015.09.12-07.38.10:703][  0]LogDerivedDataCache: Saved boot cache 0.03s 53MB C:/Users/John/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.09.12-07.38.10:709][  0]LogInit: Texture streaming: Disabled
+[2015.09.12-07.38.10:730][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.09.12-07.38.10:731][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.09.12-07.38.10:731][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 795ce0b24c6318a5324eaf839592b765|e87b0c418b154305b06c892317f44a4d|3e9e43dd-6daf-4b71-9a80-f4287aceb186
+[2015.09.12-07.38.10:731][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.09.12-07.38.10:768][  0]LogInit: Transaction tracking system initialized
+[2015.09.12-07.38.11:028][  0]BlueprintLog: New page: Editor Load
+[2015.09.12-07.38.11:066][  0]LogAssetRegistry: FAssetRegistry took 0.0098 seconds to start up
+[2015.09.12-07.38.11:066][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.09.12-07.38.11:753][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.09.12-07.38.11:753][  0]LogConsoleResponse:Display: 
+[2015.09.12-07.38.11:845][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.09.12-07.38.12:007][  0]SourceControl: Info Source control is disabled
+[2015.09.12-07.38.12:007][  0]Cmd: MAP LOAD FILE="C:/Users/John/Documents/GitHub/spiritrunner/SpiritRunner/Content/SpiritRunner/Maps/RunnerMapTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.09.12-07.38.12:008][  0]LightingResults: New page: Lighting Build
+[2015.09.12-07.38.12:021][  0]MapCheck: New page: Map Check
+[2015.09.12-07.38.12:021][  0]LightingResults: New page: Lighting Build
+[2015.09.12-07.38.12:028][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001ECD2F20
+[2015.09.12-07.38.14:428][  0]LogAIModule: Creating AISystem for world RunnerMapTest
+[2015.09.12-07.38.14:432][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.09.12-07.38.14:435][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.09.12-07.38.14:507][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 71.646ms to complete.
+[2015.09.12-07.38.14:507][  0]LogFileHelpers: Loading map 'RunnerMapTest' took 2.499
+[2015.09.12-07.38.14:668][  0]LogCollectionManager: Loaded 0 collections in 0.005592 seconds
+[2015.09.12-07.38.14:683][  0]LogContentBrowser: Native class hierarchy populated in 0.0138 seconds. Added 1792 classes and 301 folders.
+[2015.09.12-07.38.14:760][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2015.09.12-07.38.14:806][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.09.12-07.38.14:825][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2015.09.12-07.38.14:857][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.09.12-07.38.14:858][  0]LogD3D11RHI: InitD3DDevice
+[2015.09.12-07.38.14:861][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.09.12-07.38.14:881][  0]LogLoad: Full Startup: 9.15 seconds (BP compile: 1.04 seconds)
+[2015.09.12-07.38.14:926][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.09.12-07.38.14:965][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.09.12-07.38.15:092][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2015.09.12-07.38.15:592][ 11]LogAssetRegistry: Asset discovery search completed in 4.5356 seconds
+[2015.09.12-07.38.15:830][ 36]LogD3D11RHI: InitD3DDevice
+[2015.09.12-07.38.15:908][ 43]LogD3D11RHI: InitD3DDevice
+[2015.09.12-07.40.06:941][890]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.09.12-07.40.06:943][890]PIE: New page: PIE session: RunnerMapTest (Sep 11, 2015, 5:40:06 PM)
+[2015.09.12-07.40.06:944][890]LogPlayLevel: Creating play world package: /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest
+[2015.09.12-07.40.06:946][890]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002368s)
+[2015.09.12-07.40.06:947][890]LogAIModule: Creating AISystem for world RunnerMapTest
+[2015.09.12-07.40.06:947][890]LogPlayLevel: PIE: World Init took: (0.001226s)
+[2015.09.12-07.40.06:947][890]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest to /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest (0.003821s)
+[2015.09.12-07.40.06:948][890]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.12-07.40.06:948][890]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement0C812BA34D0DD21FB12D1D9A948423D7) Not registered. Aborting.
+[2015.09.12-07.40.06:948][890]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_0) Not registered. Aborting.
+[2015.09.12-07.40.07:084][890]LogInit: XAudio2 using 'Speakers (Turtle Beach P11 Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.09.12-07.40.07:087][890]LogInit: FAudioDevice initialized.
+[2015.09.12-07.40.07:132][890]LogWorld: Game class is 'RunGameMode_C'
+[2015.09.12-07.40.07:134][890]LogWorld: Bringing World /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest up for play (max tick rate 0) at 2015.09.12-00.40.07
+[2015.09.12-07.40.07:134][890]LogActor:Warning: GameSession /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.12-07.40.07:135][890]LogActor:Warning: GameNetworkManager /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.12-07.40.07:135][890]LogWorld: Bringing up level for play took: 0.001697
+[2015.09.12-07.40.07:158][890]PIE: Info Play in editor start time for /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest 0.232
+[2015.09.12-07.40.07:172][890]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.40.07:172][890]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.40.13:670][590]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000107174C0
+[2015.09.12-07.52.29:394][419]LogD3D11RHI: InitD3DDevice
+[2015.09.12-07.52.35:806][ 96]LogD3D11RHI: InitD3DDevice
+[2015.09.12-07.52.35:865][ 96]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.12-07.52.35:897][ 96]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.12-07.52.52:713][780]LogD3D11RHI: InitD3DDevice
+[2015.09.12-07.52.52:747][780]LogD3D11RHI: InitD3DDevice
+[2015.09.12-07.52.54:837][985]LogD3D11RHI: InitD3DDevice
+[2015.09.12-07.53.01:687][367]LogD3D11RHI: InitD3DDevice
+[2015.09.12-07.53.28:009][327]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.12-07.53.28:009][327]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement0C812BA34D0DD21FB12D1D9A948423D7) Not registered. Aborting.
+[2015.09.12-07.53.28:009][327]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_1) Not registered. Aborting.
+[2015.09.12-07.53.28:009][327]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.09.12-07.53.51:074][952]LogD3D11RHI: InitD3DDevice
+[2015.09.12-07.54.01:135][789]LogD3D11RHI: InitD3DDevice
+[2015.09.12-07.54.02:665][957]LogD3D11RHI: InitD3DDevice
+[2015.09.12-07.54.28:179][807]LogD3D11RHI: InitD3DDevice
+[2015.09.12-07.54.29:535][952]LogD3D11RHI: InitD3DDevice
+[2015.09.12-07.54.37:746][851]LogD3D11RHI: InitD3DDevice
+[2015.09.12-07.54.37:811][851]LogD3D11RHI: InitD3DDevice
+[2015.09.12-07.54.42:923][420]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.09.12-07.55.24:075][993]LogD3D11RHI: InitD3DDevice
+[2015.09.12-07.55.25:039][ 95]LogD3D11RHI: InitD3DDevice
+[2015.09.12-07.55.27:784][396]LogD3D11RHI: InitD3DDevice
+[2015.09.12-07.55.29:052][536]LogD3D11RHI: InitD3DDevice
+[2015.09.12-07.55.30:300][668]LogD3D11RHI: InitD3DDevice
+[2015.09.12-07.55.49:789][851]LogD3D11RHI: InitD3DDevice
+[2015.09.12-07.56.16:822][815]LogD3D11RHI: InitD3DDevice
+[2015.09.12-07.56.17:292][869]LogD3D11RHI: InitD3DDevice
+[2015.09.12-07.56.21:785][371]LogD3D11RHI: InitD3DDevice
+[2015.09.12-07.56.22:198][412]LogD3D11RHI: InitD3DDevice
+[2015.09.12-07.56.23:519][555]LogD3D11RHI: InitD3DDevice
+[2015.09.12-07.56.36:085][954]LogD3D11RHI: InitD3DDevice
+[2015.09.12-07.56.36:119][954]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpiritRunner/Blueprints/BPFloorTile" FILE="C:/Users/John/Documents/GitHub/spiritrunner/SpiritRunner/Content/SpiritRunner/Blueprints/BPFloorTile.uasset" SILENT=true
+[2015.09.12-07.56.36:264][954]LogSavePackage: Save=108.063187ms
+[2015.09.12-07.56.36:264][954]LogSavePackage: Moving 'C:/Users/John/Documents/GitHub/spiritrunner/SpiritRunner/Saved/BPFloorTileEA80B10C4BBDE9E11113FBB353913FB3.tmp' to 'C:/Users/John/Documents/GitHub/spiritrunner/SpiritRunner/Content/SpiritRunner/Blueprints/BPFloorTile.uasset'
+[2015.09.12-07.56.49:059][362]LogRenderer: Reallocating scene render targets to support 1208x712 (Frame:16565).
+[2015.09.12-07.57.07:216][349]LogD3D11RHI: InitD3DDevice
+[2015.09.12-07.57.09:552][600]LogD3D11RHI: InitD3DDevice
+[2015.09.12-07.57.20:337][749]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/SpiritRunner/Blueprints/BPFloorTile.BPFloorTile:SpawnCoins.K2Node_VariableGet_235 or K2Node_VariableGet /Game/SpiritRunner/Blueprints/BPFloorTile.BPFloorTile:UserConstructionScript.K2Node_VariableGet_235
+[2015.09.12-07.57.20:337][749]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/SpiritRunner/Blueprints/BPFloorTile.BPFloorTile:SpawnCoins.K2Node_VariableGet_235 or K2Node_VariableGet /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_VariableGet_235
+[2015.09.12-07.57.20:337][749]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/SpiritRunner/Blueprints/BPFloorTile.BPFloorTile:SpawnCoins.K2Node_VariableGet_235 or K2Node_VariableGet /Game/SpiritRunner/Blueprints/BPFloorTile.BPFloorTile:EdGraph_376.K2Node_VariableGet_235
+[2015.09.12-07.57.20:337][749]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/SpiritRunner/Blueprints/BPFloorTile.BPFloorTile:SpawnCoins.K2Node_VariableGet_235 or K2Node_VariableGet /Game/SpiritRunner/Blueprints/BPFloorTile.BPFloorTile:EdGraph_372.K2Node_VariableGet_235
+[2015.09.12-07.57.20:337][749]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/SpiritRunner/Blueprints/BPFloorTile.BPFloorTile:SpawnCoins.K2Node_VariableGet_235 or K2Node_VariableGet /Game/SpiritRunner/Blueprints/BPFloorTile.BPFloorTile:EdGraph_356.K2Node_VariableGet_235
+[2015.09.12-07.57.20:337][749]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/SpiritRunner/Blueprints/BPFloorTile.BPFloorTile:SpawnCoins.K2Node_VariableGet_235 or K2Node_VariableGet /Game/SpiritRunner/Blueprints/BPFloorTile.BPFloorTile:EdGraph_352.K2Node_VariableGet_235
+[2015.09.12-07.57.20:337][749]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/SpiritRunner/Blueprints/BPFloorTile.BPFloorTile:EdGraph_352.K2Node_VariableGet_235.EdGraphPin_6423 or EdGraphPin /Game/SpiritRunner/Blueprints/BPFloorTile.BPFloorTile:EdGraph_372.K2Node_VariableGet_235.EdGraphPin_6423
+[2015.09.12-07.57.25:829][354]LogD3D11RHI: InitD3DDevice
+[2015.09.12-07.57.27:967][585]LogD3D11RHI: InitD3DDevice
+[2015.09.12-07.57.31:994][ 25]LogD3D11RHI: InitD3DDevice
+[2015.09.12-07.58.02:407][400]LogD3D11RHI: InitD3DDevice
+[2015.09.12-07.58.04:417][610]LogD3D11RHI: InitD3DDevice
+[2015.09.12-07.58.08:762][ 92]LogD3D11RHI: InitD3DDevice
+[2015.09.12-07.58.14:008][666]LogD3D11RHI: InitD3DDevice
+[2015.09.12-07.58.15:799][838]LogD3D11RHI: InitD3DDevice
+[2015.09.12-07.58.25:604][883]LogD3D11RHI: InitD3DDevice
+[2015.09.12-07.58.26:331][959]LogD3D11RHI: InitD3DDevice
+[2015.09.12-07.58.30:265][398]LogD3D11RHI: InitD3DDevice
+[2015.09.12-07.58.33:336][726]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.09.12-07.58.33:360][726]LogPlayLevel: [PIE] Compiling BPFloorTile before PIE...
+[2015.09.12-07.58.33:478][726]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BPFloorTile_Left_Corner_C_233' (it may have been removed)
+[2015.09.12-07.58.33:524][726]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BPFloorTile_Right_Corner_C_237' (it may have been removed)
+[2015.09.12-07.58.33:775][726]LogPlayLevel: [PIE] Compiling RunGameMode before PIE...
+[2015.09.12-07.58.33:885][726]LogPlayLevel: [PIE] Compiling BPFloorTileFlat before PIE...
+[2015.09.12-07.58.33:938][726]LogPlayLevel: [PIE] Compiling BPFloorTile_Left_Corner before PIE...
+[2015.09.12-07.58.34:098][726]LogPlayLevel: [PIE] Compiling BPFloorTile_Right_Corner before PIE...
+[2015.09.12-07.58.34:174][726]LogPlayLevel: [PIE] Compiling RunCharacter before PIE...
+[2015.09.12-07.58.34:569][726]LogPlayLevel: [PIE] Compiling RunCharacter before PIE...
+[2015.09.12-07.58.34:679][726]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.09.12-07.58.34:756][726]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.09.12-07.58.34:858][726]LogPlayLevel: [PIE] Compiling BPBlocker before PIE...
+[2015.09.12-07.58.35:002][726]LogPlayLevel: [PIE] Compiling BPItem before PIE...
+[2015.09.12-07.58.35:094][726]LogPlayLevel: [PIE] Compiling BPSuperSpeed before PIE...
+[2015.09.12-07.58.35:162][726]LogPlayLevel: [PIE] Compiling BPLogObstacle before PIE...
+[2015.09.12-07.58.35:220][726]LogPlayLevel: [PIE] Compiling BPLog before PIE...
+[2015.09.12-07.58.35:272][726]LogPlayLevel: [PIE] Compiling GG before PIE...
+[2015.09.12-07.58.35:341][726]LogPlayLevel: [PIE] Compiling RunHUD before PIE...
+[2015.09.12-07.58.35:484][726]LogPlayLevel: PIE:  Blueprint regeneration took 2148 ms (16 blueprints)
+[2015.09.12-07.58.35:484][726]PIE: New page: PIE session: RunnerMapTest (Sep 11, 2015, 5:58:35 PM)
+[2015.09.12-07.58.35:485][726]LogPlayLevel: Creating play world package: /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest
+[2015.09.12-07.58.35:487][726]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001859s)
+[2015.09.12-07.58.35:487][726]LogAIModule: Creating AISystem for world RunnerMapTest
+[2015.09.12-07.58.35:488][726]LogPlayLevel: PIE: World Init took: (0.000696s)
+[2015.09.12-07.58.35:488][726]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest to /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest (0.002682s)
+[2015.09.12-07.58.35:519][726]LogInit: XAudio2 using 'Speakers (Turtle Beach P11 Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.09.12-07.58.35:523][726]LogInit: FAudioDevice initialized.
+[2015.09.12-07.58.35:525][726]LogD3D11RHI: InitD3DDevice
+[2015.09.12-07.58.35:556][726]LogWorld: Game class is 'RunGameMode_C'
+[2015.09.12-07.58.35:561][726]LogWorld: Bringing World /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest up for play (max tick rate 0) at 2015.09.12-00.58.35
+[2015.09.12-07.58.35:561][726]LogActor:Warning: GameSession /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.12-07.58.35:562][726]LogActor:Warning: GameNetworkManager /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.12-07.58.35:562][726]LogWorld: Bringing up level for play took: 0.003734
+[2015.09.12-07.58.35:625][726]PIE: Info Play in editor start time for /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest 2.684
+[2015.09.12-07.58.35:649][726]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.35:649][726]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.35:686][726]LogRenderer: Reallocating scene render targets to support 1296x760 (Frame:16699).
+[2015.09.12-07.58.35:717][727]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.064872 > MaxSimulationTimeStep (0.050) for 'RunCharacter_C_0'
+[2015.09.12-07.58.40:091][141]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:091][141]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:102][142]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:102][142]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:113][143]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:113][143]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:124][144]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:124][144]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:136][145]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:136][145]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:147][146]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:147][146]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:157][147]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:157][147]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:167][148]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:167][148]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:177][149]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:177][149]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:187][150]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:187][150]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:196][151]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:196][151]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:206][152]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:206][152]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:216][153]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:216][153]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:224][154]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:224][154]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:232][155]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:232][155]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:241][156]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:241][156]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:249][157]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:249][157]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:258][158]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:258][158]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:267][159]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:267][159]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:275][160]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:275][160]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:283][161]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:284][161]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:292][162]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:292][162]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:300][163]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:300][163]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:308][164]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:308][164]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:318][165]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:318][165]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:327][166]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:327][166]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:337][167]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:337][167]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:347][168]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:347][168]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:356][169]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:357][169]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:366][170]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:366][170]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:376][171]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:376][171]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:385][172]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:385][172]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:395][173]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:395][173]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:405][174]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:405][174]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:414][175]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:414][175]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:424][176]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:424][176]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:433][177]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:433][177]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:443][178]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:443][178]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:453][179]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:453][179]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:462][180]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:462][180]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:472][181]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:472][181]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:482][182]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:482][182]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:491][183]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:491][183]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:501][184]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:501][184]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:511][185]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:511][185]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:520][186]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:520][186]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:529][187]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:529][187]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:539][188]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:539][188]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:549][189]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:549][189]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:559][190]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:559][190]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:568][191]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:568][191]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:578][192]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:578][192]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:587][193]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:587][193]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:597][194]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:597][194]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:607][195]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:607][195]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:616][196]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:616][196]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:626][197]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:626][197]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:635][198]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:635][198]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:645][199]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:645][199]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:654][200]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:654][200]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:664][201]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:664][201]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:673][202]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:673][202]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:682][203]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:682][203]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:692][204]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:692][204]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:701][205]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:701][205]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:711][206]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:711][206]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:721][207]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:721][207]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:730][208]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:730][208]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:739][209]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:739][209]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:748][210]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:748][210]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:758][211]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:758][211]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:767][212]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:767][212]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:777][213]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:777][213]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:786][214]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:786][214]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:796][215]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:796][215]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:805][216]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:805][216]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:814][217]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:814][217]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:824][218]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:824][218]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:833][219]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:833][219]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:842][220]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:842][220]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:852][221]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:852][221]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:861][222]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:861][222]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:871][223]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:871][223]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:880][224]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:880][224]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:889][225]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:889][225]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:899][226]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:899][226]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:908][227]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:908][227]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:917][228]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:917][228]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:927][229]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:927][229]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:936][230]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:936][230]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:946][231]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:946][231]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:955][232]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:955][232]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:964][233]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:964][233]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:973][234]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:974][234]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:983][235]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:983][235]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:992][236]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.40:992][236]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:001][237]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:001][237]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:011][238]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:011][238]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:020][239]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:020][239]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:029][240]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:029][240]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:039][241]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:039][241]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:048][242]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:048][242]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:057][243]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:057][243]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:067][244]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:067][244]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:076][245]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:076][245]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:085][246]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:085][246]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:095][247]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:095][247]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:104][248]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:104][248]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:113][249]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:113][249]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:123][250]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:123][250]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:132][251]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:132][251]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:141][252]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:141][252]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:151][253]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:151][253]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:160][254]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:160][254]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:169][255]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:169][255]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:179][256]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:179][256]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:188][257]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:188][257]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:198][258]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:198][258]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:207][259]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:207][259]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:216][260]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:216][260]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:226][261]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:226][261]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:235][262]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:235][262]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:244][263]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:244][263]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:254][264]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:254][264]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:263][265]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:263][265]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:272][266]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:272][266]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:295][267]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:295][267]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:304][268]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:304][268]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:312][269]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:312][269]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:321][270]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:321][270]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:330][271]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:330][271]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:339][272]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:339][272]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:348][273]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:348][273]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:357][274]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:357][274]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:365][275]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:365][275]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:374][276]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:374][276]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:382][277]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:382][277]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:391][278]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:391][278]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:399][279]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:399][279]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:408][280]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:408][280]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:416][281]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:416][281]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:424][282]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:424][282]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:439][283]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:439][283]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:488][284]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:488][284]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:515][285]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:515][285]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:531][286]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:531][286]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:547][287]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:547][287]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:560][288]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:560][288]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:573][289]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:573][289]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:585][290]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:585][290]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:597][291]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:597][291]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:608][292]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:608][292]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:619][293]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:619][293]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:629][294]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:629][294]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:639][295]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:639][295]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:649][296]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:649][296]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:659][297]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:659][297]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:669][298]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:669][298]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:678][299]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:678][299]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:688][300]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:688][300]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:697][301]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:697][301]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:707][302]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:707][302]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:717][303]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:717][303]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:725][304]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:725][304]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:735][305]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:735][305]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:744][306]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:744][306]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:753][307]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:753][307]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:761][308]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:761][308]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:770][309]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:770][309]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:778][310]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:778][310]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:786][311]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:786][311]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:794][312]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:795][312]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:803][313]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:803][313]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:811][314]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:811][314]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:820][315]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:820][315]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:828][316]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:828][316]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:836][317]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:836][317]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:845][318]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:845][318]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:853][319]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:853][319]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:862][320]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:862][320]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:871][321]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:871][321]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:880][322]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:880][322]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:889][323]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:889][323]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:898][324]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:898][324]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:907][325]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:907][325]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:916][326]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:916][326]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:926][327]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:926][327]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:935][328]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:935][328]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:944][329]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:944][329]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:954][330]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:954][330]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:963][331]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:963][331]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:972][332]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:972][332]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:981][333]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:981][333]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:991][334]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.41:991][334]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:000][335]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:000][335]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:010][336]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:010][336]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:019][337]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:019][337]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:028][338]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:028][338]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:037][339]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:038][339]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:047][340]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:047][340]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:056][341]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:056][341]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:065][342]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:065][342]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:075][343]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:075][343]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:084][344]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:084][344]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:094][345]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:094][345]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:103][346]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:103][346]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:112][347]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:112][347]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:122][348]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:122][348]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:131][349]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:131][349]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:140][350]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:140][350]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:149][351]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:149][351]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:159][352]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:159][352]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:168][353]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:168][353]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:177][354]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:177][354]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:186][355]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:187][355]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:195][356]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:195][356]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:205][357]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:205][357]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:214][358]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:214][358]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:223][359]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:223][359]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:232][360]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:232][360]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:242][361]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:242][361]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:251][362]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:251][362]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:260][363]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:260][363]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:269][364]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:269][364]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:278][365]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:278][365]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:288][366]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:288][366]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:297][367]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:297][367]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:306][368]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:306][368]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:315][369]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:315][369]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:325][370]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:325][370]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:334][371]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:334][371]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:343][372]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:343][372]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:352][373]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:352][373]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:361][374]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:361][374]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:371][375]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:371][375]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:380][376]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:380][376]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:390][377]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:390][377]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:399][378]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:399][378]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:408][379]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:408][379]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:417][380]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:417][380]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:427][381]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:427][381]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:436][382]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:436][382]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:445][383]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:445][383]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:454][384]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:454][384]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:463][385]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:463][385]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:473][386]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:473][386]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:482][387]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:482][387]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:491][388]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:491][388]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:500][389]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:500][389]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:509][390]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:509][390]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:519][391]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:519][391]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:528][392]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:528][392]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:537][393]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:537][393]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:546][394]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:546][394]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:546][394]Cmd: RestartLevel
+[2015.09.12-07.58.42:555][395]LogNet: Browse: /Game/SpiritRunner/Maps/RunnerMapTest?restart
+[2015.09.12-07.58.42:564][395]LogLoad: LoadMap: /Game/SpiritRunner/Maps/RunnerMapTest
+[2015.09.12-07.58.42:571][395]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.12-07.58.42:602][395]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C526B60
+[2015.09.12-07.58.42:602][395]Cmd: MEM
+[2015.09.12-07.58.42:628][395]LogMemory: Platform Memory Stats for Windows
+[2015.09.12-07.58.42:628][395]LogMemory: Process Physical Memory: 816.12 MB used, 820.09 MB peak
+[2015.09.12-07.58.42:628][395]LogMemory: Process Virtual Memory: 1548.05 MB used, 1675.61 MB peak
+[2015.09.12-07.58.42:628][395]LogMemory: Physical Memory: 6318.93 MB used, 8108.02 MB total
+[2015.09.12-07.58.42:628][395]LogMemory: Virtual Memory: 2147.03 MB used, 8388608.00 MB total
+[2015.09.12-07.58.42:628][395]LogMemory: 
+[2015.09.12-07.58.42:628][395]Allocator Stats for TBB: (not implemented)
+[2015.09.12-07.58.42:628][395]LogPlayLevel: Creating play world package: /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest
+[2015.09.12-07.58.42:630][395]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002659s)
+[2015.09.12-07.58.42:631][395]LogAIModule: Creating AISystem for world RunnerMapTest
+[2015.09.12-07.58.42:632][395]LogPlayLevel: PIE: World Init took: (0.001494s)
+[2015.09.12-07.58.42:632][395]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest to /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest (0.004288s)
+[2015.09.12-07.58.42:632][395]LogWorld: Game class is 'RunGameMode_C'
+[2015.09.12-07.58.42:635][395]LogWorld: Bringing World /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest up for play (max tick rate 0) at 2015.09.12-00.58.42
+[2015.09.12-07.58.42:635][395]LogActor:Warning: GameSession /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.12-07.58.42:635][395]LogActor:Warning: GameNetworkManager /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.12-07.58.42:635][395]LogWorld: Bringing up level for play took: 0.001611
+[2015.09.12-07.58.42:677][395]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.42:677][395]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.58.47:704][928]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000025D05300
+[2015.09.12-07.59.06:085][997]LogD3D11RHI: InitD3DDevice
+[2015.09.12-07.59.06:089][997]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.09.12-07.59.13:190][806]LogD3D11RHI: InitD3DDevice
+[2015.09.12-07.59.13:219][806]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpiritRunner/Blueprints/BPFloorTile" FILE="C:/Users/John/Documents/GitHub/spiritrunner/SpiritRunner/Content/SpiritRunner/Blueprints/BPFloorTile.uasset" SILENT=true
+[2015.09.12-07.59.13:373][806]LogSavePackage: Save=118.129234ms
+[2015.09.12-07.59.13:373][806]LogSavePackage: Moving 'C:/Users/John/Documents/GitHub/spiritrunner/SpiritRunner/Saved/BPFloorTile3C1652C34792948B7118EF8BEDFC84CD.tmp' to 'C:/Users/John/Documents/GitHub/spiritrunner/SpiritRunner/Content/SpiritRunner/Blueprints/BPFloorTile.uasset'
+[2015.09.12-07.59.17:835][307]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.09.12-07.59.17:885][307]LogPlayLevel: [PIE] Compiling BPFloorTile before PIE...
+[2015.09.12-07.59.18:041][307]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BPFloorTile_Left_Corner_C_341' (it may have been removed)
+[2015.09.12-07.59.18:088][307]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BPFloorTile_Right_Corner_C_345' (it may have been removed)
+[2015.09.12-07.59.18:340][307]LogPlayLevel: [PIE] Compiling RunGameMode before PIE...
+[2015.09.12-07.59.18:527][307]LogPlayLevel: [PIE] Compiling BPFloorTileFlat before PIE...
+[2015.09.12-07.59.18:582][307]LogPlayLevel: [PIE] Compiling BPFloorTile_Left_Corner before PIE...
+[2015.09.12-07.59.18:631][307]LogPlayLevel: [PIE] Compiling BPFloorTile_Right_Corner before PIE...
+[2015.09.12-07.59.18:680][307]LogPlayLevel: [PIE] Compiling RunCharacter before PIE...
+[2015.09.12-07.59.19:073][307]LogPlayLevel: [PIE] Compiling RunCharacter before PIE...
+[2015.09.12-07.59.19:169][307]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.09.12-07.59.19:245][307]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.09.12-07.59.19:312][307]LogPlayLevel: [PIE] Compiling BPBlocker before PIE...
+[2015.09.12-07.59.19:368][307]LogPlayLevel: [PIE] Compiling BPItem before PIE...
+[2015.09.12-07.59.19:423][307]LogPlayLevel: [PIE] Compiling BPSuperSpeed before PIE...
+[2015.09.12-07.59.19:480][307]LogPlayLevel: [PIE] Compiling BPLogObstacle before PIE...
+[2015.09.12-07.59.19:537][307]LogPlayLevel: [PIE] Compiling BPLog before PIE...
+[2015.09.12-07.59.19:590][307]LogPlayLevel: [PIE] Compiling GG before PIE...
+[2015.09.12-07.59.19:663][307]LogPlayLevel: [PIE] Compiling RunHUD before PIE...
+[2015.09.12-07.59.19:813][307]LogPlayLevel: PIE:  Blueprint regeneration took 1978 ms (16 blueprints)
+[2015.09.12-07.59.19:813][307]PIE: New page: PIE session: RunnerMapTest (Sep 11, 2015, 5:59:19 PM)
+[2015.09.12-07.59.19:814][307]LogPlayLevel: Creating play world package: /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest
+[2015.09.12-07.59.19:816][307]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001962s)
+[2015.09.12-07.59.19:816][307]LogAIModule: Creating AISystem for world RunnerMapTest
+[2015.09.12-07.59.19:816][307]LogPlayLevel: PIE: World Init took: (0.000763s)
+[2015.09.12-07.59.19:817][307]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest to /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest (0.002866s)
+[2015.09.12-07.59.19:847][307]LogInit: XAudio2 using 'Speakers (Turtle Beach P11 Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.09.12-07.59.19:851][307]LogInit: FAudioDevice initialized.
+[2015.09.12-07.59.19:854][307]LogD3D11RHI: InitD3DDevice
+[2015.09.12-07.59.19:882][307]LogWorld: Game class is 'RunGameMode_C'
+[2015.09.12-07.59.19:885][307]LogWorld: Bringing World /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest up for play (max tick rate 0) at 2015.09.12-00.59.19
+[2015.09.12-07.59.19:885][307]LogActor:Warning: GameSession /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.12-07.59.19:885][307]LogActor:Warning: GameNetworkManager /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.12-07.59.19:885][307]LogWorld: Bringing up level for play took: 0.001514
+[2015.09.12-07.59.19:912][307]PIE: Info Play in editor start time for /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest 2.97
+[2015.09.12-07.59.19:929][307]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.19:929][307]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.19:981][308]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.064872 > MaxSimulationTimeStep (0.050) for 'RunCharacter_C_0'
+[2015.09.12-07.59.36:575][881]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:575][881]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:585][882]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:585][882]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:595][883]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:595][883]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:605][884]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:605][884]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:614][885]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:614][885]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:622][886]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:622][886]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:631][887]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:631][887]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:639][888]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:639][888]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:647][889]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:647][889]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:656][890]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:656][890]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:664][891]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:664][891]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:672][892]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:672][892]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:681][893]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:681][893]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:689][894]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:689][894]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:697][895]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:697][895]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:706][896]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:706][896]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:714][897]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:714][897]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:722][898]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:722][898]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:731][899]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:731][899]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:739][900]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:739][900]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:747][901]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:747][901]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:756][902]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:756][902]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:764][903]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:764][903]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:772][904]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:772][904]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:781][905]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:781][905]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:789][906]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:789][906]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:797][907]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:797][907]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:806][908]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:806][908]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:814][909]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:814][909]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:826][910]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:826][910]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:869][911]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:870][911]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:889][912]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:890][912]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:907][913]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:907][913]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:920][914]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:920][914]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:932][915]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:932][915]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:945][916]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:945][916]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:958][917]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:958][917]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:968][918]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:968][918]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:978][919]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:978][919]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:987][920]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:987][920]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:998][921]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.36:998][921]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:009][922]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:009][922]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:017][923]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:017][923]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:026][924]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:026][924]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:034][925]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:034][925]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:042][926]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:042][926]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:051][927]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:051][927]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:059][928]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:059][928]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:067][929]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:067][929]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:076][930]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:076][930]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:084][931]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:084][931]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:092][932]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:092][932]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:101][933]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:101][933]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:109][934]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:109][934]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:117][935]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:117][935]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:125][936]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:126][936]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:134][937]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:134][937]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:142][938]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:142][938]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:151][939]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:151][939]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:159][940]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:159][940]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:167][941]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:167][941]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:175][942]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:176][942]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:184][943]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:184][943]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:192][944]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:192][944]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:201][945]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:201][945]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:209][946]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:209][946]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:217][947]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:217][947]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:225][948]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:226][948]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:234][949]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:234][949]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:242][950]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:242][950]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:251][951]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:251][951]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:259][952]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:259][952]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:267][953]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:267][953]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:276][954]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:276][954]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:284][955]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:284][955]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:292][956]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:292][956]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:301][957]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:301][957]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:309][958]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:309][958]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:327][959]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:327][959]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:362][960]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:362][960]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:382][961]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:382][961]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:398][962]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:398][962]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:413][963]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:413][963]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:425][964]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:425][964]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:437][965]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:437][965]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:447][966]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:447][966]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:458][967]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:458][967]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:467][968]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:467][968]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:477][969]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:477][969]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:486][970]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:486][970]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:495][971]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:495][971]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:503][972]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:503][972]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:511][973]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:511][973]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:520][974]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:520][974]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:528][975]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:528][975]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:536][976]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:536][976]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:545][977]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:545][977]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:553][978]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:553][978]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-07.59.37:608][979]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.12-07.59.37:648][980]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000025D07E20
+[2015.09.12-08.00.34:465][251]LogD3D11RHI: InitD3DDevice
+[2015.09.12-08.01.05:050][616]LogD3D11RHI: InitD3DDevice
+[2015.09.12-08.01.09:214][ 59]LogD3D11RHI: InitD3DDevice
+[2015.09.12-08.01.19:367][103]LogD3D11RHI: InitD3DDevice
+[2015.09.12-08.01.20:188][193]LogD3D11RHI: InitD3DDevice
+[2015.09.12-08.01.29:092][166]LogD3D11RHI: InitD3DDevice
+[2015.09.12-08.01.29:686][234]LogD3D11RHI: InitD3DDevice
+[2015.09.12-08.01.33:371][637]LogD3D11RHI: InitD3DDevice
+[2015.09.12-08.01.47:702][227]LogD3D11RHI: InitD3DDevice
+[2015.09.12-08.01.59:634][520]LogD3D11RHI: InitD3DDevice
+[2015.09.12-08.02.09:956][665]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_112.EdGraphPin_39646''
+[2015.09.12-08.02.09:956][665]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_467.EdGraphPin_39647''
+[2015.09.12-08.02.12:353][933]LogD3D11RHI: InitD3DDevice
+[2015.09.12-08.02.35:775][502]LogD3D11RHI: InitD3DDevice
+[2015.09.12-08.02.40:489][969]LogD3D11RHI: InitD3DDevice
+[2015.09.12-08.02.42:642][203]LogD3D11RHI: InitD3DDevice
+[2015.09.12-08.02.44:822][439]LogD3D11RHI: InitD3DDevice
+[2015.09.12-08.02.46:646][631]LogD3D11RHI: InitD3DDevice
+[2015.09.12-08.02.49:086][889]LogD3D11RHI: InitD3DDevice
+[2015.09.12-08.03.10:929][182]LogD3D11RHI: InitD3DDevice
+[2015.09.12-08.03.11:452][234]LogD3D11RHI: InitD3DDevice
+[2015.09.12-08.03.16:298][768]LogD3D11RHI: InitD3DDevice
+[2015.09.12-08.03.16:907][833]LogD3D11RHI: InitD3DDevice
+[2015.09.12-08.03.25:437][776]LogD3D11RHI: InitD3DDevice
+[2015.09.12-08.03.32:337][540]LogD3D11RHI: InitD3DDevice
+[2015.09.12-08.03.34:499][765]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.09.12-08.03.34:570][765]LogPlayLevel: [PIE] Compiling BPFloorTile before PIE...
+[2015.09.12-08.03.34:780][765]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BPFloorTile_Left_Corner_C_455' (it may have been removed)
+[2015.09.12-08.03.34:834][765]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BPFloorTile_Right_Corner_C_459' (it may have been removed)
+[2015.09.12-08.03.35:078][765]LogPlayLevel: [PIE] Compiling RunGameMode before PIE...
+[2015.09.12-08.03.35:193][765]LogPlayLevel: [PIE] Compiling BPFloorTileFlat before PIE...
+[2015.09.12-08.03.35:254][765]LogPlayLevel: [PIE] Compiling BPFloorTile_Left_Corner before PIE...
+[2015.09.12-08.03.35:312][765]LogPlayLevel: [PIE] Compiling BPFloorTile_Right_Corner before PIE...
+[2015.09.12-08.03.35:368][765]LogPlayLevel: [PIE] Compiling RunCharacter before PIE...
+[2015.09.12-08.03.35:823][765]LogPlayLevel: [PIE] Compiling RunCharacter before PIE...
+[2015.09.12-08.03.35:925][765]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.09.12-08.03.36:013][765]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.09.12-08.03.36:181][765]LogPlayLevel: [PIE] Compiling BPBlocker before PIE...
+[2015.09.12-08.03.36:272][765]LogPlayLevel: [PIE] Compiling BPItem before PIE...
+[2015.09.12-08.03.36:339][765]LogPlayLevel: [PIE] Compiling BPSuperSpeed before PIE...
+[2015.09.12-08.03.36:512][765]LogPlayLevel: [PIE] Compiling BPLogObstacle before PIE...
+[2015.09.12-08.03.36:595][765]LogPlayLevel: [PIE] Compiling BPLog before PIE...
+[2015.09.12-08.03.36:654][765]LogPlayLevel: [PIE] Compiling GG before PIE...
+[2015.09.12-08.03.36:727][765]LogPlayLevel: [PIE] Compiling RunHUD before PIE...
+[2015.09.12-08.03.36:994][765]LogPlayLevel: PIE:  Blueprint regeneration took 2494 ms (16 blueprints)
+[2015.09.12-08.03.36:994][765]PIE: New page: PIE session: RunnerMapTest (Sep 11, 2015, 6:03:36 PM)
+[2015.09.12-08.03.36:995][765]LogPlayLevel: Creating play world package: /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest
+[2015.09.12-08.03.36:998][765]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003100s)
+[2015.09.12-08.03.36:999][765]LogAIModule: Creating AISystem for world RunnerMapTest
+[2015.09.12-08.03.36:999][765]LogPlayLevel: PIE: World Init took: (0.001128s)
+[2015.09.12-08.03.36:999][765]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest to /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest (0.004432s)
+[2015.09.12-08.03.37:041][765]LogInit: XAudio2 using 'Speakers (Turtle Beach P11 Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.09.12-08.03.37:046][765]LogInit: FAudioDevice initialized.
+[2015.09.12-08.03.37:049][765]LogD3D11RHI: InitD3DDevice
+[2015.09.12-08.03.37:078][765]LogWorld: Game class is 'RunGameMode_C'
+[2015.09.12-08.03.37:081][765]LogWorld: Bringing World /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest up for play (max tick rate 0) at 2015.09.12-01.03.37
+[2015.09.12-08.03.37:081][765]LogActor:Warning: GameSession /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.12-08.03.37:081][765]LogActor:Warning: GameNetworkManager /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.12-08.03.37:082][765]LogWorld: Bringing up level for play took: 0.001944
+[2015.09.12-08.03.37:112][765]PIE: Info Play in editor start time for /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest 2.167
+[2015.09.12-08.03.37:132][765]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.37:132][765]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.37:188][766]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.064872 > MaxSimulationTimeStep (0.050) for 'RunCharacter_C_0'
+[2015.09.12-08.03.41:135][137]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:135][137]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:152][138]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:152][138]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:166][139]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:166][139]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:179][140]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:179][140]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:191][141]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:191][141]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:202][142]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:202][142]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:213][143]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:213][143]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:224][144]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:224][144]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:234][145]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:234][145]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:245][146]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:245][146]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:255][147]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:255][147]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:265][148]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:265][148]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:274][149]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:275][149]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:284][150]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:284][150]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:293][151]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:293][151]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:302][152]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:302][152]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:311][153]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:311][153]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:320][154]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:320][154]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:328][155]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:328][155]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:336][156]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:336][156]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:345][157]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:345][157]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:353][158]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:353][158]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:361][159]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:361][159]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:370][160]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:370][160]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:378][161]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:378][161]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:386][162]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:386][162]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:395][163]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:395][163]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:403][164]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:403][164]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:411][165]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:411][165]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:420][166]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:420][166]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:428][167]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:428][167]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:436][168]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:436][168]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:445][169]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:445][169]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:453][170]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:453][170]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:461][171]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:461][171]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:470][172]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:470][172]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:478][173]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:478][173]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:486][174]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:486][174]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:495][175]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:495][175]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:503][176]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:503][176]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:511][177]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:511][177]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:520][178]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:520][178]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:528][179]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:528][179]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:537][180]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:537][180]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:546][181]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:546][181]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:554][182]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:554][182]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:562][183]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:562][183]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:571][184]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:571][184]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:584][185]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:584][185]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:627][186]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:627][186]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:649][187]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:649][187]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:668][188]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:668][188]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:685][189]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:685][189]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:700][190]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:700][190]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:712][191]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:712][191]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:724][192]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:725][192]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:736][193]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:736][193]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:747][194]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:747][194]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:759][195]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:759][195]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:770][196]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:770][196]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:780][197]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:780][197]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:790][198]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:790][198]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:799][199]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:799][199]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:809][200]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:809][200]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:818][201]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:818][201]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:827][202]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:827][202]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:835][203]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:835][203]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:844][204]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:844][204]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:852][205]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:852][205]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:861][206]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:861][206]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:869][207]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:869][207]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:877][208]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:877][208]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:885][209]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:885][209]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:894][210]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:894][210]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:902][211]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:902][211]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:911][212]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:911][212]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:919][213]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:919][213]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:927][214]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:927][214]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:936][215]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:936][215]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:944][216]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:944][216]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:953][217]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:953][217]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:962][218]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:962][218]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:970][219]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:970][219]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:978][220]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:978][220]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:987][221]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:987][221]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:995][222]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.41:995][222]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:003][223]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:003][223]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:011][224]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:011][224]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:020][225]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:020][225]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:028][226]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:028][226]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:036][227]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:036][227]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:045][228]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:045][228]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:053][229]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:053][229]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:061][230]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:061][230]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:070][231]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:070][231]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:078][232]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:078][232]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:086][233]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:086][233]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:095][234]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:095][234]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:136][235]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:136][235]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:164][236]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:164][236]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:183][237]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:183][237]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:200][238]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:200][238]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:215][239]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:215][239]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:227][240]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:228][240]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:240][241]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:240][241]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:251][242]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:251][242]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:263][243]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:263][243]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:274][244]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:274][244]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:285][245]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:285][245]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:295][246]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:295][246]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:304][247]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:304][247]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:313][248]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:314][248]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:322][249]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:322][249]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:331][250]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:331][250]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:340][251]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:340][251]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:349][252]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:349][252]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:357][253]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:357][253]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:366][254]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:366][254]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:375][255]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:375][255]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:385][256]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:385][256]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:393][257]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:393][257]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:402][258]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:402][258]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:411][259]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:411][259]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:420][260]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:420][260]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:428][261]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:428][261]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:437][262]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:437][262]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:445][263]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:445][263]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:453][264]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:453][264]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:462][265]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:462][265]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:470][266]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:470][266]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:478][267]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:478][267]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:487][268]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:487][268]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:495][269]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:495][269]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:503][270]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:503][270]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.03.42:555][271]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.12-08.03.42:596][272]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000292E6FC0
+[2015.09.12-08.03.54:697][605]LogD3D11RHI: InitD3DDevice
+[2015.09.12-08.03.55:558][674]LogD3D11RHI: InitD3DDevice
+[2015.09.12-08.04.03:250][516]LogD3D11RHI: InitD3DDevice
+[2015.09.12-08.04.05:098][711]LogD3D11RHI: InitD3DDevice
+[2015.09.12-08.04.07:305][953]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.09.12-08.04.07:329][953]LogPlayLevel: [PIE] Compiling BPFloorTile before PIE...
+[2015.09.12-08.04.07:438][953]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BPFloorTile_Left_Corner_C_563' (it may have been removed)
+[2015.09.12-08.04.07:483][953]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BPFloorTile_Right_Corner_C_567' (it may have been removed)
+[2015.09.12-08.04.07:668][953]LogPlayLevel: [PIE] Compiling RunGameMode before PIE...
+[2015.09.12-08.04.07:786][953]LogPlayLevel: [PIE] Compiling BPFloorTileFlat before PIE...
+[2015.09.12-08.04.07:847][953]LogPlayLevel: [PIE] Compiling BPFloorTile_Left_Corner before PIE...
+[2015.09.12-08.04.07:900][953]LogPlayLevel: [PIE] Compiling BPFloorTile_Right_Corner before PIE...
+[2015.09.12-08.04.07:955][953]LogPlayLevel: [PIE] Compiling RunCharacter before PIE...
+[2015.09.12-08.04.08:506][953]LogPlayLevel: [PIE] Compiling RunCharacter before PIE...
+[2015.09.12-08.04.08:605][953]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.09.12-08.04.08:689][953]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.09.12-08.04.08:797][953]LogPlayLevel: [PIE] Compiling BPBlocker before PIE...
+[2015.09.12-08.04.08:937][953]LogPlayLevel: [PIE] Compiling BPItem before PIE...
+[2015.09.12-08.04.09:019][953]LogPlayLevel: [PIE] Compiling BPSuperSpeed before PIE...
+[2015.09.12-08.04.09:083][953]LogPlayLevel: [PIE] Compiling BPLogObstacle before PIE...
+[2015.09.12-08.04.09:139][953]LogPlayLevel: [PIE] Compiling BPLog before PIE...
+[2015.09.12-08.04.09:191][953]LogPlayLevel: [PIE] Compiling GG before PIE...
+[2015.09.12-08.04.09:263][953]LogPlayLevel: [PIE] Compiling RunHUD before PIE...
+[2015.09.12-08.04.09:411][953]LogPlayLevel: PIE:  Blueprint regeneration took 2105 ms (16 blueprints)
+[2015.09.12-08.04.09:411][953]PIE: New page: PIE session: RunnerMapTest (Sep 11, 2015, 6:04:09 PM)
+[2015.09.12-08.04.09:412][953]LogPlayLevel: Creating play world package: /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest
+[2015.09.12-08.04.09:414][953]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002384s)
+[2015.09.12-08.04.09:415][953]LogAIModule: Creating AISystem for world RunnerMapTest
+[2015.09.12-08.04.09:415][953]LogPlayLevel: PIE: World Init took: (0.001095s)
+[2015.09.12-08.04.09:415][953]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest to /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest (0.003616s)
+[2015.09.12-08.04.09:445][953]LogInit: XAudio2 using 'Speakers (Turtle Beach P11 Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.09.12-08.04.09:449][953]LogInit: FAudioDevice initialized.
+[2015.09.12-08.04.09:451][953]LogD3D11RHI: InitD3DDevice
+[2015.09.12-08.04.09:481][953]LogWorld: Game class is 'RunGameMode_C'
+[2015.09.12-08.04.09:484][953]LogWorld: Bringing World /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest up for play (max tick rate 0) at 2015.09.12-01.04.09
+[2015.09.12-08.04.09:484][953]LogActor:Warning: GameSession /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.12-08.04.09:484][953]LogActor:Warning: GameNetworkManager /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.12-08.04.09:484][953]LogWorld: Bringing up level for play took: 0.001705
+[2015.09.12-08.04.09:513][953]PIE: Info Play in editor start time for /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest 2.568
+[2015.09.12-08.04.09:527][953]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.09:527][953]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.09:587][954]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.064872 > MaxSimulationTimeStep (0.050) for 'RunCharacter_C_0'
+[2015.09.12-08.04.17:938][690]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.17:938][690]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.17:964][691]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.17:964][691]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:008][692]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:008][692]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:035][693]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:035][693]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:056][694]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:056][694]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:077][695]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:077][695]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:093][696]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:093][696]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:106][697]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:106][697]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:121][698]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:121][698]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:134][699]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:134][699]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:144][700]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:144][700]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:153][701]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:153][701]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:163][702]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:164][702]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:173][703]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:173][703]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:181][704]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:181][704]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:193][705]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:193][705]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:205][706]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:205][706]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:218][707]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:218][707]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:230][708]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:230][708]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:242][709]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:242][709]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:255][710]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:255][710]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:268][711]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:268][711]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:280][712]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:280][712]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:292][713]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:292][713]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:305][714]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:305][714]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:317][715]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:317][715]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:330][716]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:330][716]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:342][717]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:342][717]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:355][718]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:355][718]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:367][719]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:367][719]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:380][720]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:380][720]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:392][721]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:392][721]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:405][722]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:405][722]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:417][723]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:417][723]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:430][724]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:430][724]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:443][725]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:443][725]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:455][726]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:455][726]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:467][727]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:467][727]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:480][728]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:480][728]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:492][729]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:492][729]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:505][730]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:505][730]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:517][731]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:517][731]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:530][732]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:530][732]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:542][733]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:542][733]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:555][734]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:555][734]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:567][735]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:567][735]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:579][736]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:579][736]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:592][737]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:592][737]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:604][738]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:604][738]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:617][739]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:617][739]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:629][740]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:629][740]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:642][741]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:642][741]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:654][742]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:654][742]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:667][743]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:667][743]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:679][744]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:679][744]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:692][745]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:692][745]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:704][746]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:705][746]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:716][747]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:716][747]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:729][748]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:729][748]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:741][749]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:741][749]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:754][750]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:754][750]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:766][751]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:766][751]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:778][752]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:778][752]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:791][753]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:791][753]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:804][754]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:804][754]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:816][755]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:816][755]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:828][756]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:829][756]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:841][757]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:841][757]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:854][758]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:854][758]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:866][759]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:866][759]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:906][760]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:906][760]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:936][761]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:936][761]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:956][762]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:956][762]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:974][763]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:975][763]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:994][764]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.18:994][764]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.19:009][765]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.19:009][765]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.19:021][766]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.19:021][766]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.19:032][767]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.19:032][767]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.19:046][768]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.19:046][768]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.19:058][769]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.19:058][769]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.19:068][770]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.19:068][770]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.19:078][771]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.19:078][771]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.19:091][772]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.19:091][772]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.19:101][773]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.19:101][773]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.19:110][774]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.19:110][774]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.19:119][775]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.19:119][775]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.19:132][776]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.19:132][776]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.19:144][777]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.19:144][777]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.19:205][778]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.12-08.04.19:245][779]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000EA62D40
+[2015.09.12-08.04.51:099][335]LogD3D11RHI: InitD3DDevice
+[2015.09.12-08.04.51:132][335]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpiritRunner/Blueprints/BPFloorTile" FILE="C:/Users/John/Documents/GitHub/spiritrunner/SpiritRunner/Content/SpiritRunner/Blueprints/BPFloorTile.uasset" SILENT=true
+[2015.09.12-08.04.51:288][335]LogSavePackage: Save=123.351318ms
+[2015.09.12-08.04.51:288][335]LogSavePackage: Moving 'C:/Users/John/Documents/GitHub/spiritrunner/SpiritRunner/Saved/BPFloorTile525F16BE419B96C6849386953B090B3A.tmp' to 'C:/Users/John/Documents/GitHub/spiritrunner/SpiritRunner/Content/SpiritRunner/Blueprints/BPFloorTile.uasset'
+[2015.09.12-08.04.51:596][359]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.09.12-08.04.51:635][359]LogPlayLevel: [PIE] Compiling BPFloorTile before PIE...
+[2015.09.12-08.04.51:787][359]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BPFloorTile_Left_Corner_C_667' (it may have been removed)
+[2015.09.12-08.04.51:837][359]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BPFloorTile_Right_Corner_C_671' (it may have been removed)
+[2015.09.12-08.04.52:025][359]LogPlayLevel: [PIE] Compiling RunGameMode before PIE...
+[2015.09.12-08.04.52:140][359]LogPlayLevel: [PIE] Compiling BPFloorTileFlat before PIE...
+[2015.09.12-08.04.52:193][359]LogPlayLevel: [PIE] Compiling BPFloorTile_Left_Corner before PIE...
+[2015.09.12-08.04.52:243][359]LogPlayLevel: [PIE] Compiling BPFloorTile_Right_Corner before PIE...
+[2015.09.12-08.04.52:295][359]LogPlayLevel: [PIE] Compiling RunCharacter before PIE...
+[2015.09.12-08.04.52:688][359]LogPlayLevel: [PIE] Compiling RunCharacter before PIE...
+[2015.09.12-08.04.52:786][359]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.09.12-08.04.52:867][359]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.09.12-08.04.52:983][359]LogPlayLevel: [PIE] Compiling BPBlocker before PIE...
+[2015.09.12-08.04.53:111][359]LogPlayLevel: [PIE] Compiling BPItem before PIE...
+[2015.09.12-08.04.53:210][359]LogPlayLevel: [PIE] Compiling BPSuperSpeed before PIE...
+[2015.09.12-08.04.53:273][359]LogPlayLevel: [PIE] Compiling BPLogObstacle before PIE...
+[2015.09.12-08.04.53:331][359]LogPlayLevel: [PIE] Compiling BPLog before PIE...
+[2015.09.12-08.04.53:383][359]LogPlayLevel: [PIE] Compiling GG before PIE...
+[2015.09.12-08.04.53:456][359]LogPlayLevel: [PIE] Compiling RunHUD before PIE...
+[2015.09.12-08.04.53:606][359]LogPlayLevel: PIE:  Blueprint regeneration took 2010 ms (16 blueprints)
+[2015.09.12-08.04.53:606][359]PIE: New page: PIE session: RunnerMapTest (Sep 11, 2015, 6:04:53 PM)
+[2015.09.12-08.04.53:606][359]LogPlayLevel: Creating play world package: /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest
+[2015.09.12-08.04.53:609][359]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002357s)
+[2015.09.12-08.04.53:609][359]LogAIModule: Creating AISystem for world RunnerMapTest
+[2015.09.12-08.04.53:610][359]LogPlayLevel: PIE: World Init took: (0.000833s)
+[2015.09.12-08.04.53:610][359]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest to /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest (0.003332s)
+[2015.09.12-08.04.53:643][359]LogInit: XAudio2 using 'Speakers (Turtle Beach P11 Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.09.12-08.04.53:647][359]LogInit: FAudioDevice initialized.
+[2015.09.12-08.04.53:650][359]LogD3D11RHI: InitD3DDevice
+[2015.09.12-08.04.53:680][359]LogWorld: Game class is 'RunGameMode_C'
+[2015.09.12-08.04.53:685][359]LogWorld: Bringing World /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest up for play (max tick rate 0) at 2015.09.12-01.04.53
+[2015.09.12-08.04.53:685][359]LogActor:Warning: GameSession /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.12-08.04.53:686][359]LogActor:Warning: GameNetworkManager /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.12-08.04.53:686][359]LogWorld: Bringing up level for play took: 0.003551
+[2015.09.12-08.04.53:726][359]PIE: Info Play in editor start time for /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest 2.78
+[2015.09.12-08.04.53:747][359]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.53:747][359]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.53:801][360]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.095519 > MaxSimulationTimeStep (0.050) for 'RunCharacter_C_0'
+[2015.09.12-08.04.58:918][855]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.58:918][855]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.58:935][856]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.58:935][856]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.58:950][857]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.58:950][857]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.58:964][858]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.58:964][858]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.58:976][859]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.58:976][859]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.58:988][860]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.58:988][860]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:001][861]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:001][861]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:013][862]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:013][862]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:023][863]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:024][863]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:033][864]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:033][864]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:042][865]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:042][865]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:052][866]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:052][866]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:061][867]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:061][867]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:070][868]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:070][868]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:079][869]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:079][869]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:087][870]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:087][870]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:096][871]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:096][871]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:104][872]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:104][872]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:113][873]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:113][873]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:121][874]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:121][874]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:129][875]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:129][875]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:138][876]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:138][876]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:146][877]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:146][877]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:154][878]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:154][878]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:163][879]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:163][879]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:171][880]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:171][880]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:179][881]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:179][881]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:188][882]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:188][882]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:196][883]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:196][883]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:204][884]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:204][884]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:213][885]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:213][885]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:221][886]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:221][886]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:229][887]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:229][887]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:238][888]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:238][888]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:246][889]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:246][889]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:254][890]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:254][890]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:263][891]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:263][891]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:271][892]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:271][892]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:279][893]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:279][893]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:288][894]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:288][894]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:296][895]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:296][895]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:304][896]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:304][896]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:313][897]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:313][897]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:321][898]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:321][898]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:332][899]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:332][899]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:376][900]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:376][900]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:399][901]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:399][901]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:416][902]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:416][902]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:431][903]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:431][903]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:444][904]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:444][904]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:457][905]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:457][905]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:469][906]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:469][906]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:481][907]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:481][907]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:492][908]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:492][908]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:503][909]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:503][909]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:513][910]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:513][910]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:523][911]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:523][911]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:532][912]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:532][912]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:542][913]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:542][913]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:551][914]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:551][914]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:560][915]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:560][915]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:568][916]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:568][916]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:576][917]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:576][917]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:585][918]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:585][918]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:593][919]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:593][919]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:601][920]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:601][920]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:610][921]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:610][921]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:618][922]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:618][922]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:627][923]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:627][923]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:636][924]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:636][924]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:644][925]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:644][925]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:653][926]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:653][926]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:661][927]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:661][927]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:669][928]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:669][928]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:677][929]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:677][929]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:686][930]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:686][930]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:694][931]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:694][931]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:702][932]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:702][932]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:711][933]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:711][933]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:719][934]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:719][934]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:727][935]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:728][935]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:736][936]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:736][936]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:744][937]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:744][937]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:764][938]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:765][938]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:805][939]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:805][939]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:828][940]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:828][940]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:846][941]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:846][941]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:860][942]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:860][942]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:875][943]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:875][943]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:887][944]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:887][944]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:899][945]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:899][945]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:910][946]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:910][946]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:921][947]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:921][947]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:931][948]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:931][948]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:940][949]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:940][949]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:950][950]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:950][950]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:960][951]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:960][951]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:969][952]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:969][952]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:978][953]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:978][953]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:987][954]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:987][954]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:996][955]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.04.59:996][955]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.05.00:004][956]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.05.00:004][956]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.05.00:013][957]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.05.00:013][957]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.05.00:021][958]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.05.00:021][958]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.05.00:030][959]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.05.00:030][959]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.05.00:038][960]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.05.00:038][960]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.05.00:046][961]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.05.00:047][961]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.05.00:055][962]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.05.00:055][962]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.05.00:063][963]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.05.00:063][963]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.05.00:071][964]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.05.00:071][964]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.05.00:080][965]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.05.00:080][965]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.05.00:088][966]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.05.00:088][966]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.05.00:096][967]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.05.00:096][967]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.05.00:105][968]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.05.00:105][968]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.05.00:113][969]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.05.00:113][969]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.05.00:121][970]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.05.00:121][970]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.05.00:130][971]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.05.00:130][971]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.05.00:138][972]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.05.00:138][972]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.05.00:146][973]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.05.00:146][973]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.05.00:155][974]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.05.00:155][974]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.05.00:163][975]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.05.00:163][975]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.05.00:171][976]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.05.00:171][976]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.05.00:180][977]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.05.00:180][977]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.05.00:188][978]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.05.00:188][978]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.05.00:215][979]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.05.00:215][979]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.05.00:247][980]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.05.00:247][980]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.05.00:268][981]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.05.00:268][981]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.05.00:285][982]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.05.00:285][982]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.05.00:301][983]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.05.00:301][983]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.05.00:314][984]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.05.00:314][984]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.09.12-08.05.00:381][985]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.12-08.05.00:429][986]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000292E6DE0
+[2015.09.12-08.05.37:228][ 95]LogD3D11RHI: InitD3DDevice
+[2015.09.12-08.05.37:249][ 95]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpiritRunner/Blueprints/BPFloorTile" FILE="C:/Users/John/Documents/GitHub/spiritrunner/SpiritRunner/Content/SpiritRunner/Blueprints/BPFloorTile.uasset" SILENT=true
+[2015.09.12-08.05.37:404][ 95]LogSavePackage: Save=119.334984ms
+[2015.09.12-08.05.37:404][ 95]LogSavePackage: Moving 'C:/Users/John/Documents/GitHub/spiritrunner/SpiritRunner/Saved/BPFloorTile2AED7AE14B3E265E4A111A8ACE8C005A.tmp' to 'C:/Users/John/Documents/GitHub/spiritrunner/SpiritRunner/Content/SpiritRunner/Blueprints/BPFloorTile.uasset'
+[2015.09.12-08.05.43:550][759]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2015.09.12-08.05.43:595][759]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2015.09.12-08.05.43:858][760]Cmd: QUIT_EDITOR
+[2015.09.12-08.05.44:050][760]LogExit: Preparing to exit.
+[2015.09.12-08.05.45:207][760]LogExit: Editor shut down
+[2015.09.12-08.05.45:208][760]LogExit: Transaction tracking system shut down
+[2015.09.12-08.05.45:212][760]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011F11940
+[2015.09.12-08.05.45:212][760]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000236FB240
+[2015.09.12-08.05.45:212][760]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000284879C0
+[2015.09.12-08.05.45:212][760]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002CA0F7E0
+[2015.09.12-08.05.45:212][760]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000275C5B20
+[2015.09.12-08.05.45:213][760]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002BEF42C0
+[2015.09.12-08.05.45:213][760]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001977EC00
+[2015.09.12-08.05.45:325][760]LogExit: Object subsystem successfully closed.
+[2015.09.12-08.05.45:333][760]LogD3D11RHI: Shutdown
+[2015.09.12-08.05.45:333][760]LogD3D11RHI: CleanupD3DDevice
+[2015.09.12-08.05.45:379][760]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.09.12-08.05.45:391][760]LogModuleManager: Shutting down and abandoning module CrashTracker (188)
+[2015.09.12-08.05.45:391][760]LogModuleManager: Shutting down and abandoning module SceneOutliner (187)
+[2015.09.12-08.05.45:391][760]LogModuleManager: Shutting down and abandoning module SuperSearch (186)
+[2015.09.12-08.05.45:391][760]LogModuleManager: Shutting down and abandoning module WidgetCarousel (185)
+[2015.09.12-08.05.45:391][760]LogModuleManager: Shutting down and abandoning module AddContentDialog (184)
+[2015.09.12-08.05.45:391][760]LogModuleManager: Shutting down and abandoning module EditorWidgets (183)
+[2015.09.12-08.05.45:391][760]LogModuleManager: Shutting down and abandoning module CollectionManager (182)
+[2015.09.12-08.05.45:391][760]LogModuleManager: Shutting down and abandoning module StatsViewer (181)
+[2015.09.12-08.05.45:391][760]LogModuleManager: Shutting down and abandoning module FoliageEdit (180)
+[2015.09.12-08.05.45:391][760]LogModuleManager: Shutting down and abandoning module LandscapeEditor (179)
+[2015.09.12-08.05.45:391][760]LogModuleManager: Shutting down and abandoning module ActorPickerMode (178)
+[2015.09.12-08.05.45:391][760]LogModuleManager: Shutting down and abandoning module GeometryMode (177)
+[2015.09.12-08.05.45:391][760]LogModuleManager: Shutting down and abandoning module TextureAlignMode (176)
+[2015.09.12-08.05.45:391][760]LogModuleManager: Shutting down and abandoning module BspMode (175)
+[2015.09.12-08.05.45:391][760]LogModuleManager: Shutting down and abandoning module PlacementMode (174)
+[2015.09.12-08.05.45:391][760]LogModuleManager: Shutting down and abandoning module AutomationWorker (173)
+[2015.09.12-08.05.45:391][760]LogModuleManager: Shutting down and abandoning module CharacterAI (172)
+[2015.09.12-08.05.45:391][760]LogModuleManager: Shutting down and abandoning module SmartSnapping (171)
+[2015.09.12-08.05.45:391][760]LogModuleManager: Shutting down and abandoning module ViewportSnapping (170)
+[2015.09.12-08.05.45:391][760]LogModuleManager: Shutting down and abandoning module LogVisualizer (169)
+[2015.09.12-08.05.45:391][760]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (168)
+[2015.09.12-08.05.45:391][760]LogModuleManager: Shutting down and abandoning module IntroTutorials (167)
+[2015.09.12-08.05.45:391][760]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (166)
+[2015.09.12-08.05.45:391][760]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (165)
+[2015.09.12-08.05.45:391][760]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (164)
+[2015.09.12-08.05.45:391][760]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
+[2015.09.12-08.05.45:744][760]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (162)
+[2015.09.12-08.05.45:744][760]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (161)
+[2015.09.12-08.05.45:744][760]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (160)
+[2015.09.12-08.05.45:744][760]LogModuleManager: Shutting down and abandoning module MergeActors (159)
+[2015.09.12-08.05.45:744][760]LogModuleManager: Shutting down and abandoning module SizeMap (158)
+[2015.09.12-08.05.45:744][760]LogModuleManager: Shutting down and abandoning module TreeMap (157)
+[2015.09.12-08.05.45:744][760]LogModuleManager: Shutting down and abandoning module ReferenceViewer (156)
+[2015.09.12-08.05.45:744][760]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (155)
+[2015.09.12-08.05.45:744][760]LogModuleManager: Shutting down and abandoning module HardwareTargeting (154)
+[2015.09.12-08.05.45:744][760]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (153)
+[2015.09.12-08.05.45:744][760]LogModuleManager: Shutting down and abandoning module UndoHistory (152)
+[2015.09.12-08.05.45:744][760]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (151)
+[2015.09.12-08.05.45:744][760]LogModuleManager: Shutting down and abandoning module UserFeedback (150)
+[2015.09.12-08.05.45:745][760]LogModuleManager: Shutting down and abandoning module XmlParser (149)
+[2015.09.12-08.05.45:745][760]LogModuleManager: Shutting down and abandoning module Blutility (148)
+[2015.09.12-08.05.45:745][760]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (147)
+[2015.09.12-08.05.45:745][760]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (146)
+[2015.09.12-08.05.45:745][760]LogModuleManager: Shutting down and abandoning module InputBindingEditor (145)
+[2015.09.12-08.05.45:745][760]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (144)
+[2015.09.12-08.05.45:745][760]LogModuleManager: Shutting down and abandoning module SettingsEditor (143)
+[2015.09.12-08.05.45:745][760]LogModuleManager: Shutting down and abandoning module ProjectLauncher (142)
+[2015.09.12-08.05.45:745][760]LogModuleManager: Shutting down and abandoning module SessionFrontend (141)
+[2015.09.12-08.05.45:745][760]LogModuleManager: Shutting down and abandoning module ProfilerClient (140)
+[2015.09.12-08.05.45:746][760]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (139)
+[2015.09.12-08.05.45:746][760]LogModuleManager: Shutting down and abandoning module DeviceManager (138)
+[2015.09.12-08.05.45:746][760]LogModuleManager: Shutting down and abandoning module AutomationController (137)
+[2015.09.12-08.05.45:746][760]LogModuleManager: Shutting down and abandoning module AutomationWindow (136)
+[2015.09.12-08.05.45:746][760]LogModuleManager: Shutting down and abandoning module Layers (135)
+[2015.09.12-08.05.45:746][760]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (134)
+[2015.09.12-08.05.45:746][760]LogModuleManager: Shutting down and abandoning module DetailCustomizations (133)
+[2015.09.12-08.05.45:746][760]LogModuleManager: Shutting down and abandoning module PackagesDialog (132)
+[2015.09.12-08.05.45:747][760]LogModuleManager: Shutting down and abandoning module AssetRegistry (131)
+[2015.09.12-08.05.45:861][760]LogModuleManager: Shutting down and abandoning module Persona (130)
+[2015.09.12-08.05.45:861][760]LogModuleManager: Shutting down and abandoning module Kismet (129)
+[2015.09.12-08.05.45:861][760]LogModuleManager: Shutting down and abandoning module GraphEditor (128)
+[2015.09.12-08.05.45:861][760]LogModuleManager: Shutting down and abandoning module ClassViewer (127)
+[2015.09.12-08.05.45:863][760]LogModuleManager: Shutting down and abandoning module Toolbox (126)
+[2015.09.12-08.05.45:863][760]LogModuleManager: Shutting down and abandoning module ModuleUI (125)
+[2015.09.12-08.05.45:863][760]LogModuleManager: Shutting down and abandoning module MovieSceneTools (124)
+[2015.09.12-08.05.45:863][760]LogModuleManager: Shutting down and abandoning module OutputLog (123)
+[2015.09.12-08.05.45:863][760]LogModuleManager: Shutting down and abandoning module GammaUI (122)
+[2015.09.12-08.05.45:863][760]LogModuleManager: Shutting down and abandoning module Documentation (121)
+[2015.09.12-08.05.45:864][760]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (120)
+[2015.09.12-08.05.45:864][760]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (119)
+[2015.09.12-08.05.45:864][760]LogModuleManager: Shutting down and abandoning module AnalyticsET (118)
+[2015.09.12-08.05.45:864][760]LogModuleManager: Shutting down and abandoning module Analytics (117)
+[2015.09.12-08.05.45:864][760]LogModuleManager: Shutting down and abandoning module AITestSuite (116)
+[2015.09.12-08.05.45:864][760]LogModuleManager: Shutting down and abandoning module GameplayDebugger (115)
+[2015.09.12-08.05.45:864][760]LogModuleManager: Shutting down and abandoning module AIModule (114)
+[2015.09.12-08.05.45:864][760]LogModuleManager: Shutting down and abandoning module ProfilerService (113)
+[2015.09.12-08.05.45:884][760]LogModuleManager: Shutting down and abandoning module TaskGraph (112)
+[2015.09.12-08.05.45:884][760]LogModuleManager: Shutting down and abandoning module SlateRemote (111)
+[2015.09.12-08.05.45:884][760]LogModuleManager: Shutting down and abandoning module SteamVRController (110)
+[2015.09.12-08.05.45:884][760]LogModuleManager: Shutting down and abandoning module SteamVR (109)
+[2015.09.12-08.05.45:884][760]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (108)
+[2015.09.12-08.05.45:884][760]LogModuleManager: Shutting down and abandoning module OculusRift (107)
+[2015.09.12-08.05.45:884][760]LogModuleManager: Shutting down and abandoning module LeapMotionController (106)
+[2015.09.12-08.05.45:911][760]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (105)
+[2015.09.12-08.05.45:911][760]LogModuleManager: Shutting down and abandoning module CableComponent (104)
+[2015.09.12-08.05.45:911][760]LogModuleManager: Shutting down and abandoning module MessagingDebugger (103)
+[2015.09.12-08.05.45:911][760]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (102)
+[2015.09.12-08.05.45:911][760]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (101)
+[2015.09.12-08.05.45:911][760]LogModuleManager: Shutting down and abandoning module PluginBrowser (100)
+[2015.09.12-08.05.45:911][760]LogModuleManager: Shutting down and abandoning module EpicSurvey (99)
+[2015.09.12-08.05.45:912][760]LogModuleManager: Shutting down and abandoning module DesktopPlatform (98)
+[2015.09.12-08.05.45:912][760]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (97)
+[2015.09.12-08.05.45:912][760]LogModuleManager: Shutting down and abandoning module UObjectPlugin (96)
+[2015.09.12-08.05.45:912][760]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (95)
+[2015.09.12-08.05.45:912][760]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (94)
+[2015.09.12-08.05.45:912][760]LogModuleManager: Shutting down and abandoning module SourceControl (93)
+[2015.09.12-08.05.45:912][760]LogModuleManager: Shutting down and abandoning module GitSourceControl (92)
+[2015.09.12-08.05.45:912][760]LogModuleManager: Shutting down and abandoning module BlankPlugin (91)
+[2015.09.12-08.05.45:912][760]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (90)
+[2015.09.12-08.05.45:912][760]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (89)
+[2015.09.12-08.05.45:912][760]LogModuleManager: Shutting down and abandoning module MeshPaint (88)
+[2015.09.12-08.05.45:912][760]LogModuleManager: Shutting down and abandoning module SlateReflector (87)
+[2015.09.12-08.05.45:912][760]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2015.09.12-08.05.45:912][760]LogModuleManager: Shutting down and abandoning module HotReload (85)
+[2015.09.12-08.05.45:912][760]LogModuleManager: Shutting down and abandoning module MainFrame (84)
+[2015.09.12-08.05.45:912][760]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
+[2015.09.12-08.05.45:914][760]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.09.12-08.05.45:915][760]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.09.12-08.05.45:916][760]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
+[2015.09.12-08.05.46:016][760]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2015.09.12-08.05.46:016][760]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2015.09.12-08.05.46:020][760]LogModuleManager: Shutting down and abandoning module Media (77)
+[2015.09.12-08.05.46:020][760]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2015.09.12-08.05.46:020][760]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2015.09.12-08.05.46:020][760]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2015.09.12-08.05.46:020][760]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2015.09.12-08.05.46:020][760]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2015.09.12-08.05.46:020][760]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2015.09.12-08.05.46:020][760]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2015.09.12-08.05.46:020][760]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2015.09.12-08.05.46:020][760]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2015.09.12-08.05.46:020][760]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2015.09.12-08.05.46:020][760]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2015.09.12-08.05.46:020][760]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2015.09.12-08.05.46:020][760]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2015.09.12-08.05.46:020][760]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2015.09.12-08.05.46:023][760]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2015.09.12-08.05.46:023][760]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2015.09.12-08.05.46:023][760]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2015.09.12-08.05.46:023][760]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
+[2015.09.12-08.05.46:023][760]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2015.09.12-08.05.46:023][760]LogModuleManager: Shutting down and abandoning module Core (56)
+[2015.09.12-08.05.46:024][760]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2015.09.12-08.05.46:024][760]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2015.09.12-08.05.46:024][760]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2015.09.12-08.05.46:024][760]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2015.09.12-08.05.46:038][760]LogDerivedDataCache: Shutdown
+[2015.09.12-08.05.46:038][760]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2015.09.12-08.05.46:038][760]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2015.09.12-08.05.46:038][760]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2015.09.12-08.05.46:038][760]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2015.09.12-08.05.46:038][760]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2015.09.12-08.05.46:038][760]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2015.09.12-08.05.46:038][760]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2015.09.12-08.05.46:038][760]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2015.09.12-08.05.46:038][760]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2015.09.12-08.05.46:038][760]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2015.09.12-08.05.46:038][760]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2015.09.12-08.05.46:038][760]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2015.09.12-08.05.46:038][760]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2015.09.12-08.05.46:038][760]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2015.09.12-08.05.46:038][760]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2015.09.12-08.05.46:038][760]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2015.09.12-08.05.46:038][760]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2015.09.12-08.05.46:038][760]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2015.09.12-08.05.46:038][760]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2015.09.12-08.05.46:038][760]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2015.09.12-08.05.46:038][760]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2015.09.12-08.05.46:038][760]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2015.09.12-08.05.46:038][760]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
+[2015.09.12-08.05.46:038][760]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
+[2015.09.12-08.05.46:038][760]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
+[2015.09.12-08.05.46:038][760]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.09.12-08.05.46:038][760]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.09.12-08.05.46:038][760]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.09.12-08.05.46:038][760]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.09.12-08.05.46:038][760]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.09.12-08.05.46:038][760]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
+[2015.09.12-08.05.46:038][760]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.09.12-08.05.46:038][760]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.09.12-08.05.46:038][760]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.09.12-08.05.46:038][760]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.09.12-08.05.46:038][760]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2015.09.12-08.05.46:038][760]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.09.12-08.05.46:038][760]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.09.12-08.05.46:038][760]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.09.12-08.05.46:038][760]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.09.12-08.05.46:038][760]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.09.12-08.05.46:041][760]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.09.12-08.05.46:041][760]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.09.12-08.05.46:041][760]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.09.12-08.05.46:041][760]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.09.12-08.05.46:041][760]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.09.12-08.05.46:041][760]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.09.12-08.05.46:041][760]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.09.12-08.05.46:041][760]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.09.12-08.05.46:041][760]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.09.12-08.05.46:042][760]LogExit: Exiting.
+[2015.09.12-08.05.46:043][760]Log file closed, 09/12/15 01:05:46
