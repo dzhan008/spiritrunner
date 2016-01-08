@@ -1,0 +1,176 @@
+﻿[2016.01.08-04.47.00:684][  0]Log file open, 01/07/16 20:47:00
+[2016.01.08-04.47.00:684][  0]LogInit:Display: Running engine for game: SpiritRunner
+[2016.01.08-04.47.00:684][  0]LogInit:Display: RandInit(1618366053) SRandInit(1618366054).
+[2016.01.08-04.47.00:684][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.01.08-04.47.00:684][  0]LogStats: Stats thread started
+[2016.01.08-04.47.00:684][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2016.01.08-04.47.00:684][  0]LogInit: API Version: 2579680
+[2016.01.08-04.47.00:684][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2016.01.08-04.47.00:684][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.01.08-04.47.00:684][  0]LogInit: Build Configuration: Development
+[2016.01.08-04.47.00:684][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2016.01.08-04.47.00:684][  0]LogInit: Command line: 
+[2016.01.08-04.47.00:684][  0]LogInit: Base directory: G:/Programs/Epic Games/4.8/Engine/Binaries/Win64/
+[2016.01.08-04.47.00:684][  0]LogInit: Rocket: 1
+[2016.01.08-04.47.00:697][  0]LogInit: Using libcurl 7.41.0
+[2016.01.08-04.47.00:697][  0]LogInit:  - built for x86_64-pc-win32
+[2016.01.08-04.47.00:697][  0]LogInit:  - supports SSL with WinSSL
+[2016.01.08-04.47.00:697][  0]LogInit:  - other features:
+[2016.01.08-04.47.00:697][  0]LogInit:      CURL_VERSION_SSL
+[2016.01.08-04.47.00:697][  0]LogInit:      CURL_VERSION_IPV6
+[2016.01.08-04.47.00:697][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.01.08-04.47.00:697][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.01.08-04.47.00:697][  0]LogInit:      CURL_VERSION_IDN
+[2016.01.08-04.47.00:697][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.01.08-04.47.00:697][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.01.08-04.47.00:697][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.01.08-04.47.00:697][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.01.08-04.47.00:697][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.01.08-04.47.00:707][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2016.01.08-04.47.00:719][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.01.08-04.47.00:723][  0]LogInit: Object subsystem initialized
+[2016.01.08-04.47.00:724][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2016.01.08-04.47.00:724][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/John/Documents/GitHub/spiritrunner/SpiritRunner/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2016.01.08-04.47.00:724][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2016.01.08-04.47.00:724][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/John/Documents/GitHub/spiritrunner/SpiritRunner/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2016.01.08-04.47.00:724][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2016.01.08-04.47.00:724][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/John/Documents/GitHub/spiritrunner/SpiritRunner/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2016.01.08-04.47.00:725][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.08-04.47.00:725][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.01.08-04.47.00:729][  0]LogInit: Computer: JOHN-PC
+[2016.01.08-04.47.00:729][  0]LogInit: User: John
+[2016.01.08-04.47.00:729][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.01.08-04.47.00:729][  0]LogInit: High frequency timer resolution =3.906279 MHz
+[2016.01.08-04.47.00:729][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.01.08-04.47.00:729][  0]LogMemory: Platform Memory Stats for Windows
+[2016.01.08-04.47.00:729][  0]LogMemory: Process Physical Memory: 50.44 MB used, 50.44 MB peak
+[2016.01.08-04.47.00:729][  0]LogMemory: Process Virtual Memory: 24.43 MB used, 24.43 MB peak
+[2016.01.08-04.47.00:729][  0]LogMemory: Physical Memory: 4725.36 MB used, 8108.02 MB total
+[2016.01.08-04.47.00:729][  0]LogMemory: Virtual Memory: 283.25 MB used, 8388608.00 MB total
+[2016.01.08-04.47.00:759][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2016.01.08-04.47.00:966][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (G:/Programs/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (G:/Programs/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2016.01.08-04.47.01:483][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2016.01.08-04.47.01:483][  0]LogD3D11RHI: Adapter has 4008MB of dedicated video memory, 0MB of dedicated system memory, and 3798MB of shared system memory, 2 output[s]
+[2016.01.08-04.47.01:489][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2016.01.08-04.47.01:489][  0]LogD3D11RHI: Adapter has 64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 0 output[s]
+[2016.01.08-04.47.01:489][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.01.08-04.47.01:498][  0]LogD3D11RHI: InitD3DDevice
+[2016.01.08-04.47.01:498][  0]LogD3D11RHI: !Direct3DDevice
+[2016.01.08-04.47.01:498][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.01.08-04.47.01:506][  0]LogD3D11RHI: Async texture creation enabled
+[2016.01.08-04.47.01:518][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.01.08-04.47.02:509][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2016.01.08-04.47.02:524][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.01.08-04.47.02:545][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.01.08-04.47.02:560][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.01.08-04.47.02:575][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.01.08-04.47.02:587][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.01.08-04.47.02:600][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.01.08-04.47.02:616][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.01.08-04.47.02:631][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.01.08-04.47.02:642][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.01.08-04.47.02:657][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.01.08-04.47.02:671][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.01.08-04.47.02:733][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.01.08-04.47.02:748][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.01.08-04.47.02:760][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.01.08-04.47.02:774][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.01.08-04.47.02:774][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.01.08-04.47.03:021][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.01.08-04.47.03:086][  0]LogDerivedDataCache: Loaded boot cache 0.06s 53MB C:/Users/John/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2016.01.08-04.47.03:086][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/John/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2016.01.08-04.47.03:086][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/John/Documents/GitHub/spiritrunner/SpiritRunner/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.01.08-04.47.03:087][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.01.08-04.47.03:087][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/John/Documents/GitHub/spiritrunner/SpiritRunner/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.01.08-04.47.03:087][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.01.08-04.47.03:344][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.01.08-04.47.03:355][  0]LogDerivedDataCache: Using Local data cache path C:/Users/John/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.01.08-04.47.03:507][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.08-04.47.03:513][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2016.01.08-04.47.03:513][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2016.01.08-04.47.03:537][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.01.08-04.47.03:538][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.01.08-04.47.04:253][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.01.08-04.47.05:391][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.01.08-04.47.05:687][  0]SourceControl: Info Source control is disabled
+[2016.01.08-04.47.05:688][  0]SourceControl: Info Source control is disabled
+[2016.01.08-04.47.05:697][  0]SourceControl: Info Source control is disabled
+[2016.01.08-04.47.05:705][  0]SourceControl: Info Source control is disabled
+[2016.01.08-04.47.05:892][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2016.01.08-04.47.05:892][  0]LogUObjectAllocator: 5409248 out of 0 bytes used by permanent object pool.
+[2016.01.08-04.47.05:949][  0]LogEngine: Initializing Engine...
+[2016.01.08-04.47.05:950][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2016.01.08-04.47.05:951][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2016.01.08-04.47.06:063][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.01.08-04.47.06:069][  0]LogInit: XAudio2 using 'Speakers (Turtle Beach P11 Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.08-04.47.06:093][  0]LogInit: FAudioDevice initialized.
+[2016.01.08-04.47.06:123][  0]LogDerivedDataCache: Saved boot cache 0.03s 53MB C:/Users/John/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2016.01.08-04.47.06:128][  0]LogInit: Texture streaming: Disabled
+[2016.01.08-04.47.06:151][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.01.08-04.47.06:151][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2016.01.08-04.47.06:151][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 795ce0b24c6318a5324eaf839592b765|e87b0c418b154305b06c892317f44a4d|3e9e43dd-6daf-4b71-9a80-f4287aceb186
+[2016.01.08-04.47.06:151][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.01.08-04.47.06:197][  0]LogInit: Transaction tracking system initialized
+[2016.01.08-04.47.06:314][  0]BlueprintLog: New page: Editor Load
+[2016.01.08-04.47.06:346][  0]LogAssetRegistry: FAssetRegistry took 0.0097 seconds to start up
+[2016.01.08-04.47.06:347][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2016.01.08-04.47.07:070][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2016.01.08-04.47.07:070][  0]LogConsoleResponse:Display: 
+[2016.01.08-04.47.07:220][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.01.08-04.47.07:416][  0]SourceControl: Info Source control is disabled
+[2016.01.08-04.47.07:470][  0]LogD3D11RHI: InitD3DDevice
+[2016.01.08-04.47.34:331][  0]LogD3D11RHI: InitD3DDevice
+[2016.01.08-04.47.35:949][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.01.08-04.47.35:949][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.01.08-04.47.35:951][  0]LogD3D11RHI: InitD3DDevice
+[2016.01.08-04.47.38:663][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.01.08-04.47.38:663][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.01.08-04.47.38:664][  0]Cmd: MAP LOAD FILE="C:/Users/John/Documents/GitHub/spiritrunner/SpiritRunner/Content/SpiritRunner/Maps/RunnerMapTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.08-04.47.38:664][  0]LightingResults: New page: Lighting Build
+[2016.01.08-04.47.38:681][  0]MapCheck: New page: Map Check
+[2016.01.08-04.47.38:681][  0]LightingResults: New page: Lighting Build
+[2016.01.08-04.47.38:696][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001782EF20
+[2016.01.08-04.47.39:957][  0]LogLinker:Warning: Can't find file '/Game/SpiritRunner/Blueprints/ToriFloor1'
+[2016.01.08-04.47.39:957][  0]LogLinker:Warning: Can't find file for asset '/Game/SpiritRunner/Blueprints/ToriFloor1' while loading C:/Users/John/Documents/GitHub/spiritrunner/SpiritRunner/Content/SpiritRunner/UMG/PauseMenu.uasset.
+[2016.01.08-04.47.39:957][  0]LoadErrors:Error: Error /Game/SpiritRunner/UMG/PauseMenu : Can't find file for asset. /Game/SpiritRunner/Blueprints/ToriFloor1
+[2016.01.08-04.47.40:951][  0]LogLinker:Warning: Can't find file '/Game/SpiritRunner/Blueprints/ToriFloor1'
+[2016.01.08-04.47.40:951][  0]LogLinker:Warning: Can't find file for asset '/Game/SpiritRunner/Blueprints/ToriFloor1' while loading C:/Users/John/Documents/GitHub/spiritrunner/SpiritRunner/Content/SpiritRunner/Blueprints/RunCharacter.uasset.
+[2016.01.08-04.47.40:951][  0]LoadErrors:Error: Error /Game/SpiritRunner/Blueprints/RunCharacter : Can't find file for asset. /Game/SpiritRunner/Blueprints/ToriFloor1
+[2016.01.08-04.47.40:953][  0]LogLinker:Warning: Can't find file '/Game/SpiritRunner/Blueprints/ToriFloor1'
+[2016.01.08-04.47.40:953][  0]LogLinker:Warning: Can't find file for asset '/Game/SpiritRunner/Blueprints/ToriFloor1' while loading C:/Users/John/Documents/GitHub/spiritrunner/SpiritRunner/Content/SpiritRunner/Blueprints/RunCharacter.uasset.
+[2016.01.08-04.47.40:953][  0]LoadErrors:Error: Error /Game/SpiritRunner/Blueprints/RunCharacter : Can't find file for asset. /Game/SpiritRunner/Blueprints/ToriFloor1
+[2016.01.08-04.47.40:959][  0]LogLinker:Warning: Can't find file '/Game/SpiritRunner/Blueprints/ToriFloor1'
+[2016.01.08-04.47.40:959][  0]LoadErrors: Info Failed to load /Game/SpiritRunner/Blueprints/ToriFloor1.ToriFloor1_C Referenced by EdGraphPin_88908
+[2016.01.08-04.47.40:959][  0]LogLinker:Warning: Can't find file for asset '/Game/SpiritRunner/Blueprints/ToriFloor1' while loading C:/Users/John/Documents/GitHub/spiritrunner/SpiritRunner/Content/SpiritRunner/Blueprints/RunCharacter.uasset.
+[2016.01.08-04.47.40:959][  0]LoadErrors: Info Failed to load /Game/SpiritRunner/Blueprints/ToriFloor1.ToriFloor1_C Referenced by EdGraphPin_88908
+[2016.01.08-04.47.40:959][  0]LoadErrors:Error: Error /Game/SpiritRunner/Blueprints/RunCharacter : Can't find file for asset. /Game/SpiritRunner/Blueprints/ToriFloor1
+[2016.01.08-04.47.40:959][  0]LogLinker:Warning: Can't find file '/Game/SpiritRunner/Blueprints/ToriFloor1'
+[2016.01.08-04.47.40:959][  0]LoadErrors: Info Failed to load /Game/SpiritRunner/Blueprints/ToriFloor1.ToriFloor1_C Referenced by EdGraphPin_88912
+[2016.01.08-04.47.40:959][  0]LogLinker:Warning: Can't find file for asset '/Game/SpiritRunner/Blueprints/ToriFloor1' while loading C:/Users/John/Documents/GitHub/spiritrunner/SpiritRunner/Content/SpiritRunner/Blueprints/RunCharacter.uasset.
+[2016.01.08-04.47.40:959][  0]LoadErrors: Info Failed to load /Game/SpiritRunner/Blueprints/ToriFloor1.ToriFloor1_C Referenced by EdGraphPin_88912
+[2016.01.08-04.47.40:959][  0]LoadErrors:Error: Error /Game/SpiritRunner/Blueprints/RunCharacter : Can't find file for asset. /Game/SpiritRunner/Blueprints/ToriFloor1
+[2016.01.08-04.47.41:030][  0]LogBlueprint:Error: [compiler RunGameMode] Error Spawn node  SpawnActor NONE  must have a class specified.
+[2016.01.08-04.47.41:054][  0]LogBlueprint:Warning: [compiler RunGameMode] Warning [0042.03] Compile of RunGameMode failed. 1 Fatal Issue(s) 0 Warning(s) [in 48 ms]
+[2016.01.08-04.47.41:057][  0]LogBlueprint:Warning: [compiler RunGameMode] Warning [0042.03] Compile of RunGameMode failed. 1 Fatal Issue(s) 1 Warning(s) [in 2 ms]
+[2016.01.08-04.47.41:057][  0]LogBlueprint:Warning: [compiler RunGameMode] Warning [0042.03] Compile of RunGameMode failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2016.01.08-04.47.41:838][  0]LogBlueprint:Error: [compiler RunGameMode] Error Spawn node  SpawnActor NONE  must have a class specified.
+[2016.01.08-04.47.41:857][  0]LogBlueprint:Warning: [compiler RunGameMode] Warning [0042.83] Compile of RunGameMode failed. 1 Fatal Issue(s) 0 Warning(s) [in 39 ms]
+[2016.01.08-04.47.41:859][  0]LogBlueprint:Warning: [compiler RunGameMode] Warning [0042.83] Compile of RunGameMode failed. 1 Fatal Issue(s) 1 Warning(s) [in 1 ms]
+[2016.01.08-04.47.41:876][  0]LogLinker:Warning: Can't find file '/Game/SpiritRunner/Blueprints/ToriFloor1'
+[2016.01.08-04.47.41:877][  0]LogLinker:Warning: Can't find file for asset '/Game/SpiritRunner/Blueprints/ToriFloor1' while loading C:/Users/John/Documents/GitHub/spiritrunner/SpiritRunner/Content/SpiritRunner/Blueprints/RunGameMode.uasset.
+[2016.01.08-04.47.41:877][  0]LoadErrors:Error: Error /Game/SpiritRunner/Blueprints/RunGameMode : Can't find file for asset. /Game/SpiritRunner/Blueprints/ToriFloor1
+[2016.01.08-04.47.41:881][  0]LogLinker:Warning: Can't find file '/Game/SpiritRunner/Blueprints/ToriFloor1'
+[2016.01.08-04.47.41:881][  0]LogLinker:Warning: Can't find file for asset '/Game/SpiritRunner/Blueprints/ToriFloor1' while loading C:/Users/John/Documents/GitHub/spiritrunner/SpiritRunner/Content/SpiritRunner/Blueprints/RunGameMode.uasset.
+[2016.01.08-04.47.41:881][  0]LoadErrors:Error: Error /Game/SpiritRunner/Blueprints/RunGameMode : Can't find file for asset. /Game/SpiritRunner/Blueprints/ToriFloor1
+[2016.01.08-04.47.43:563][  0]LogAIModule: Creating AISystem for world RunnerMapTest
+[2016.01.08-04.47.43:597][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.01.08-04.47.43:601][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.01.08-04.47.43:686][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 84.913ms to complete.
+[2016.01.08-04.47.43:686][  0]LogFileHelpers: Loading map 'RunnerMapTest' took 5.022
+[2016.01.08-04.47.43:866][  0]LogCollectionManager: Loaded 0 collections in 0.002110 seconds
+[2016.01.08-04.47.43:872][  0]LogContentBrowser: Native class hierarchy populated in 0.0059 seconds. Added 1792 classes and 301 folders.
+[2016.01.08-04.47.43:993][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.01.08-04.47.44:222][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2016.01.08-04.47.44:294][  0]LogContentBrowser: Native class hierarchy update
