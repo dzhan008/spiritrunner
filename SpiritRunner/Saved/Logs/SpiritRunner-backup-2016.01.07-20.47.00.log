@@ -1,0 +1,345 @@
+﻿[2016.01.08-01.58.03:245][  0]Log file open, 01/07/16 17:58:03
+[2016.01.08-01.58.03:245][  0]LogInit:Display: Running engine for game: SpiritRunner
+[2016.01.08-01.58.03:245][  0]LogInit:Display: RandInit(1865391369) SRandInit(1865391370).
+[2016.01.08-01.58.03:245][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.01.08-01.58.03:245][  0]LogStats: Stats thread started
+[2016.01.08-01.58.03:245][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2016.01.08-01.58.03:245][  0]LogInit: API Version: 2579680
+[2016.01.08-01.58.03:245][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2016.01.08-01.58.03:245][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.01.08-01.58.03:245][  0]LogInit: Build Configuration: Development
+[2016.01.08-01.58.03:245][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2016.01.08-01.58.03:245][  0]LogInit: Command line: 
+[2016.01.08-01.58.03:245][  0]LogInit: Base directory: G:/Programs/Epic Games/4.8/Engine/Binaries/Win64/
+[2016.01.08-01.58.03:245][  0]LogInit: Rocket: 1
+[2016.01.08-01.58.03:262][  0]LogInit: Using libcurl 7.41.0
+[2016.01.08-01.58.03:262][  0]LogInit:  - built for x86_64-pc-win32
+[2016.01.08-01.58.03:262][  0]LogInit:  - supports SSL with WinSSL
+[2016.01.08-01.58.03:262][  0]LogInit:  - other features:
+[2016.01.08-01.58.03:262][  0]LogInit:      CURL_VERSION_SSL
+[2016.01.08-01.58.03:262][  0]LogInit:      CURL_VERSION_IPV6
+[2016.01.08-01.58.03:262][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.01.08-01.58.03:262][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.01.08-01.58.03:262][  0]LogInit:      CURL_VERSION_IDN
+[2016.01.08-01.58.03:262][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.01.08-01.58.03:262][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.01.08-01.58.03:262][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.01.08-01.58.03:262][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.01.08-01.58.03:262][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.01.08-01.58.03:272][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2016.01.08-01.58.03:284][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.01.08-01.58.03:289][  0]LogInit: Object subsystem initialized
+[2016.01.08-01.58.03:289][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2016.01.08-01.58.03:290][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/John/Documents/GitHub/spiritrunner/SpiritRunner/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2016.01.08-01.58.03:290][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2016.01.08-01.58.03:290][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/John/Documents/GitHub/spiritrunner/SpiritRunner/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2016.01.08-01.58.03:290][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2016.01.08-01.58.03:290][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/John/Documents/GitHub/spiritrunner/SpiritRunner/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2016.01.08-01.58.03:290][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.08-01.58.03:290][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.01.08-01.58.03:294][  0]LogInit: Computer: JOHN-PC
+[2016.01.08-01.58.03:294][  0]LogInit: User: John
+[2016.01.08-01.58.03:294][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.01.08-01.58.03:294][  0]LogInit: High frequency timer resolution =3.906259 MHz
+[2016.01.08-01.58.03:294][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.01.08-01.58.03:294][  0]LogMemory: Platform Memory Stats for Windows
+[2016.01.08-01.58.03:294][  0]LogMemory: Process Physical Memory: 50.30 MB used, 50.30 MB peak
+[2016.01.08-01.58.03:294][  0]LogMemory: Process Virtual Memory: 24.26 MB used, 24.26 MB peak
+[2016.01.08-01.58.03:294][  0]LogMemory: Physical Memory: 5680.47 MB used, 8108.02 MB total
+[2016.01.08-01.58.03:294][  0]LogMemory: Virtual Memory: 283.25 MB used, 8388608.00 MB total
+[2016.01.08-01.58.03:324][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2016.01.08-01.58.03:468][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (G:/Programs/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (G:/Programs/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2016.01.08-01.58.03:806][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2016.01.08-01.58.03:806][  0]LogD3D11RHI: Adapter has 4008MB of dedicated video memory, 0MB of dedicated system memory, and 3798MB of shared system memory, 2 output[s]
+[2016.01.08-01.58.03:813][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2016.01.08-01.58.03:813][  0]LogD3D11RHI: Adapter has 64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 0 output[s]
+[2016.01.08-01.58.03:813][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.01.08-01.58.03:821][  0]LogD3D11RHI: InitD3DDevice
+[2016.01.08-01.58.03:821][  0]LogD3D11RHI: !Direct3DDevice
+[2016.01.08-01.58.03:821][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.01.08-01.58.03:829][  0]LogD3D11RHI: Async texture creation enabled
+[2016.01.08-01.58.03:841][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.01.08-01.58.04:549][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2016.01.08-01.58.04:561][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.01.08-01.58.04:575][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.01.08-01.58.04:590][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.01.08-01.58.04:610][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.01.08-01.58.04:623][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.01.08-01.58.04:634][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.01.08-01.58.04:645][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.01.08-01.58.04:656][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.01.08-01.58.04:667][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.01.08-01.58.04:681][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.01.08-01.58.04:694][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.01.08-01.58.04:738][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.01.08-01.58.04:749][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.01.08-01.58.04:759][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.01.08-01.58.04:771][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.01.08-01.58.04:771][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.01.08-01.58.04:946][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.01.08-01.58.04:990][  0]LogDerivedDataCache: Loaded boot cache 0.04s 53MB C:/Users/John/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2016.01.08-01.58.04:990][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/John/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2016.01.08-01.58.04:990][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/John/Documents/GitHub/spiritrunner/SpiritRunner/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.01.08-01.58.04:990][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.01.08-01.58.04:990][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/John/Documents/GitHub/spiritrunner/SpiritRunner/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.01.08-01.58.04:990][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.01.08-01.58.05:103][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.01.08-01.58.05:114][  0]LogDerivedDataCache: Using Local data cache path C:/Users/John/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.01.08-01.58.05:259][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.08-01.58.05:265][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2016.01.08-01.58.05:265][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2016.01.08-01.58.05:288][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.01.08-01.58.05:288][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.01.08-01.58.05:618][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.01.08-01.58.06:486][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.01.08-01.58.06:861][  0]SourceControl: Info Source control is disabled
+[2016.01.08-01.58.06:862][  0]SourceControl: Info Source control is disabled
+[2016.01.08-01.58.06:878][  0]SourceControl: Info Source control is disabled
+[2016.01.08-01.58.06:894][  0]SourceControl: Info Source control is disabled
+[2016.01.08-01.58.07:107][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2016.01.08-01.58.07:107][  0]LogUObjectAllocator: 5409248 out of 0 bytes used by permanent object pool.
+[2016.01.08-01.58.07:164][  0]LogEngine: Initializing Engine...
+[2016.01.08-01.58.07:165][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2016.01.08-01.58.07:166][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2016.01.08-01.58.07:280][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.01.08-01.58.07:286][  0]LogInit: XAudio2 using 'Speakers (Turtle Beach P11 Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.08-01.58.07:291][  0]LogInit: FAudioDevice initialized.
+[2016.01.08-01.58.07:320][  0]LogDerivedDataCache: Saved boot cache 0.03s 53MB C:/Users/John/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2016.01.08-01.58.07:326][  0]LogInit: Texture streaming: Disabled
+[2016.01.08-01.58.07:346][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.01.08-01.58.07:346][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2016.01.08-01.58.07:346][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 795ce0b24c6318a5324eaf839592b765|e87b0c418b154305b06c892317f44a4d|3e9e43dd-6daf-4b71-9a80-f4287aceb186
+[2016.01.08-01.58.07:347][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.01.08-01.58.07:384][  0]LogInit: Transaction tracking system initialized
+[2016.01.08-01.58.07:493][  0]BlueprintLog: New page: Editor Load
+[2016.01.08-01.58.07:523][  0]LogAssetRegistry: FAssetRegistry took 0.0100 seconds to start up
+[2016.01.08-01.58.07:523][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2016.01.08-01.58.08:186][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2016.01.08-01.58.08:187][  0]LogConsoleResponse:Display: 
+[2016.01.08-01.58.08:265][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.01.08-01.58.08:412][  0]SourceControl: Info Source control is disabled
+[2016.01.08-01.58.08:412][  0]Cmd: MAP LOAD FILE="C:/Users/John/Documents/GitHub/spiritrunner/SpiritRunner/Content/SpiritRunner/Maps/RunnerMapTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.08-01.58.08:413][  0]LightingResults: New page: Lighting Build
+[2016.01.08-01.58.08:424][  0]MapCheck: New page: Map Check
+[2016.01.08-01.58.08:424][  0]LightingResults: New page: Lighting Build
+[2016.01.08-01.58.08:431][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001ED1EF20
+[2016.01.08-01.58.09:648][  0]LogLinker:Warning: Can't find file '/Game/SpiritRunner/Blueprints/ToriFloor1'
+[2016.01.08-01.58.09:648][  0]LogLinker:Warning: Can't find file for asset '/Game/SpiritRunner/Blueprints/ToriFloor1' while loading C:/Users/John/Documents/GitHub/spiritrunner/SpiritRunner/Content/SpiritRunner/UMG/PauseMenu.uasset.
+[2016.01.08-01.58.09:648][  0]LoadErrors:Error: Error /Game/SpiritRunner/UMG/PauseMenu : Can't find file for asset. /Game/SpiritRunner/Blueprints/ToriFloor1
+[2016.01.08-01.58.10:685][  0]LogLinker:Warning: Can't find file '/Game/SpiritRunner/Blueprints/ToriFloor1'
+[2016.01.08-01.58.10:685][  0]LogLinker:Warning: Can't find file for asset '/Game/SpiritRunner/Blueprints/ToriFloor1' while loading C:/Users/John/Documents/GitHub/spiritrunner/SpiritRunner/Content/SpiritRunner/Blueprints/RunCharacter.uasset.
+[2016.01.08-01.58.10:685][  0]LoadErrors:Error: Error /Game/SpiritRunner/Blueprints/RunCharacter : Can't find file for asset. /Game/SpiritRunner/Blueprints/ToriFloor1
+[2016.01.08-01.58.10:687][  0]LogLinker:Warning: Can't find file '/Game/SpiritRunner/Blueprints/ToriFloor1'
+[2016.01.08-01.58.10:687][  0]LogLinker:Warning: Can't find file for asset '/Game/SpiritRunner/Blueprints/ToriFloor1' while loading C:/Users/John/Documents/GitHub/spiritrunner/SpiritRunner/Content/SpiritRunner/Blueprints/RunCharacter.uasset.
+[2016.01.08-01.58.10:687][  0]LoadErrors:Error: Error /Game/SpiritRunner/Blueprints/RunCharacter : Can't find file for asset. /Game/SpiritRunner/Blueprints/ToriFloor1
+[2016.01.08-01.58.10:690][  0]LogLinker:Warning: Can't find file '/Game/SpiritRunner/Blueprints/ToriFloor1'
+[2016.01.08-01.58.10:690][  0]LoadErrors: Info Failed to load /Game/SpiritRunner/Blueprints/ToriFloor1.ToriFloor1_C Referenced by EdGraphPin_88908
+[2016.01.08-01.58.10:690][  0]LogLinker:Warning: Can't find file for asset '/Game/SpiritRunner/Blueprints/ToriFloor1' while loading C:/Users/John/Documents/GitHub/spiritrunner/SpiritRunner/Content/SpiritRunner/Blueprints/RunCharacter.uasset.
+[2016.01.08-01.58.10:690][  0]LoadErrors: Info Failed to load /Game/SpiritRunner/Blueprints/ToriFloor1.ToriFloor1_C Referenced by EdGraphPin_88908
+[2016.01.08-01.58.10:690][  0]LoadErrors:Error: Error /Game/SpiritRunner/Blueprints/RunCharacter : Can't find file for asset. /Game/SpiritRunner/Blueprints/ToriFloor1
+[2016.01.08-01.58.10:690][  0]LogLinker:Warning: Can't find file '/Game/SpiritRunner/Blueprints/ToriFloor1'
+[2016.01.08-01.58.10:690][  0]LoadErrors: Info Failed to load /Game/SpiritRunner/Blueprints/ToriFloor1.ToriFloor1_C Referenced by EdGraphPin_88912
+[2016.01.08-01.58.10:690][  0]LogLinker:Warning: Can't find file for asset '/Game/SpiritRunner/Blueprints/ToriFloor1' while loading C:/Users/John/Documents/GitHub/spiritrunner/SpiritRunner/Content/SpiritRunner/Blueprints/RunCharacter.uasset.
+[2016.01.08-01.58.10:690][  0]LoadErrors: Info Failed to load /Game/SpiritRunner/Blueprints/ToriFloor1.ToriFloor1_C Referenced by EdGraphPin_88912
+[2016.01.08-01.58.10:690][  0]LoadErrors:Error: Error /Game/SpiritRunner/Blueprints/RunCharacter : Can't find file for asset. /Game/SpiritRunner/Blueprints/ToriFloor1
+[2016.01.08-01.58.10:749][  0]LogBlueprint:Error: [compiler RunGameMode] Error Spawn node  SpawnActor NONE  must have a class specified.
+[2016.01.08-01.58.10:773][  0]LogBlueprint:Warning: [compiler RunGameMode] Warning [0008.49] Compile of RunGameMode failed. 1 Fatal Issue(s) 0 Warning(s) [in 45 ms]
+[2016.01.08-01.58.10:774][  0]LogBlueprint:Warning: [compiler RunGameMode] Warning [0008.49] Compile of RunGameMode failed. 1 Fatal Issue(s) 1 Warning(s) [in 1 ms]
+[2016.01.08-01.58.10:774][  0]LogBlueprint:Warning: [compiler RunGameMode] Warning [0008.49] Compile of RunGameMode failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2016.01.08-01.58.11:387][  0]LogBlueprint:Error: [compiler RunGameMode] Error Spawn node  SpawnActor NONE  must have a class specified.
+[2016.01.08-01.58.11:449][  0]LogBlueprint:Warning: [compiler RunGameMode] Warning [0009.17] Compile of RunGameMode failed. 1 Fatal Issue(s) 0 Warning(s) [in 134 ms]
+[2016.01.08-01.58.11:453][  0]LogBlueprint:Warning: [compiler RunGameMode] Warning [0009.17] Compile of RunGameMode failed. 1 Fatal Issue(s) 1 Warning(s) [in 3 ms]
+[2016.01.08-01.58.11:478][  0]LogLinker:Warning: Can't find file '/Game/SpiritRunner/Blueprints/ToriFloor1'
+[2016.01.08-01.58.11:479][  0]LogLinker:Warning: Can't find file for asset '/Game/SpiritRunner/Blueprints/ToriFloor1' while loading C:/Users/John/Documents/GitHub/spiritrunner/SpiritRunner/Content/SpiritRunner/Blueprints/RunGameMode.uasset.
+[2016.01.08-01.58.11:479][  0]LoadErrors:Error: Error /Game/SpiritRunner/Blueprints/RunGameMode : Can't find file for asset. /Game/SpiritRunner/Blueprints/ToriFloor1
+[2016.01.08-01.58.11:486][  0]LogLinker:Warning: Can't find file '/Game/SpiritRunner/Blueprints/ToriFloor1'
+[2016.01.08-01.58.11:486][  0]LogLinker:Warning: Can't find file for asset '/Game/SpiritRunner/Blueprints/ToriFloor1' while loading C:/Users/John/Documents/GitHub/spiritrunner/SpiritRunner/Content/SpiritRunner/Blueprints/RunGameMode.uasset.
+[2016.01.08-01.58.11:486][  0]LoadErrors:Error: Error /Game/SpiritRunner/Blueprints/RunGameMode : Can't find file for asset. /Game/SpiritRunner/Blueprints/ToriFloor1
+[2016.01.08-01.58.13:740][  0]LogAIModule: Creating AISystem for world RunnerMapTest
+[2016.01.08-01.58.13:755][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.01.08-01.58.13:757][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.01.08-01.58.13:930][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 173.153ms to complete.
+[2016.01.08-01.58.13:930][  0]LogFileHelpers: Loading map 'RunnerMapTest' took 5.519
+[2016.01.08-01.58.14:169][  0]LogCollectionManager: Loaded 0 collections in 0.001933 seconds
+[2016.01.08-01.58.14:176][  0]LogContentBrowser: Native class hierarchy populated in 0.0066 seconds. Added 1792 classes and 301 folders.
+[2016.01.08-01.58.14:283][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.01.08-01.58.14:573][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.01.08-01.58.14:630][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.01.08-01.58.14:740][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.01.08-01.58.14:741][  0]LogD3D11RHI: InitD3DDevice
+[2016.01.08-01.58.14:744][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.01.08-01.58.14:765][  0]LogLoad: Full Startup: 12.48 seconds (BP compile: 1.64 seconds)
+[2016.01.08-01.58.14:969][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.01.08-01.58.15:202][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.01.08-01.58.15:208][  0]LogD3D11RHI: InitD3DDevice
+[2016.01.08-01.58.15:495][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2016.01.08-01.58.16:141][  6]LogD3D11RHI: InitD3DDevice
+[2016.01.08-01.58.18:053][ 11]LogAssetRegistry: Asset discovery search completed in 10.5408 seconds
+[2016.01.08-01.58.24:816][ 30]LogD3D11RHI: InitD3DDevice
+[2016.01.08-01.59.03:243][195]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.01.08-01.59.03:441][205]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.01.08-03.32.34:923][ 33]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FlatFloor4)
+[2016.01.08-03.32.39:067][423]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FlatFloor3)
+[2016.01.08-03.32.46:406][148]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (FINALplant24)
+[2016.01.08-03.32.47:328][241]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (lowpolytree5)
+[2016.01.08-03.32.48:926][394]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (FINALplant3)
+[2016.01.08-03.32.49:596][458]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (lowpolytree6)
+[2016.01.08-03.32.50:352][520]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (FINALplant6)
+[2016.01.08-03.32.51:790][665]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (FINALplant5)
+[2016.01.08-03.32.53:238][800]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (FINALplant2)
+[2016.01.08-03.32.54:484][931]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (FINALplant4)
+[2016.01.08-03.32.56:910][136]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (lowpolytree7)
+[2016.01.08-03.33.00:806][494]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (FINALplant)
+[2016.01.08-03.33.02:984][710]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (FlatFloor3)
+[2016.01.08-03.33.04:220][828]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (FINALplant21)
+[2016.01.08-03.33.05:390][946]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (lowpolytree9)
+[2016.01.08-03.33.06:567][ 49]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (lowpolytree4)
+[2016.01.08-03.33.07:819][163]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (FINALrockandplant)
+[2016.01.08-03.33.12:175][552]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (FINALplant22)
+[2016.01.08-03.33.13:350][663]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (FINALplant23)
+[2016.01.08-03.33.21:608][458]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (FINALplant9)
+[2016.01.08-03.33.22:552][542]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (FINALplant8)
+[2016.01.08-03.33.23:150][597]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (FINALlog)
+[2016.01.08-03.33.23:958][677]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (FINALplant7)
+[2016.01.08-03.33.24:880][759]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (FINALplant10)
+[2016.01.08-03.33.26:565][924]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (FINALplant11)
+[2016.01.08-03.33.27:161][972]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (lowpolytree)
+[2016.01.08-03.33.28:449][ 85]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (lowpolytree2)
+[2016.01.08-03.33.29:177][156]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (lowpolytree8)
+[2016.01.08-03.33.30:027][238]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (lowpolytree3)
+[2016.01.08-03.33.34:192][608]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (FINALplant12)
+[2016.01.08-03.33.34:970][676]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (FINALplant18)
+[2016.01.08-03.33.35:754][754]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (FINALplant13)
+[2016.01.08-03.33.36:746][847]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (FINALplant19)
+[2016.01.08-03.33.38:650][ 21]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (FlatFloor3)
+[2016.01.08-03.33.39:928][151]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (FINALplant20)
+[2016.01.08-03.33.41:947][349]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (FINALplant17)
+[2016.01.08-03.33.42:870][431]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (FINALplant15)
+[2016.01.08-03.33.46:042][703]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (FINALplant14)
+[2016.01.08-03.33.47:134][812]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (FINALplant16)
+[2016.01.08-03.34.22:217][130]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (FlatFloor3)
+[2016.01.08-03.34.28:715][749]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (FlatFloor3)
+[2016.01.08-03.34.28:859][749]LogD3D11RHI: InitD3DDevice
+[2016.01.08-03.34.32:195][ 77]LogD3D11RHI: InitD3DDevice
+[2016.01.08-03.34.35:088][350]LogD3D11RHI: InitD3DDevice
+[2016.01.08-03.34.55:232][246]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.FINALplant24.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/flatfloor4.flatfloor4_C:StaticMeshComponent0772BEB2642CA3BA407F2B7B7C441AAB6, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.34.55:255][246]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.lowpolytree5.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/flatfloor4.flatfloor4_C:StaticMeshComponent016B212B5F4998660A1E05F197E0B03806, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.34.55:273][246]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.FINALplant3.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/flatfloor4.flatfloor4_C:StaticMeshComponent025CC2C84143E68CD55A6469B1A89FE8E8, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.34.55:351][246]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.lowpolytree6.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/flatfloor4.flatfloor4_C:StaticMeshComponent03FF9E9113454F11D5FF7E91BE3963D09B, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.34.55:390][246]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.FINALplant6.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/flatfloor4.flatfloor4_C:StaticMeshComponent0451FEB6244BF42B93E22844858B8245AB, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.34.55:420][246]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.FINALplant5.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/flatfloor4.flatfloor4_C:StaticMeshComponent0595142C424BC467E35A36E884A5B43146, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.34.55:445][246]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.FINALplant2.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/flatfloor4.flatfloor4_C:StaticMeshComponent06B189763747E11199D3A82FA748D26DCA, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.34.55:468][246]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.FINALplant4.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/flatfloor4.flatfloor4_C:StaticMeshComponent0732FC1718403BDBBE19B418AA9E58BE4A, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.34.55:487][246]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.lowpolytree7.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/flatfloor4.flatfloor4_C:StaticMeshComponent08886827B54BAAB12EEB1C549CAB9A1F88, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.34.55:507][246]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.FINALplant_40.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/flatfloor4.flatfloor4_C:StaticMeshComponent092274C025489C2CAB328CDBBCB6ADCAD3, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.34.55:526][246]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.FINALplant21.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/flatfloor4.flatfloor4_C:StaticMeshComponent01096AC85B841B7F3BFFE106B8DD6C08E88, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.34.55:544][246]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.lowpolytree9.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/flatfloor4.flatfloor4_C:StaticMeshComponent011807D937143EF0A63990A59A7478ABC52, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.34.55:559][246]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.lowpolytree4.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/flatfloor4.flatfloor4_C:StaticMeshComponent012DE1AB4724E46FDEE39DC48A6945E8E52, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.34.55:573][246]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.FINALrockandplant_37.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/flatfloor4.flatfloor4_C:StaticMeshComponent0138CAAA6CF4144A527C9D260BA7627F99E, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.34.55:587][246]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.FINALplant22.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/flatfloor4.flatfloor4_C:StaticMeshComponent014F8F962FA49AB5C9D14E7B4B9962BF81E, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.34.55:602][246]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.FINALplant23.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/flatfloor4.flatfloor4_C:StaticMeshComponent01587CBC3404AA4EFDB896E1D9D75B68B55, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.34.55:617][246]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.FINALplant9.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/flatfloor4.flatfloor4_C:StaticMeshComponent016F22E675B475A9DB234A5A1BFB12A677B, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.34.55:631][246]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.FINALplant8.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/flatfloor4.flatfloor4_C:StaticMeshComponent017CDD7A5004FB6B9EA2678CB9528127F32, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.34.55:644][246]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.FINALlog_24.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/flatfloor4.flatfloor4_C:StaticMeshComponent01859508EE2404F1CE452E8148123456AA9, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.34.55:658][246]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.FINALplant7.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/flatfloor4.flatfloor4_C:StaticMeshComponent01942FE238D4D97EEE5E120DF8D0A7EC411, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.34.55:737][246]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.FINALplant10.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/flatfloor4.flatfloor4_C:StaticMeshComponent02043E79D8C4BA1E0E61ADAB09BE82821BF, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.34.55:776][246]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.FINALplant11.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/flatfloor4.flatfloor4_C:StaticMeshComponent02142C33A2548E54DCA23B20D810549BE18, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.34.55:806][246]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.lowpolytree_27.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/flatfloor4.flatfloor4_C:StaticMeshComponent022639F5B394A6D8F21C55F98AC3FFE650B, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.34.55:831][246]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.lowpolytree2.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/flatfloor4.flatfloor4_C:StaticMeshComponent0233350368B4A7A8691EA2312829EC7FF47, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.34.55:853][246]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.lowpolytree8.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/flatfloor4.flatfloor4_C:StaticMeshComponent024C1E3EE7E47A18C7689D9A4B30AB80639, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.34.55:873][246]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.lowpolytree3.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/flatfloor4.flatfloor4_C:StaticMeshComponent0255584C51B4DA51B307036C18821EAAD4D, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.34.55:892][246]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.FINALplant12.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/flatfloor4.flatfloor4_C:StaticMeshComponent026B3E92239449361F0FABFAF8BC246BEE4, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.34.55:909][246]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.FINALplant18.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/flatfloor4.flatfloor4_C:StaticMeshComponent02710A1CD15404DB387ABA07DB39A0FFD50, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.34.55:926][246]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.FINALplant13.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/flatfloor4.flatfloor4_C:StaticMeshComponent028F15903BC4B8FCFFA28A92F995E3E13E9, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.34.55:943][246]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.FINALplant19.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/flatfloor4.flatfloor4_C:StaticMeshComponent029DDB2C7234F01BD458A5902ABACAD796A, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.34.55:960][246]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.FINALplant20.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/flatfloor4.flatfloor4_C:StaticMeshComponent0307539481B4A50084A563F0EB01C0A1311, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.34.55:974][246]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.FINALplant17.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/flatfloor4.flatfloor4_C:StaticMeshComponent031DDBED60849EEF89E1DA89BBCC32F922A, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.34.56:052][246]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.FINALplant15.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/flatfloor4.flatfloor4_C:StaticMeshComponent03251056ABA47CB813D844E8C98F1A94D41, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.34.56:095][246]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.FINALplant14.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/flatfloor4.flatfloor4_C:StaticMeshComponent033325C035745332E0F19C833BB15F15C68, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.34.56:129][246]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.FINALplant16.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/flatfloor4.flatfloor4_C:StaticMeshComponent034D9D29A1C411AC50A8F32D49D7C21B436, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.34.56:156][246]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.FlatFloor3_7.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/flatfloor4.flatfloor4_C:StaticMeshComponent0350E326D3A48D69242D91573BAF6082C8B, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.34.56:273][246]LogD3D11RHI: InitD3DDevice
+[2016.01.08-03.34.56:371][246]LogD3D11RHI: InitD3DDevice
+[2016.01.08-03.34.56:513][246]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.08-03.34.56:610][246]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.08-03.35.00:867][373]LogD3D11RHI: InitD3DDevice
+[2016.01.08-03.35.01:727][451]LogRenderer: Reallocating scene render targets to support 1208x712 (Frame:34769).
+[2016.01.08-03.35.12:744][531]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (FlatFloor4)
+[2016.01.08-03.35.13:574][601]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (FINALplant37)
+[2016.01.08-03.35.14:843][730]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.01.08-03.35.16:122][845]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (FlatFloor4)
+[2016.01.08-03.35.16:846][910]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (FINALplant37)
+[2016.01.08-03.35.17:859][ 10]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (FINALplant36)
+[2016.01.08-03.35.18:889][121]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (FINALplant35)
+[2016.01.08-03.35.19:348][165]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (lowpolytree17)
+[2016.01.08-03.35.19:963][227]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (FINALlog2)
+[2016.01.08-03.35.20:456][284]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (lowpolytree18)
+[2016.01.08-03.35.21:604][392]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (FINALplant42)
+[2016.01.08-03.35.22:290][453]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (lowpolytree10)
+[2016.01.08-03.35.24:773][689]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (FINALplant34)
+[2016.01.08-03.35.26:400][853]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (FlatFloor4)
+[2016.01.08-03.35.27:881][993]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (FINALplant41)
+[2016.01.08-03.35.28:875][ 94]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (FINALplant40)
+[2016.01.08-03.35.31:460][320]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (lowpolytree19)
+[2016.01.08-03.35.32:779][452]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (FINALplant38)
+[2016.01.08-03.35.33:486][517]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (FINALplant43)
+[2016.01.08-03.35.34:519][622]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (FINALplant39)
+[2016.01.08-03.35.38:181][974]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (FINALrockandplant3)
+[2016.01.08-03.35.39:728][117]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (FINALplant31)
+[2016.01.08-03.35.40:524][191]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (lowpolytree13)
+[2016.01.08-03.35.41:047][241]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (lowpolytree20)
+[2016.01.08-03.35.41:880][330]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (FINALplant26)
+[2016.01.08-03.35.42:861][437]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (FINALplant30)
+[2016.01.08-03.35.43:608][506]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (lowpolytree15)
+[2016.01.08-03.35.44:528][601]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (FINALplant27)
+[2016.01.08-03.35.46:908][818]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (FINALrockandplant2)
+[2016.01.08-03.35.47:999][919]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (FINALplant28)
+[2016.01.08-03.35.48:525][961]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (lowpolytree12)
+[2016.01.08-03.35.49:207][ 30]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (lowpolytree14)
+[2016.01.08-03.35.50:384][151]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (FINALplant25)
+[2016.01.08-03.35.52:844][379]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (FINALplant33)
+[2016.01.08-03.35.53:773][463]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (FINALplant32)
+[2016.01.08-03.35.54:358][520]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (lowpolytree11)
+[2016.01.08-03.36.08:089][878]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (FINALplant29)
+[2016.01.08-03.36.14:329][488]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (FlatFloor4)
+[2016.01.08-03.36.14:418][488]LogD3D11RHI: InitD3DDevice
+[2016.01.08-03.36.16:849][742]LogD3D11RHI: InitD3DDevice
+[2016.01.08-03.36.17:681][816]LogD3D11RHI: InitD3DDevice
+[2016.01.08-03.36.17:976][834]LogD3D11RHI: InitD3DDevice
+[2016.01.08-03.36.19:846][ 15]LogD3D11RHI: InitD3DDevice
+[2016.01.08-03.36.30:815][ 88]LogUObjectGlobals:Warning: Guid is in use by SceneComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.SkySphere.Base and SceneComponent /Game/SpiritRunner/Blueprints/FlatFloor5.FlatFloor5_C:Base3DF7DB604027DD8D197DEC923F355C6E, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.36.30:816][ 88]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.SkySphere.Sky Sphere mesh and StaticMeshComponent /Game/SpiritRunner/Blueprints/FlatFloor5.FlatFloor5_C:Sky Sphere mesh257E1D794A4E7CDFEBA0A59E0512F26E, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.36.30:816][ 88]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.FINALplant37.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/FlatFloor5.FlatFloor5_C:StaticMeshComponent0504288EC4885E39A5115689EA44A3765, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.36.30:816][ 88]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.FINALplant36.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/FlatFloor5.FlatFloor5_C:StaticMeshComponent011D32C125437F0AE5A8590EA786D68CFD, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.36.30:816][ 88]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.FINALplant35.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/FlatFloor5.FlatFloor5_C:StaticMeshComponent029474A464431C2F27658F939A4EA78D17, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.36.30:816][ 88]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.lowpolytree17.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/FlatFloor5.FlatFloor5_C:StaticMeshComponent03B45EE7D640CB25F6770F4F9DB4037ACD, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.36.30:816][ 88]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.FINALlog2.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/FlatFloor5.FlatFloor5_C:StaticMeshComponent0484643574435EE15C5BC07E9974C2DD34, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.36.30:816][ 88]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.lowpolytree18.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/FlatFloor5.FlatFloor5_C:StaticMeshComponent05E4BE3B894419F455B3BCB09F8AC562D0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.36.30:816][ 88]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.FINALplant42.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/FlatFloor5.FlatFloor5_C:StaticMeshComponent06AF8AA6FC4D6125514C811A8D778B8E63, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.36.30:817][ 88]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.lowpolytree10.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/FlatFloor5.FlatFloor5_C:StaticMeshComponent07485C16EA4EA71D893CA1039B3C530CB9, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.36.30:817][ 88]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.FINALplant34.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/FlatFloor5.FlatFloor5_C:StaticMeshComponent08BF4564CA401E0C4390293993E7BB0898, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.36.30:817][ 88]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.FlatFloor4.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/FlatFloor5.FlatFloor5_C:StaticMeshComponent09FB142B1E4FC6CF8437F3F1BC20AB29CC, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.36.30:817][ 88]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.FINALplant41.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/FlatFloor5.FlatFloor5_C:StaticMeshComponent010068B208F4FE05AE249B957B3EA44C5C8, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.36.30:817][ 88]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.FINALplant40.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/FlatFloor5.FlatFloor5_C:StaticMeshComponent0118B18BBB74A9CE70F188E549B582D0894, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.36.30:817][ 88]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.lowpolytree19.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/FlatFloor5.FlatFloor5_C:StaticMeshComponent012D8F4E14B47593DEED478888AE7B27C16, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.36.30:818][ 88]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.FINALplant38.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/FlatFloor5.FlatFloor5_C:StaticMeshComponent013CE21C5C34D8D00D9459F2E9DD8E177BB, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.36.30:818][ 88]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.FINALplant43.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/FlatFloor5.FlatFloor5_C:StaticMeshComponent014B25AE650472EA2C4D8DF2CB96E4D74AE, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.36.30:818][ 88]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.FINALplant39.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/FlatFloor5.FlatFloor5_C:StaticMeshComponent015BD6FCAB34067F2B05E2B44BC20A1596D, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.36.30:818][ 88]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.FINALrockandplant3.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/FlatFloor5.FlatFloor5_C:StaticMeshComponent0161120C78A4790F81052F715B0D65A2AFD, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.36.30:818][ 88]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.FINALplant31.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/FlatFloor5.FlatFloor5_C:StaticMeshComponent017454E63E844912B26746DC09195481B2C, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.36.30:818][ 88]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.lowpolytree13.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/FlatFloor5.FlatFloor5_C:StaticMeshComponent01835CD7D954570300C0EB130992200E7B6, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.36.30:818][ 88]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.lowpolytree20.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/FlatFloor5.FlatFloor5_C:StaticMeshComponent01940F06D5040F2CB1E57D5499F6364E999, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.36.30:818][ 88]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.FINALplant26.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/FlatFloor5.FlatFloor5_C:StaticMeshComponent020B2C9BE7D45611699343C3EB7F97F8FD4, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.36.30:819][ 88]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.FINALplant30.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/FlatFloor5.FlatFloor5_C:StaticMeshComponent021453879C84E8B5AB995DF5794052B8B4E, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.36.30:819][ 88]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.lowpolytree15.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/FlatFloor5.FlatFloor5_C:StaticMeshComponent022883809014A2AE0B4FF53F1AEBEEAF77E, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.36.30:819][ 88]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.FINALplant27.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/FlatFloor5.FlatFloor5_C:StaticMeshComponent023BD177F9546E067A4EEE75FAF1DC2D6E5, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.36.30:819][ 88]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.FINALrockandplant2.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/FlatFloor5.FlatFloor5_C:StaticMeshComponent0244CD253C043B1F909B33453BE50A7790B, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.36.30:819][ 88]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.FINALplant28.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/FlatFloor5.FlatFloor5_C:StaticMeshComponent025B244B33145CA59DEA778778686939E1A, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.36.30:819][ 88]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.lowpolytree12.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/FlatFloor5.FlatFloor5_C:StaticMeshComponent026A2CE2CAE40BDA30D5DBA94BB3BF38B59, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.36.30:819][ 88]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.lowpolytree14.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/FlatFloor5.FlatFloor5_C:StaticMeshComponent027BE228BAF40A64B0F55920798DDD40DFB, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.36.30:819][ 88]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.FINALplant25.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/FlatFloor5.FlatFloor5_C:StaticMeshComponent028B1762C584F64EE2BC19657A28C1B3E11, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.36.30:819][ 88]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.FINALplant33.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/FlatFloor5.FlatFloor5_C:StaticMeshComponent0299834161D473BAF04BFB6BA842E2FAAEC, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.36.30:820][ 88]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.FINALplant32.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/FlatFloor5.FlatFloor5_C:StaticMeshComponent0307E0C57C54C92A60F996D139679C1C9EB, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.01.08-03.36.30:820][ 88]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest:PersistentLevel.lowpolytree11.StaticMeshComponent0 and StaticMeshComponent /Game/SpiritRunner/Blueprints/FlatFloor5.FlatFloor5_C:StaticMeshComponent031E9AAFBAB4472485F7D4B86B47845F833, which should never happen in the editor but could
