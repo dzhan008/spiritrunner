@@ -1,0 +1,658 @@
+﻿[2016.04.01-07.58.27:568][  0]Log file open, 04/01/16 00:58:27
+[2016.04.01-07.58.27:568][  0]LogInit:Display: Running engine for game: SpiritRunner
+[2016.04.01-07.58.27:568][  0]LogInit:Display: RandInit(1135688006) SRandInit(1135688007).
+[2016.04.01-07.58.27:568][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.04.01-07.58.27:568][  0]LogStats: Stats thread started
+[2016.04.01-07.58.27:568][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2016.04.01-07.58.27:568][  0]LogInit: API Version: 2579680
+[2016.04.01-07.58.27:568][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2016.04.01-07.58.27:568][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.04.01-07.58.27:568][  0]LogInit: Build Configuration: Development
+[2016.04.01-07.58.27:568][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2016.04.01-07.58.27:568][  0]LogInit: Command line: -EpicPortal 
+[2016.04.01-07.58.27:568][  0]LogInit: Base directory: G:/Programs/Epic Games/4.8/Engine/Binaries/Win64/
+[2016.04.01-07.58.27:568][  0]LogInit: Rocket: 1
+[2016.04.01-07.58.27:579][  0]LogInit: Using libcurl 7.41.0
+[2016.04.01-07.58.27:579][  0]LogInit:  - built for x86_64-pc-win32
+[2016.04.01-07.58.27:579][  0]LogInit:  - supports SSL with WinSSL
+[2016.04.01-07.58.27:579][  0]LogInit:  - other features:
+[2016.04.01-07.58.27:579][  0]LogInit:      CURL_VERSION_SSL
+[2016.04.01-07.58.27:579][  0]LogInit:      CURL_VERSION_IPV6
+[2016.04.01-07.58.27:579][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.04.01-07.58.27:579][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.04.01-07.58.27:579][  0]LogInit:      CURL_VERSION_IDN
+[2016.04.01-07.58.27:579][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.04.01-07.58.27:579][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.04.01-07.58.27:579][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.04.01-07.58.27:579][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.04.01-07.58.27:579][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.04.01-07.58.27:590][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2016.04.01-07.58.27:601][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.04.01-07.58.27:606][  0]LogInit: Object subsystem initialized
+[2016.04.01-07.58.27:607][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2016.04.01-07.58.27:607][  0]LogConsoleResponse:Warning:   Found in ini file 'G:/Github stuff/spiritrunner/SpiritRunner/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2016.04.01-07.58.27:607][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2016.04.01-07.58.27:607][  0]LogConsoleResponse:Warning:   Found in ini file 'G:/Github stuff/spiritrunner/SpiritRunner/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2016.04.01-07.58.27:607][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2016.04.01-07.58.27:607][  0]LogConsoleResponse:Warning:   Found in ini file 'G:/Github stuff/spiritrunner/SpiritRunner/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2016.04.01-07.58.27:607][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.01-07.58.27:607][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.04.01-07.58.27:611][  0]LogInit: Computer: JOHN-PC
+[2016.04.01-07.58.27:611][  0]LogInit: User: John
+[2016.04.01-07.58.27:612][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.04.01-07.58.27:612][  0]LogInit: High frequency timer resolution =3.906308 MHz
+[2016.04.01-07.58.27:612][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.04.01-07.58.27:612][  0]LogMemory: Platform Memory Stats for Windows
+[2016.04.01-07.58.27:612][  0]LogMemory: Process Physical Memory: 50.54 MB used, 50.54 MB peak
+[2016.04.01-07.58.27:612][  0]LogMemory: Process Virtual Memory: 24.41 MB used, 24.41 MB peak
+[2016.04.01-07.58.27:612][  0]LogMemory: Physical Memory: 5553.13 MB used, 8108.02 MB total
+[2016.04.01-07.58.27:612][  0]LogMemory: Virtual Memory: 283.32 MB used, 8388608.00 MB total
+[2016.04.01-07.58.27:643][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2016.04.01-07.58.27:788][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (G:/Programs/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (G:/Programs/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2016.04.01-07.58.28:129][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2016.04.01-07.58.28:129][  0]LogD3D11RHI: Adapter has 4007MB of dedicated video memory, 0MB of dedicated system memory, and 3798MB of shared system memory, 2 output[s]
+[2016.04.01-07.58.28:136][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2016.04.01-07.58.28:136][  0]LogD3D11RHI: Adapter has 64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 0 output[s]
+[2016.04.01-07.58.28:136][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.04.01-07.58.28:147][  0]LogD3D11RHI: InitD3DDevice
+[2016.04.01-07.58.28:147][  0]LogD3D11RHI: !Direct3DDevice
+[2016.04.01-07.58.28:147][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.04.01-07.58.28:153][  0]LogD3D11RHI: Async texture creation enabled
+[2016.04.01-07.58.28:166][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.04.01-07.58.28:839][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2016.04.01-07.58.28:851][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.04.01-07.58.28:863][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.04.01-07.58.28:875][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.04.01-07.58.28:887][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.04.01-07.58.28:898][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.04.01-07.58.28:908][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.04.01-07.58.28:918][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.04.01-07.58.28:928][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.04.01-07.58.28:938][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.04.01-07.58.28:949][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.04.01-07.58.28:960][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.04.01-07.58.29:002][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.04.01-07.58.29:012][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.04.01-07.58.29:022][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.04.01-07.58.29:034][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.04.01-07.58.29:034][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.04.01-07.58.29:210][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.04.01-07.58.29:254][  0]LogDerivedDataCache: Loaded boot cache 0.04s 53MB C:/Users/John/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2016.04.01-07.58.29:254][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/John/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2016.04.01-07.58.29:254][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Github stuff/spiritrunner/SpiritRunner/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.04.01-07.58.29:254][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.04.01-07.58.29:254][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Github stuff/spiritrunner/SpiritRunner/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.04.01-07.58.29:254][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.04.01-07.58.29:366][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.04.01-07.58.29:377][  0]LogDerivedDataCache: Using Local data cache path C:/Users/John/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.04.01-07.58.29:514][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.01-07.58.29:519][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2016.04.01-07.58.29:519][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2016.04.01-07.58.29:542][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.04.01-07.58.29:542][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.04.01-07.58.29:867][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.04.01-07.58.30:632][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.04.01-07.58.30:913][  0]SourceControl: Info Source control is disabled
+[2016.04.01-07.58.30:913][  0]SourceControl: Info Source control is disabled
+[2016.04.01-07.58.30:921][  0]SourceControl: Info Source control is disabled
+[2016.04.01-07.58.30:930][  0]SourceControl: Info Source control is disabled
+[2016.04.01-07.58.31:106][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2016.04.01-07.58.31:106][  0]LogUObjectAllocator: 5409248 out of 0 bytes used by permanent object pool.
+[2016.04.01-07.58.31:161][  0]LogEngine: Initializing Engine...
+[2016.04.01-07.58.31:162][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2016.04.01-07.58.31:163][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2016.04.01-07.58.31:266][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.04.01-07.58.31:272][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.01-07.58.31:280][  0]LogInit: FAudioDevice initialized.
+[2016.04.01-07.58.31:308][  0]LogDerivedDataCache: Saved boot cache 0.03s 53MB C:/Users/John/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2016.04.01-07.58.31:312][  0]LogInit: Texture streaming: Disabled
+[2016.04.01-07.58.31:333][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.04.01-07.58.31:333][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2016.04.01-07.58.31:333][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 795ce0b24c6318a5324eaf839592b765|e87b0c418b154305b06c892317f44a4d|3e9e43dd-6daf-4b71-9a80-f4287aceb186
+[2016.04.01-07.58.31:333][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.04.01-07.58.31:396][  0]LogInit: Transaction tracking system initialized
+[2016.04.01-07.58.31:504][  0]BlueprintLog: New page: Editor Load
+[2016.04.01-07.58.31:534][  0]LogAssetRegistry: FAssetRegistry took 0.0098 seconds to start up
+[2016.04.01-07.58.31:534][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2016.04.01-07.58.32:197][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2016.04.01-07.58.32:197][  0]LogConsoleResponse:Display: 
+[2016.04.01-07.58.32:367][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.04.01-07.58.32:553][  0]SourceControl: Info Source control is disabled
+[2016.04.01-07.58.32:553][  0]Cmd: MAP LOAD FILE="../../../../../../Github stuff/spiritrunner/SpiritRunner/Content/SpiritRunner/Maps/RunnerMapTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.01-07.58.32:563][  0]LightingResults: New page: Lighting Build
+[2016.04.01-07.58.32:574][  0]MapCheck: New page: Map Check
+[2016.04.01-07.58.32:574][  0]LightingResults: New page: Lighting Build
+[2016.04.01-07.58.32:581][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000018E9D300
+[2016.04.01-07.58.36:536][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh' in BlueprintGeneratedClass 'REINST_Flat_Floor_Tori_C_51' (it may have been removed)
+[2016.04.01-07.58.36:536][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh1' in BlueprintGeneratedClass 'REINST_Flat_Floor_Tori_C_51' (it may have been removed)
+[2016.04.01-07.58.36:536][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh2' in BlueprintGeneratedClass 'REINST_Flat_Floor_Tori_C_51' (it may have been removed)
+[2016.04.01-07.58.36:536][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh3' in BlueprintGeneratedClass 'REINST_Flat_Floor_Tori_C_51' (it may have been removed)
+[2016.04.01-07.58.36:536][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh4' in BlueprintGeneratedClass 'REINST_Flat_Floor_Tori_C_51' (it may have been removed)
+[2016.04.01-07.58.36:536][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh5' in BlueprintGeneratedClass 'REINST_Flat_Floor_Tori_C_51' (it may have been removed)
+[2016.04.01-07.58.36:536][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh6' in BlueprintGeneratedClass 'REINST_Flat_Floor_Tori_C_51' (it may have been removed)
+[2016.04.01-07.58.36:536][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh7' in BlueprintGeneratedClass 'REINST_Flat_Floor_Tori_C_51' (it may have been removed)
+[2016.04.01-07.58.36:536][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh8' in BlueprintGeneratedClass 'REINST_Flat_Floor_Tori_C_51' (it may have been removed)
+[2016.04.01-07.58.36:536][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh9' in BlueprintGeneratedClass 'REINST_Flat_Floor_Tori_C_51' (it may have been removed)
+[2016.04.01-07.58.36:536][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh10' in BlueprintGeneratedClass 'REINST_Flat_Floor_Tori_C_51' (it may have been removed)
+[2016.04.01-07.58.36:536][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh11' in BlueprintGeneratedClass 'REINST_Flat_Floor_Tori_C_51' (it may have been removed)
+[2016.04.01-07.58.36:536][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh12' in BlueprintGeneratedClass 'REINST_Flat_Floor_Tori_C_51' (it may have been removed)
+[2016.04.01-07.58.36:536][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh13' in BlueprintGeneratedClass 'REINST_Flat_Floor_Tori_C_51' (it may have been removed)
+[2016.04.01-07.58.36:536][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh14' in BlueprintGeneratedClass 'REINST_Flat_Floor_Tori_C_51' (it may have been removed)
+[2016.04.01-07.58.36:536][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh15' in BlueprintGeneratedClass 'REINST_Flat_Floor_Tori_C_51' (it may have been removed)
+[2016.04.01-07.58.36:536][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh16' in BlueprintGeneratedClass 'REINST_Flat_Floor_Tori_C_51' (it may have been removed)
+[2016.04.01-07.58.36:536][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh17' in BlueprintGeneratedClass 'REINST_Flat_Floor_Tori_C_51' (it may have been removed)
+[2016.04.01-07.58.36:536][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh18' in BlueprintGeneratedClass 'REINST_Flat_Floor_Tori_C_51' (it may have been removed)
+[2016.04.01-07.58.36:536][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh19' in BlueprintGeneratedClass 'REINST_Flat_Floor_Tori_C_51' (it may have been removed)
+[2016.04.01-07.58.36:536][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh20' in BlueprintGeneratedClass 'REINST_Flat_Floor_Tori_C_51' (it may have been removed)
+[2016.04.01-07.58.36:536][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh21' in BlueprintGeneratedClass 'REINST_Flat_Floor_Tori_C_51' (it may have been removed)
+[2016.04.01-07.58.36:536][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh22' in BlueprintGeneratedClass 'REINST_Flat_Floor_Tori_C_51' (it may have been removed)
+[2016.04.01-07.58.36:536][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh23' in BlueprintGeneratedClass 'REINST_Flat_Floor_Tori_C_51' (it may have been removed)
+[2016.04.01-07.58.36:536][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh24' in BlueprintGeneratedClass 'REINST_Flat_Floor_Tori_C_51' (it may have been removed)
+[2016.04.01-07.58.36:536][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh25' in BlueprintGeneratedClass 'REINST_Flat_Floor_Tori_C_51' (it may have been removed)
+[2016.04.01-07.58.36:536][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh26' in BlueprintGeneratedClass 'REINST_Flat_Floor_Tori_C_51' (it may have been removed)
+[2016.04.01-07.58.36:536][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh27' in BlueprintGeneratedClass 'REINST_Flat_Floor_Tori_C_51' (it may have been removed)
+[2016.04.01-07.58.36:536][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh28' in BlueprintGeneratedClass 'REINST_Flat_Floor_Tori_C_51' (it may have been removed)
+[2016.04.01-07.58.36:536][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh29' in BlueprintGeneratedClass 'REINST_Flat_Floor_Tori_C_51' (it may have been removed)
+[2016.04.01-07.58.36:536][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh30' in BlueprintGeneratedClass 'REINST_Flat_Floor_Tori_C_51' (it may have been removed)
+[2016.04.01-07.58.36:536][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh31' in BlueprintGeneratedClass 'REINST_Flat_Floor_Tori_C_51' (it may have been removed)
+[2016.04.01-07.58.36:536][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh32' in BlueprintGeneratedClass 'REINST_Flat_Floor_Tori_C_51' (it may have been removed)
+[2016.04.01-07.58.36:536][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh34' in BlueprintGeneratedClass 'REINST_Flat_Floor_Tori_C_51' (it may have been removed)
+[2016.04.01-07.58.36:536][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'Torigate' in BlueprintGeneratedClass 'REINST_Flat_Floor_Tori_C_51' (it may have been removed)
+[2016.04.01-07.58.36:536][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'Checkpoint' in BlueprintGeneratedClass 'REINST_Flat_Floor_Tori_C_51' (it may have been removed)
+[2016.04.01-07.58.36:536][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh33' in BlueprintGeneratedClass 'REINST_Flat_Floor_Tori_C_51' (it may have been removed)
+[2016.04.01-07.58.36:642][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'Scene1' in BlueprintGeneratedClass 'REINST_Flat_Floor_Flat_C_58' (it may have been removed)
+[2016.04.01-07.58.36:642][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh' in BlueprintGeneratedClass 'REINST_Flat_Floor_Flat_C_58' (it may have been removed)
+[2016.04.01-07.58.36:642][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh1' in BlueprintGeneratedClass 'REINST_Flat_Floor_Flat_C_58' (it may have been removed)
+[2016.04.01-07.58.36:642][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh2' in BlueprintGeneratedClass 'REINST_Flat_Floor_Flat_C_58' (it may have been removed)
+[2016.04.01-07.58.36:642][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh3' in BlueprintGeneratedClass 'REINST_Flat_Floor_Flat_C_58' (it may have been removed)
+[2016.04.01-07.58.36:643][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh4' in BlueprintGeneratedClass 'REINST_Flat_Floor_Flat_C_58' (it may have been removed)
+[2016.04.01-07.58.36:643][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh5' in BlueprintGeneratedClass 'REINST_Flat_Floor_Flat_C_58' (it may have been removed)
+[2016.04.01-07.58.36:643][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh6' in BlueprintGeneratedClass 'REINST_Flat_Floor_Flat_C_58' (it may have been removed)
+[2016.04.01-07.58.36:643][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh7' in BlueprintGeneratedClass 'REINST_Flat_Floor_Flat_C_58' (it may have been removed)
+[2016.04.01-07.58.36:643][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh8' in BlueprintGeneratedClass 'REINST_Flat_Floor_Flat_C_58' (it may have been removed)
+[2016.04.01-07.58.36:643][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh9' in BlueprintGeneratedClass 'REINST_Flat_Floor_Flat_C_58' (it may have been removed)
+[2016.04.01-07.58.36:643][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh10' in BlueprintGeneratedClass 'REINST_Flat_Floor_Flat_C_58' (it may have been removed)
+[2016.04.01-07.58.36:643][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh11' in BlueprintGeneratedClass 'REINST_Flat_Floor_Flat_C_58' (it may have been removed)
+[2016.04.01-07.58.36:643][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh12' in BlueprintGeneratedClass 'REINST_Flat_Floor_Flat_C_58' (it may have been removed)
+[2016.04.01-07.58.36:643][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh13' in BlueprintGeneratedClass 'REINST_Flat_Floor_Flat_C_58' (it may have been removed)
+[2016.04.01-07.58.36:643][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh14' in BlueprintGeneratedClass 'REINST_Flat_Floor_Flat_C_58' (it may have been removed)
+[2016.04.01-07.58.36:643][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh15' in BlueprintGeneratedClass 'REINST_Flat_Floor_Flat_C_58' (it may have been removed)
+[2016.04.01-07.58.36:643][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh16' in BlueprintGeneratedClass 'REINST_Flat_Floor_Flat_C_58' (it may have been removed)
+[2016.04.01-07.58.36:643][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh17' in BlueprintGeneratedClass 'REINST_Flat_Floor_Flat_C_58' (it may have been removed)
+[2016.04.01-07.58.36:643][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh18' in BlueprintGeneratedClass 'REINST_Flat_Floor_Flat_C_58' (it may have been removed)
+[2016.04.01-07.58.36:643][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh19' in BlueprintGeneratedClass 'REINST_Flat_Floor_Flat_C_58' (it may have been removed)
+[2016.04.01-07.58.36:643][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh20' in BlueprintGeneratedClass 'REINST_Flat_Floor_Flat_C_58' (it may have been removed)
+[2016.04.01-07.58.36:643][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh21' in BlueprintGeneratedClass 'REINST_Flat_Floor_Flat_C_58' (it may have been removed)
+[2016.04.01-07.58.36:644][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh22' in BlueprintGeneratedClass 'REINST_Flat_Floor_Flat_C_58' (it may have been removed)
+[2016.04.01-07.58.36:644][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh23' in BlueprintGeneratedClass 'REINST_Flat_Floor_Flat_C_58' (it may have been removed)
+[2016.04.01-07.58.36:644][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh25' in BlueprintGeneratedClass 'REINST_Flat_Floor_Flat_C_58' (it may have been removed)
+[2016.04.01-07.58.36:644][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh26' in BlueprintGeneratedClass 'REINST_Flat_Floor_Flat_C_58' (it may have been removed)
+[2016.04.01-07.58.36:644][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh27' in BlueprintGeneratedClass 'REINST_Flat_Floor_Flat_C_58' (it may have been removed)
+[2016.04.01-07.58.36:644][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh28' in BlueprintGeneratedClass 'REINST_Flat_Floor_Flat_C_58' (it may have been removed)
+[2016.04.01-07.58.36:644][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh29' in BlueprintGeneratedClass 'REINST_Flat_Floor_Flat_C_58' (it may have been removed)
+[2016.04.01-07.58.36:644][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh30' in BlueprintGeneratedClass 'REINST_Flat_Floor_Flat_C_58' (it may have been removed)
+[2016.04.01-07.58.36:644][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh31' in BlueprintGeneratedClass 'REINST_Flat_Floor_Flat_C_58' (it may have been removed)
+[2016.04.01-07.58.36:644][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh32' in BlueprintGeneratedClass 'REINST_Flat_Floor_Flat_C_58' (it may have been removed)
+[2016.04.01-07.58.36:644][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh33' in BlueprintGeneratedClass 'REINST_Flat_Floor_Flat_C_58' (it may have been removed)
+[2016.04.01-07.58.36:644][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh34' in BlueprintGeneratedClass 'REINST_Flat_Floor_Flat_C_58' (it may have been removed)
+[2016.04.01-07.58.36:644][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'FlatFloor3' in BlueprintGeneratedClass 'REINST_Flat_Floor_Flat_C_58' (it may have been removed)
+[2016.04.01-07.58.42:654][  0]LogTexture:Display: Building textures: ThumbnailTexture (DXT1)
+[2016.04.01-07.58.42:860][  0]LogAIModule: Creating AISystem for world RunnerMapTest
+[2016.04.01-07.58.42:864][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.01-07.58.42:865][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.01-07.58.42:941][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 76.159ms to complete.
+[2016.04.01-07.58.42:941][  0]LogFileHelpers: Loading map 'RunnerMapTest' took 10.387
+[2016.04.01-07.58.44:572][  0]LogCollectionManager: Loaded 0 collections in 0.006155 seconds
+[2016.04.01-07.58.44:636][  0]LogContentBrowser: Native class hierarchy populated in 0.0595 seconds. Added 1792 classes and 301 folders.
+[2016.04.01-07.58.45:261][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.04.01-07.58.45:500][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.04.01-07.58.45:565][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.04.01-07.58.45:870][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.04.01-07.58.45:936][  0]LogD3D11RHI: InitD3DDevice
+[2016.04.01-07.58.45:951][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.04.01-07.58.45:992][  0]LogLoad: Full Startup: 19.39 seconds (BP compile: 1.86 seconds)
+[2016.04.01-07.58.46:283][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.04.01-07.58.46:544][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.04.01-07.58.46:769][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2016.04.01-07.58.47:130][  2]LogD3D11RHI: InitD3DDevice
+[2016.04.01-07.58.47:403][ 10]LogAssetRegistry: Asset discovery search completed in 15.8784 seconds
+[2016.04.01-07.59.19:555][771]LogD3D11RHI: InitD3DDevice
+[2016.04.01-07.59.25:389][436]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.04.01-07.59.25:513][436]PIE: New page: PIE session: RunnerMapTest (Mar 31, 2016, 5:59:25 PM)
+[2016.04.01-07.59.25:514][436]LogPlayLevel: Creating play world package: /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest
+[2016.04.01-07.59.25:517][436]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003370s)
+[2016.04.01-07.59.25:523][436]LogAIModule: Creating AISystem for world RunnerMapTest
+[2016.04.01-07.59.25:524][436]LogPlayLevel: PIE: World Init took: (0.001058s)
+[2016.04.01-07.59.25:528][436]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest to /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest (0.013851s)
+[2016.04.01-07.59.25:876][436]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.01-07.59.25:885][436]LogInit: FAudioDevice initialized.
+[2016.04.01-07.59.25:899][436]LogD3D11RHI: InitD3DDevice
+[2016.04.01-07.59.25:990][436]LogWorld: Game class is 'RunGameMode_C'
+[2016.04.01-07.59.26:019][436]LogWorld: Bringing World /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest up for play (max tick rate 0) at 2016.04.01-00.59.26
+[2016.04.01-07.59.26:019][436]LogActor:Warning: GameSession /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.01-07.59.26:028][436]LogActor:Warning: GameNetworkManager /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.01-07.59.26:028][436]LogWorld: Bringing up level for play took: 0.011316
+[2016.04.01-07.59.26:136][436]LogMaterial:Warning: Material /Game/SpiritRunner/Materials/Mat_Fox_Ears.Mat_Fox_Ears missing bUsedWithSkeletalMesh=True! Default Material will be used in game.
+[2016.04.01-07.59.26:136][436]LogMaterial:Warning:      The material will recompile every editor launch until resaved.
+[2016.04.01-07.59.26:136][436]LogMaterial:Warning: Material /Game/SpiritRunner/Materials/Mat_Fox_Legs.Mat_Fox_Legs missing bUsedWithSkeletalMesh=True! Default Material will be used in game.
+[2016.04.01-07.59.26:136][436]LogMaterial:Warning:      The material will recompile every editor launch until resaved.
+[2016.04.01-07.59.26:204][436]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (None) or object (RunCharacter_C_0)
+[2016.04.01-07.59.26:554][436]PIE: Info Play in editor start time for /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest 0.594
+[2016.04.01-07.59.26:683][436]LogRenderer: Reallocating scene render targets to support 1296x760 (Frame:4352).
+[2016.04.01-07.59.28:351][589]LogAudio:Warning: Detected orphaned looping sound 'runningFinal_Cue'.
+[2016.04.01-07.59.34:817][134]Cmd: RestartLevel
+[2016.04.01-07.59.34:857][135]LogNet: Browse: /Game/SpiritRunner/Maps/RunnerMapTest?restart
+[2016.04.01-07.59.34:868][135]LogLoad: LoadMap: /Game/SpiritRunner/Maps/RunnerMapTest
+[2016.04.01-07.59.34:910][135]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000010A0E2A0
+[2016.04.01-07.59.34:932][135]Cmd: MEM
+[2016.04.01-07.59.34:955][135]LogMemory: Platform Memory Stats for Windows
+[2016.04.01-07.59.34:955][135]LogMemory: Process Physical Memory: 929.46 MB used, 1040.54 MB peak
+[2016.04.01-07.59.34:955][135]LogMemory: Process Virtual Memory: 1623.26 MB used, 1640.88 MB peak
+[2016.04.01-07.59.34:955][135]LogMemory: Physical Memory: 6037.22 MB used, 8108.02 MB total
+[2016.04.01-07.59.34:955][135]LogMemory: Virtual Memory: 2208.79 MB used, 8388608.00 MB total
+[2016.04.01-07.59.34:955][135]LogMemory: 
+[2016.04.01-07.59.34:955][135]Allocator Stats for TBB: (not implemented)
+[2016.04.01-07.59.34:955][135]LogPlayLevel: Creating play world package: /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest
+[2016.04.01-07.59.34:958][135]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002708s)
+[2016.04.01-07.59.34:958][135]LogAIModule: Creating AISystem for world RunnerMapTest
+[2016.04.01-07.59.34:960][135]LogPlayLevel: PIE: World Init took: (0.002605s)
+[2016.04.01-07.59.34:961][135]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest to /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest (0.005546s)
+[2016.04.01-07.59.34:961][135]LogWorld: Game class is 'RunGameMode_C'
+[2016.04.01-07.59.34:964][135]LogWorld: Bringing World /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest up for play (max tick rate 0) at 2016.04.01-00.59.34
+[2016.04.01-07.59.34:964][135]LogActor:Warning: GameSession /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.01-07.59.34:965][135]LogActor:Warning: GameNetworkManager /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.01-07.59.34:965][135]LogWorld: Bringing up level for play took: 0.002091
+[2016.04.01-07.59.34:967][135]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (None) or object (RunCharacter_C_1)
+[2016.04.01-07.59.37:202][272]LogAudio:Warning: Detected orphaned looping sound 'runningFinal_Cue'.
+[2016.04.01-07.59.59:105][844]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000028614860
+[2016.04.01-08.00.00:025][941]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.04.01-08.00.00:025][941]PIE: New page: PIE session: RunnerMapTest (Mar 31, 2016, 6:00:00 PM)
+[2016.04.01-08.00.00:025][941]LogPlayLevel: Creating play world package: /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest
+[2016.04.01-08.00.00:028][941]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002497s)
+[2016.04.01-08.00.00:028][941]LogAIModule: Creating AISystem for world RunnerMapTest
+[2016.04.01-08.00.00:029][941]LogPlayLevel: PIE: World Init took: (0.000925s)
+[2016.04.01-08.00.00:029][941]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest to /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest (0.003622s)
+[2016.04.01-08.00.00:057][941]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.01-08.00.00:066][941]LogInit: FAudioDevice initialized.
+[2016.04.01-08.00.00:072][941]LogD3D11RHI: InitD3DDevice
+[2016.04.01-08.00.00:107][941]LogWorld: Game class is 'RunGameMode_C'
+[2016.04.01-08.00.00:110][941]LogWorld: Bringing World /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest up for play (max tick rate 0) at 2016.04.01-01.00.00
+[2016.04.01-08.00.00:110][941]LogActor:Warning: GameSession /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.01-08.00.00:110][941]LogActor:Warning: GameNetworkManager /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.01-08.00.00:110][941]LogWorld: Bringing up level for play took: 0.002202
+[2016.04.01-08.00.00:112][941]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (None) or object (RunCharacter_C_2)
+[2016.04.01-08.00.00:534][941]PIE: Info Play in editor start time for /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest 0.574
+[2016.04.01-08.00.02:326][ 92]LogAudio:Warning: Detected orphaned looping sound 'runningFinal_Cue'.
+[2016.04.01-08.00.09:398][560]Cmd: RestartLevel
+[2016.04.01-08.00.09:411][561]LogNet: Browse: /Game/SpiritRunner/Maps/RunnerMapTest?restart
+[2016.04.01-08.00.09:424][561]LogLoad: LoadMap: /Game/SpiritRunner/Maps/RunnerMapTest
+[2016.04.01-08.00.09:469][561]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000028691120
+[2016.04.01-08.00.09:470][561]Cmd: MEM
+[2016.04.01-08.00.09:492][561]LogMemory: Platform Memory Stats for Windows
+[2016.04.01-08.00.09:492][561]LogMemory: Process Physical Memory: 954.52 MB used, 1040.54 MB peak
+[2016.04.01-08.00.09:492][561]LogMemory: Process Virtual Memory: 1660.07 MB used, 1709.82 MB peak
+[2016.04.01-08.00.09:492][561]LogMemory: Physical Memory: 5977.36 MB used, 8108.02 MB total
+[2016.04.01-08.00.09:492][561]LogMemory: Virtual Memory: 2241.56 MB used, 8388608.00 MB total
+[2016.04.01-08.00.09:492][561]LogMemory: 
+[2016.04.01-08.00.09:492][561]Allocator Stats for TBB: (not implemented)
+[2016.04.01-08.00.09:492][561]LogPlayLevel: Creating play world package: /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest
+[2016.04.01-08.00.09:494][561]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002245s)
+[2016.04.01-08.00.09:495][561]LogAIModule: Creating AISystem for world RunnerMapTest
+[2016.04.01-08.00.09:496][561]LogPlayLevel: PIE: World Init took: (0.001902s)
+[2016.04.01-08.00.09:496][561]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest to /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest (0.004323s)
+[2016.04.01-08.00.09:496][561]LogWorld: Game class is 'RunGameMode_C'
+[2016.04.01-08.00.09:499][561]LogWorld: Bringing World /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest up for play (max tick rate 0) at 2016.04.01-01.00.09
+[2016.04.01-08.00.09:499][561]LogActor:Warning: GameSession /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.01-08.00.09:499][561]LogActor:Warning: GameNetworkManager /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.01-08.00.09:499][561]LogWorld: Bringing up level for play took: 0.001771
+[2016.04.01-08.00.09:501][561]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (None) or object (RunCharacter_C_3)
+[2016.04.01-08.00.11:463][674]LogAudio:Warning: Detected orphaned looping sound 'runningFinal_Cue'.
+[2016.04.01-08.00.25:025][572]Cmd: RestartLevel
+[2016.04.01-08.00.25:044][573]LogNet: Browse: /Game/SpiritRunner/Maps/RunnerMapTest?restart
+[2016.04.01-08.00.25:060][573]LogLoad: LoadMap: /Game/SpiritRunner/Maps/RunnerMapTest
+[2016.04.01-08.00.25:102][573]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004BBBC220
+[2016.04.01-08.00.25:119][573]Cmd: MEM
+[2016.04.01-08.00.25:141][573]LogMemory: Platform Memory Stats for Windows
+[2016.04.01-08.00.25:141][573]LogMemory: Process Physical Memory: 959.28 MB used, 1040.54 MB peak
+[2016.04.01-08.00.25:141][573]LogMemory: Process Virtual Memory: 1607.31 MB used, 1736.38 MB peak
+[2016.04.01-08.00.25:141][573]LogMemory: Physical Memory: 5979.73 MB used, 8108.02 MB total
+[2016.04.01-08.00.25:141][573]LogMemory: Virtual Memory: 2193.00 MB used, 8388608.00 MB total
+[2016.04.01-08.00.25:142][573]LogMemory: 
+[2016.04.01-08.00.25:142][573]Allocator Stats for TBB: (not implemented)
+[2016.04.01-08.00.25:142][573]LogPlayLevel: Creating play world package: /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest
+[2016.04.01-08.00.25:144][573]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002541s)
+[2016.04.01-08.00.25:145][573]LogAIModule: Creating AISystem for world RunnerMapTest
+[2016.04.01-08.00.25:146][573]LogPlayLevel: PIE: World Init took: (0.002080s)
+[2016.04.01-08.00.25:146][573]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest to /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest (0.004833s)
+[2016.04.01-08.00.25:146][573]LogWorld: Game class is 'RunGameMode_C'
+[2016.04.01-08.00.25:150][573]LogWorld: Bringing World /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest up for play (max tick rate 0) at 2016.04.01-01.00.25
+[2016.04.01-08.00.25:150][573]LogActor:Warning: GameSession /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.01-08.00.25:150][573]LogActor:Warning: GameNetworkManager /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.01-08.00.25:150][573]LogWorld: Bringing up level for play took: 0.002210
+[2016.04.01-08.00.25:152][573]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (None) or object (RunCharacter_C_4)
+[2016.04.01-08.00.27:130][706]LogAudio:Warning: Detected orphaned looping sound 'runningFinal_Cue'.
+[2016.04.01-08.00.41:156][656]Cmd: RestartLevel
+[2016.04.01-08.00.41:165][657]LogNet: Browse: /Game/SpiritRunner/Maps/RunnerMapTest?restart
+[2016.04.01-08.00.41:174][657]LogLoad: LoadMap: /Game/SpiritRunner/Maps/RunnerMapTest
+[2016.04.01-08.00.41:205][657]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004BBBC7C0
+[2016.04.01-08.00.41:221][657]Cmd: MEM
+[2016.04.01-08.00.41:241][657]LogMemory: Platform Memory Stats for Windows
+[2016.04.01-08.00.41:241][657]LogMemory: Process Physical Memory: 959.30 MB used, 1040.54 MB peak
+[2016.04.01-08.00.41:241][657]LogMemory: Process Virtual Memory: 1607.34 MB used, 1736.38 MB peak
+[2016.04.01-08.00.41:241][657]LogMemory: Physical Memory: 5977.40 MB used, 8108.02 MB total
+[2016.04.01-08.00.41:242][657]LogMemory: Virtual Memory: 2193.00 MB used, 8388608.00 MB total
+[2016.04.01-08.00.41:242][657]LogMemory: 
+[2016.04.01-08.00.41:242][657]Allocator Stats for TBB: (not implemented)
+[2016.04.01-08.00.41:242][657]LogPlayLevel: Creating play world package: /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest
+[2016.04.01-08.00.41:244][657]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002248s)
+[2016.04.01-08.00.41:244][657]LogAIModule: Creating AISystem for world RunnerMapTest
+[2016.04.01-08.00.41:246][657]LogPlayLevel: PIE: World Init took: (0.001707s)
+[2016.04.01-08.00.41:246][657]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest to /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest (0.004154s)
+[2016.04.01-08.00.41:246][657]LogWorld: Game class is 'RunGameMode_C'
+[2016.04.01-08.00.41:249][657]LogWorld: Bringing World /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest up for play (max tick rate 0) at 2016.04.01-01.00.41
+[2016.04.01-08.00.41:249][657]LogActor:Warning: GameSession /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.01-08.00.41:249][657]LogActor:Warning: GameNetworkManager /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.01-08.00.41:249][657]LogWorld: Bringing up level for play took: 0.001916
+[2016.04.01-08.00.41:251][657]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (None) or object (RunCharacter_C_5)
+[2016.04.01-08.00.43:081][762]LogAudio:Warning: Detected orphaned looping sound 'runningFinal_Cue'.
+[2016.04.01-08.01.06:977][298]Cmd: RestartLevel
+[2016.04.01-08.01.06:987][299]LogNet: Browse: /Game/SpiritRunner/Maps/RunnerMapTest?restart
+[2016.04.01-08.01.06:998][299]LogLoad: LoadMap: /Game/SpiritRunner/Maps/RunnerMapTest
+[2016.04.01-08.01.07:032][299]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000028710900
+[2016.04.01-08.01.07:049][299]Cmd: MEM
+[2016.04.01-08.01.07:070][299]LogMemory: Platform Memory Stats for Windows
+[2016.04.01-08.01.07:070][299]LogMemory: Process Physical Memory: 956.26 MB used, 1040.54 MB peak
+[2016.04.01-08.01.07:070][299]LogMemory: Process Virtual Memory: 1606.81 MB used, 1736.38 MB peak
+[2016.04.01-08.01.07:070][299]LogMemory: Physical Memory: 5970.20 MB used, 8108.02 MB total
+[2016.04.01-08.01.07:070][299]LogMemory: Virtual Memory: 2191.75 MB used, 8388608.00 MB total
+[2016.04.01-08.01.07:070][299]LogMemory: 
+[2016.04.01-08.01.07:070][299]Allocator Stats for TBB: (not implemented)
+[2016.04.01-08.01.07:070][299]LogPlayLevel: Creating play world package: /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest
+[2016.04.01-08.01.07:072][299]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002185s)
+[2016.04.01-08.01.07:072][299]LogAIModule: Creating AISystem for world RunnerMapTest
+[2016.04.01-08.01.07:073][299]LogPlayLevel: PIE: World Init took: (0.001319s)
+[2016.04.01-08.01.07:073][299]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest to /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest (0.003652s)
+[2016.04.01-08.01.07:073][299]LogWorld: Game class is 'RunGameMode_C'
+[2016.04.01-08.01.07:076][299]LogWorld: Bringing World /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest up for play (max tick rate 0) at 2016.04.01-01.01.07
+[2016.04.01-08.01.07:076][299]LogActor:Warning: GameSession /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.01-08.01.07:076][299]LogActor:Warning: GameNetworkManager /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.01-08.01.07:077][299]LogWorld: Bringing up level for play took: 0.001786
+[2016.04.01-08.01.07:078][299]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (None) or object (RunCharacter_C_6)
+[2016.04.01-08.01.15:675][ 34]LogAudio:Warning: Detected orphaned looping sound 'runningFinal_Cue'.
+[2016.04.01-08.01.26:642][790]Cmd: RestartLevel
+[2016.04.01-08.01.26:651][791]LogNet: Browse: /Game/SpiritRunner/Maps/RunnerMapTest?restart
+[2016.04.01-08.01.26:661][791]LogLoad: LoadMap: /Game/SpiritRunner/Maps/RunnerMapTest
+[2016.04.01-08.01.26:691][791]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000028693420
+[2016.04.01-08.01.26:707][791]Cmd: MEM
+[2016.04.01-08.01.26:728][791]LogMemory: Platform Memory Stats for Windows
+[2016.04.01-08.01.26:728][791]LogMemory: Process Physical Memory: 964.71 MB used, 1040.54 MB peak
+[2016.04.01-08.01.26:728][791]LogMemory: Process Virtual Memory: 1615.52 MB used, 1736.38 MB peak
+[2016.04.01-08.01.26:728][791]LogMemory: Physical Memory: 5979.15 MB used, 8108.02 MB total
+[2016.04.01-08.01.26:728][791]LogMemory: Virtual Memory: 2202.75 MB used, 8388608.00 MB total
+[2016.04.01-08.01.26:728][791]LogMemory: 
+[2016.04.01-08.01.26:728][791]Allocator Stats for TBB: (not implemented)
+[2016.04.01-08.01.26:728][791]LogPlayLevel: Creating play world package: /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest
+[2016.04.01-08.01.26:731][791]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002397s)
+[2016.04.01-08.01.26:731][791]LogAIModule: Creating AISystem for world RunnerMapTest
+[2016.04.01-08.01.26:732][791]LogPlayLevel: PIE: World Init took: (0.001491s)
+[2016.04.01-08.01.26:732][791]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest to /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest (0.004061s)
+[2016.04.01-08.01.26:732][791]LogWorld: Game class is 'RunGameMode_C'
+[2016.04.01-08.01.26:735][791]LogWorld: Bringing World /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest up for play (max tick rate 0) at 2016.04.01-01.01.26
+[2016.04.01-08.01.26:735][791]LogActor:Warning: GameSession /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.01-08.01.26:735][791]LogActor:Warning: GameNetworkManager /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.01-08.01.26:735][791]LogWorld: Bringing up level for play took: 0.001563
+[2016.04.01-08.01.26:737][791]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (None) or object (RunCharacter_C_7)
+[2016.04.01-08.01.28:232][888]LogAudio:Warning: Detected orphaned looping sound 'runningFinal_Cue'.
+[2016.04.01-08.01.46:468][343]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004BBBC9A0
+[2016.04.01-08.01.49:624][683]LogD3D11RHI: InitD3DDevice
+[2016.04.01-08.01.50:061][726]LogD3D11RHI: InitD3DDevice
+[2016.04.01-08.01.51:570][889]LogD3D11RHI: InitD3DDevice
+[2016.04.01-08.01.52:006][931]LogD3D11RHI: InitD3DDevice
+[2016.04.01-08.01.52:245][956]LogD3D11RHI: InitD3DDevice
+[2016.04.01-08.01.52:336][959]LogD3D11RHI: InitD3DDevice
+[2016.04.01-08.01.52:708][  2]LogD3D11RHI: InitD3DDevice
+[2016.04.01-08.01.54:160][157]LogD3D11RHI: InitD3DDevice
+[2016.04.01-08.02.10:233][799]LogD3D11RHI: InitD3DDevice
+[2016.04.01-08.02.16:216][442]LogD3D11RHI: InitD3DDevice
+[2016.04.01-08.02.22:550][105]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.04.01-08.02.22:550][105]PIE: New page: PIE session: RunnerMapTest (Mar 31, 2016, 6:02:22 PM)
+[2016.04.01-08.02.22:551][105]LogPlayLevel: Creating play world package: /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest
+[2016.04.01-08.02.22:553][105]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002635s)
+[2016.04.01-08.02.22:554][105]LogAIModule: Creating AISystem for world RunnerMapTest
+[2016.04.01-08.02.22:554][105]LogPlayLevel: PIE: World Init took: (0.000935s)
+[2016.04.01-08.02.22:554][105]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SpiritRunner/Maps/RunnerMapTest.RunnerMapTest to /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest (0.003773s)
+[2016.04.01-08.02.22:583][105]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.01-08.02.22:593][105]LogInit: FAudioDevice initialized.
+[2016.04.01-08.02.22:599][105]LogD3D11RHI: InitD3DDevice
+[2016.04.01-08.02.22:632][105]LogWorld: Game class is 'RunGameMode_C'
+[2016.04.01-08.02.22:635][105]LogWorld: Bringing World /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest up for play (max tick rate 0) at 2016.04.01-01.02.22
+[2016.04.01-08.02.22:636][105]LogActor:Warning: GameSession /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.01-08.02.22:636][105]LogActor:Warning: GameNetworkManager /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest.RunnerMapTest:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.01-08.02.22:636][105]LogWorld: Bringing up level for play took: 0.002031
+[2016.04.01-08.02.22:638][105]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (None) or object (RunCharacter_C_8)
+[2016.04.01-08.02.23:113][105]PIE: Info Play in editor start time for /Game/SpiritRunner/Maps/UEDPIE_0_RunnerMapTest 1.149
+[2016.04.01-08.02.24:212][183]LogAudio:Warning: Detected orphaned looping sound 'runningFinal_Cue'.
+[2016.04.01-08.02.39:322][272]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000262967A0
+[2016.04.01-08.03.45:831][753]LogMaterial:Warning: Material /Game/SpiritRunner/Materials/Mat_Fox_Ears.Mat_Fox_Ears needed to have new flag set bUsedWithSkeletalMesh !
+[2016.04.01-08.03.45:833][753]LogMaterial: Missing cached shader map for material Mat_Fox_Ears, compiling. 
+[2016.04.01-08.03.45:873][753]LogMaterial: 0.000111 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.01-08.03.45:873][753]LogMaterial:Warning: Material /Game/SpiritRunner/Materials/Mat_Fox_Legs.Mat_Fox_Legs needed to have new flag set bUsedWithSkeletalMesh !
+[2016.04.01-08.03.45:875][753]LogMaterial: Missing cached shader map for material Mat_Fox_Legs, compiling. 
+[2016.04.01-08.03.45:894][753]LogMaterial: 0.000093 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.01-08.03.46:913][869]LogD3D11RHI: InitD3DDevice
+[2016.04.01-08.05.33:944][511]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.01-08.05.33:946][511]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement0C812BA34D0DD21FB12D1D9A948423D7) Not registered. Aborting.
+[2016.04.01-08.05.33:946][511]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_0) Not registered. Aborting.
+[2016.04.01-08.05.33:986][511]LogD3D11RHI: InitD3DDevice
+[2016.04.01-08.05.41:223][511]LogD3D11RHI: InitD3DDevice
+[2016.04.01-08.05.41:266][511]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpiritRunner/Materials/Mat_Fox_Ears" FILE="../../../../../../Github stuff/spiritrunner/SpiritRunner/Content/SpiritRunner/Materials/Mat_Fox_Ears.uasset" SILENT=true
+[2016.04.01-08.05.41:332][511]LogSavePackage: Save=25.951359ms
+[2016.04.01-08.05.41:332][511]LogSavePackage: Moving '../../../../../../Github stuff/spiritrunner/SpiritRunner/Saved/Mat_Fox_Ears7C02D5044314EBC91EF9D3A835FC16C1.tmp' to '../../../../../../Github stuff/spiritrunner/SpiritRunner/Content/SpiritRunner/Materials/Mat_Fox_Ears.uasset'
+[2016.04.01-08.05.41:371][511]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpiritRunner/Materials/Mat_Fox_Legs" FILE="../../../../../../Github stuff/spiritrunner/SpiritRunner/Content/SpiritRunner/Materials/Mat_Fox_Legs.uasset" SILENT=true
+[2016.04.01-08.05.41:400][511]LogSavePackage: Save=12.109644ms
+[2016.04.01-08.05.41:400][511]LogSavePackage: Moving '../../../../../../Github stuff/spiritrunner/SpiritRunner/Saved/Mat_Fox_LegsE85189C14E8F7CC3E0D609918D833404.tmp' to '../../../../../../Github stuff/spiritrunner/SpiritRunner/Content/SpiritRunner/Materials/Mat_Fox_Legs.uasset'
+[2016.04.01-08.05.41:773][512]Cmd: QUIT_EDITOR
+[2016.04.01-08.05.41:972][512]LogExit: Preparing to exit.
+[2016.04.01-08.05.42:714][512]LogExit: Editor shut down
+[2016.04.01-08.05.42:715][512]LogExit: Transaction tracking system shut down
+[2016.04.01-08.05.42:732][512]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000391B60C0
+[2016.04.01-08.05.42:733][512]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004BD36700
+[2016.04.01-08.05.42:733][512]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004BB4DB20
+[2016.04.01-08.05.42:733][512]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004B8F7EC0
+[2016.04.01-08.05.42:839][512]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000013F7DD00
+[2016.04.01-08.05.42:839][512]LogExit: Object subsystem successfully closed.
+[2016.04.01-08.05.42:853][512]LogD3D11RHI: Shutdown
+[2016.04.01-08.05.42:853][512]LogD3D11RHI: CleanupD3DDevice
+[2016.04.01-08.05.42:898][512]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.04.01-08.05.42:909][512]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (189)
+[2016.04.01-08.05.42:909][512]LogModuleManager: Shutting down and abandoning module CrashTracker (188)
+[2016.04.01-08.05.42:909][512]LogModuleManager: Shutting down and abandoning module SceneOutliner (187)
+[2016.04.01-08.05.42:909][512]LogModuleManager: Shutting down and abandoning module SuperSearch (186)
+[2016.04.01-08.05.42:909][512]LogModuleManager: Shutting down and abandoning module WidgetCarousel (185)
+[2016.04.01-08.05.42:909][512]LogModuleManager: Shutting down and abandoning module AddContentDialog (184)
+[2016.04.01-08.05.42:920][512]LogModuleManager: Shutting down and abandoning module EditorWidgets (183)
+[2016.04.01-08.05.42:920][512]LogModuleManager: Shutting down and abandoning module CollectionManager (182)
+[2016.04.01-08.05.42:920][512]LogModuleManager: Shutting down and abandoning module StatsViewer (181)
+[2016.04.01-08.05.42:920][512]LogModuleManager: Shutting down and abandoning module FoliageEdit (180)
+[2016.04.01-08.05.42:920][512]LogModuleManager: Shutting down and abandoning module LandscapeEditor (179)
+[2016.04.01-08.05.42:920][512]LogModuleManager: Shutting down and abandoning module ActorPickerMode (178)
+[2016.04.01-08.05.42:921][512]LogModuleManager: Shutting down and abandoning module GeometryMode (177)
+[2016.04.01-08.05.42:921][512]LogModuleManager: Shutting down and abandoning module TextureAlignMode (176)
+[2016.04.01-08.05.42:921][512]LogModuleManager: Shutting down and abandoning module BspMode (175)
+[2016.04.01-08.05.42:921][512]LogModuleManager: Shutting down and abandoning module PlacementMode (174)
+[2016.04.01-08.05.42:921][512]LogModuleManager: Shutting down and abandoning module AutomationWorker (173)
+[2016.04.01-08.05.42:921][512]LogModuleManager: Shutting down and abandoning module CharacterAI (172)
+[2016.04.01-08.05.42:921][512]LogModuleManager: Shutting down and abandoning module SmartSnapping (171)
+[2016.04.01-08.05.42:921][512]LogModuleManager: Shutting down and abandoning module ViewportSnapping (170)
+[2016.04.01-08.05.42:921][512]LogModuleManager: Shutting down and abandoning module LogVisualizer (169)
+[2016.04.01-08.05.42:921][512]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (168)
+[2016.04.01-08.05.42:921][512]LogModuleManager: Shutting down and abandoning module IntroTutorials (167)
+[2016.04.01-08.05.42:921][512]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (166)
+[2016.04.01-08.05.42:921][512]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (165)
+[2016.04.01-08.05.42:921][512]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (164)
+[2016.04.01-08.05.42:921][512]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
+[2016.04.01-08.05.43:137][512]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (162)
+[2016.04.01-08.05.43:137][512]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (161)
+[2016.04.01-08.05.43:137][512]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (160)
+[2016.04.01-08.05.43:137][512]LogModuleManager: Shutting down and abandoning module MergeActors (159)
+[2016.04.01-08.05.43:137][512]LogModuleManager: Shutting down and abandoning module SizeMap (158)
+[2016.04.01-08.05.43:137][512]LogModuleManager: Shutting down and abandoning module TreeMap (157)
+[2016.04.01-08.05.43:137][512]LogModuleManager: Shutting down and abandoning module ReferenceViewer (156)
+[2016.04.01-08.05.43:137][512]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (155)
+[2016.04.01-08.05.43:137][512]LogModuleManager: Shutting down and abandoning module HardwareTargeting (154)
+[2016.04.01-08.05.43:137][512]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (153)
+[2016.04.01-08.05.43:137][512]LogModuleManager: Shutting down and abandoning module UndoHistory (152)
+[2016.04.01-08.05.43:137][512]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (151)
+[2016.04.01-08.05.43:137][512]LogModuleManager: Shutting down and abandoning module UserFeedback (150)
+[2016.04.01-08.05.43:137][512]LogModuleManager: Shutting down and abandoning module XmlParser (149)
+[2016.04.01-08.05.43:137][512]LogModuleManager: Shutting down and abandoning module Blutility (148)
+[2016.04.01-08.05.43:137][512]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (147)
+[2016.04.01-08.05.43:138][512]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (146)
+[2016.04.01-08.05.43:138][512]LogModuleManager: Shutting down and abandoning module InputBindingEditor (145)
+[2016.04.01-08.05.43:138][512]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (144)
+[2016.04.01-08.05.43:138][512]LogModuleManager: Shutting down and abandoning module SettingsEditor (143)
+[2016.04.01-08.05.43:138][512]LogModuleManager: Shutting down and abandoning module ProjectLauncher (142)
+[2016.04.01-08.05.43:138][512]LogModuleManager: Shutting down and abandoning module SessionFrontend (141)
+[2016.04.01-08.05.43:138][512]LogModuleManager: Shutting down and abandoning module ProfilerClient (140)
+[2016.04.01-08.05.43:138][512]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (139)
+[2016.04.01-08.05.43:138][512]LogModuleManager: Shutting down and abandoning module DeviceManager (138)
+[2016.04.01-08.05.43:139][512]LogModuleManager: Shutting down and abandoning module AutomationController (137)
+[2016.04.01-08.05.43:139][512]LogModuleManager: Shutting down and abandoning module AutomationWindow (136)
+[2016.04.01-08.05.43:139][512]LogModuleManager: Shutting down and abandoning module Layers (135)
+[2016.04.01-08.05.43:139][512]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (134)
+[2016.04.01-08.05.43:139][512]LogModuleManager: Shutting down and abandoning module DetailCustomizations (133)
+[2016.04.01-08.05.43:139][512]LogModuleManager: Shutting down and abandoning module PackagesDialog (132)
+[2016.04.01-08.05.43:139][512]LogModuleManager: Shutting down and abandoning module AssetRegistry (131)
+[2016.04.01-08.05.43:252][512]LogModuleManager: Shutting down and abandoning module Persona (130)
+[2016.04.01-08.05.43:253][512]LogModuleManager: Shutting down and abandoning module Kismet (129)
+[2016.04.01-08.05.43:253][512]LogModuleManager: Shutting down and abandoning module GraphEditor (128)
+[2016.04.01-08.05.43:253][512]LogModuleManager: Shutting down and abandoning module ClassViewer (127)
+[2016.04.01-08.05.43:253][512]LogModuleManager: Shutting down and abandoning module Toolbox (126)
+[2016.04.01-08.05.43:253][512]LogModuleManager: Shutting down and abandoning module ModuleUI (125)
+[2016.04.01-08.05.43:253][512]LogModuleManager: Shutting down and abandoning module MovieSceneTools (124)
+[2016.04.01-08.05.43:253][512]LogModuleManager: Shutting down and abandoning module OutputLog (123)
+[2016.04.01-08.05.43:253][512]LogModuleManager: Shutting down and abandoning module GammaUI (122)
+[2016.04.01-08.05.43:253][512]LogModuleManager: Shutting down and abandoning module Documentation (121)
+[2016.04.01-08.05.43:253][512]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (120)
+[2016.04.01-08.05.43:253][512]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (119)
+[2016.04.01-08.05.43:253][512]LogModuleManager: Shutting down and abandoning module AnalyticsET (118)
+[2016.04.01-08.05.43:253][512]LogModuleManager: Shutting down and abandoning module Analytics (117)
+[2016.04.01-08.05.43:253][512]LogModuleManager: Shutting down and abandoning module AITestSuite (116)
+[2016.04.01-08.05.43:253][512]LogModuleManager: Shutting down and abandoning module GameplayDebugger (115)
+[2016.04.01-08.05.43:253][512]LogModuleManager: Shutting down and abandoning module AIModule (114)
+[2016.04.01-08.05.43:253][512]LogModuleManager: Shutting down and abandoning module ProfilerService (113)
+[2016.04.01-08.05.43:454][512]LogModuleManager: Shutting down and abandoning module TaskGraph (112)
+[2016.04.01-08.05.43:454][512]LogModuleManager: Shutting down and abandoning module SlateRemote (111)
+[2016.04.01-08.05.43:454][512]LogModuleManager: Shutting down and abandoning module SteamVRController (110)
+[2016.04.01-08.05.43:454][512]LogModuleManager: Shutting down and abandoning module SteamVR (109)
+[2016.04.01-08.05.43:454][512]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (108)
+[2016.04.01-08.05.43:454][512]LogModuleManager: Shutting down and abandoning module OculusRift (107)
+[2016.04.01-08.05.43:454][512]LogModuleManager: Shutting down and abandoning module LeapMotionController (106)
+[2016.04.01-08.05.43:490][512]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (105)
+[2016.04.01-08.05.43:490][512]LogModuleManager: Shutting down and abandoning module CableComponent (104)
+[2016.04.01-08.05.43:490][512]LogModuleManager: Shutting down and abandoning module MessagingDebugger (103)
+[2016.04.01-08.05.43:490][512]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (102)
+[2016.04.01-08.05.43:490][512]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (101)
+[2016.04.01-08.05.43:490][512]LogModuleManager: Shutting down and abandoning module PluginBrowser (100)
+[2016.04.01-08.05.43:490][512]LogModuleManager: Shutting down and abandoning module EpicSurvey (99)
+[2016.04.01-08.05.43:490][512]LogModuleManager: Shutting down and abandoning module DesktopPlatform (98)
+[2016.04.01-08.05.43:490][512]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (97)
+[2016.04.01-08.05.43:490][512]LogModuleManager: Shutting down and abandoning module UObjectPlugin (96)
+[2016.04.01-08.05.43:490][512]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (95)
+[2016.04.01-08.05.43:490][512]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (94)
+[2016.04.01-08.05.43:490][512]LogModuleManager: Shutting down and abandoning module SourceControl (93)
+[2016.04.01-08.05.43:490][512]LogModuleManager: Shutting down and abandoning module GitSourceControl (92)
+[2016.04.01-08.05.43:490][512]LogModuleManager: Shutting down and abandoning module BlankPlugin (91)
+[2016.04.01-08.05.43:490][512]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (90)
+[2016.04.01-08.05.43:490][512]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (89)
+[2016.04.01-08.05.43:490][512]LogModuleManager: Shutting down and abandoning module MeshPaint (88)
+[2016.04.01-08.05.43:490][512]LogModuleManager: Shutting down and abandoning module SlateReflector (87)
+[2016.04.01-08.05.43:490][512]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2016.04.01-08.05.43:491][512]LogModuleManager: Shutting down and abandoning module HotReload (85)
+[2016.04.01-08.05.43:491][512]LogModuleManager: Shutting down and abandoning module MainFrame (84)
+[2016.04.01-08.05.43:491][512]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
+[2016.04.01-08.05.43:492][512]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2016.04.01-08.05.43:492][512]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2016.04.01-08.05.43:492][512]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
+[2016.04.01-08.05.43:592][512]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2016.04.01-08.05.43:592][512]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2016.04.01-08.05.43:595][512]LogModuleManager: Shutting down and abandoning module Media (77)
+[2016.04.01-08.05.43:595][512]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2016.04.01-08.05.43:596][512]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2016.04.01-08.05.43:596][512]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2016.04.01-08.05.43:596][512]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2016.04.01-08.05.43:596][512]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2016.04.01-08.05.43:596][512]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2016.04.01-08.05.43:596][512]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2016.04.01-08.05.43:596][512]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2016.04.01-08.05.43:596][512]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2016.04.01-08.05.43:596][512]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2016.04.01-08.05.43:596][512]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2016.04.01-08.05.43:596][512]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2016.04.01-08.05.43:596][512]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2016.04.01-08.05.43:596][512]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2016.04.01-08.05.43:599][512]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2016.04.01-08.05.43:599][512]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2016.04.01-08.05.43:599][512]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2016.04.01-08.05.43:599][512]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
+[2016.04.01-08.05.43:599][512]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2016.04.01-08.05.43:599][512]LogModuleManager: Shutting down and abandoning module Core (56)
+[2016.04.01-08.05.43:599][512]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2016.04.01-08.05.43:599][512]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2016.04.01-08.05.43:599][512]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2016.04.01-08.05.43:599][512]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2016.04.01-08.05.43:647][512]LogDerivedDataCache: Shutdown
+[2016.04.01-08.05.43:647][512]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2016.04.01-08.05.43:647][512]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2016.04.01-08.05.43:647][512]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2016.04.01-08.05.43:647][512]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2016.04.01-08.05.43:647][512]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2016.04.01-08.05.43:647][512]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2016.04.01-08.05.43:647][512]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2016.04.01-08.05.43:647][512]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2016.04.01-08.05.43:647][512]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2016.04.01-08.05.43:647][512]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2016.04.01-08.05.43:647][512]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2016.04.01-08.05.43:647][512]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2016.04.01-08.05.43:647][512]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2016.04.01-08.05.43:647][512]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2016.04.01-08.05.43:647][512]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2016.04.01-08.05.43:647][512]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2016.04.01-08.05.43:647][512]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2016.04.01-08.05.43:648][512]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2016.04.01-08.05.43:648][512]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2016.04.01-08.05.43:648][512]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2016.04.01-08.05.43:648][512]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2016.04.01-08.05.43:648][512]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2016.04.01-08.05.43:648][512]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
+[2016.04.01-08.05.43:648][512]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
+[2016.04.01-08.05.43:648][512]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
+[2016.04.01-08.05.43:648][512]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2016.04.01-08.05.43:648][512]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2016.04.01-08.05.43:648][512]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2016.04.01-08.05.43:648][512]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2016.04.01-08.05.43:648][512]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2016.04.01-08.05.43:648][512]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
+[2016.04.01-08.05.43:648][512]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2016.04.01-08.05.43:648][512]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2016.04.01-08.05.43:648][512]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2016.04.01-08.05.43:648][512]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2016.04.01-08.05.43:648][512]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2016.04.01-08.05.43:648][512]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2016.04.01-08.05.43:649][512]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2016.04.01-08.05.43:649][512]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2016.04.01-08.05.43:649][512]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2016.04.01-08.05.43:649][512]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2016.04.01-08.05.43:651][512]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2016.04.01-08.05.43:651][512]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2016.04.01-08.05.43:651][512]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.04.01-08.05.43:651][512]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.04.01-08.05.43:651][512]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.04.01-08.05.43:651][512]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.04.01-08.05.43:651][512]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.04.01-08.05.43:651][512]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.04.01-08.05.43:651][512]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.04.01-08.05.43:652][512]LogExit: Exiting.
+[2016.04.01-08.05.43:687][512]Log file closed, 04/01/16 01:05:43
